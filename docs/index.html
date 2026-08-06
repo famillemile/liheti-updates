@@ -1,64 +1,139 @@
 <!DOCTYPE html><html lang="fr"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>LIHETI MANAGER — Telechargement</title>
-<meta name="description" content="LIHETI Manager : gestion Hotspot WiFi et cybercafe pour routeurs MikroTik. Windows, Android, Linux, Mac.">
 <style>
 :root{--bg:#080c12;--card:#10151d;--card2:#161d27;--bd:#232c38;--tx:#e8eef5;--mu:#7d8b9c;--vert:#2ecc71;--rouge:#ED1D24;--jaune:#ffd24d}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);
-font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6}
-.wrap{max-width:880px;margin:0 auto;padding:22px 16px 60px}
-header{text-align:center;padding:26px 0 18px;border-bottom:1px solid var(--bd)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:880px;margin:0 auto;padding:16px 16px 60px}
+.lang{display:flex;gap:8px;justify-content:center;padding:10px 0}
+.lang button{background:var(--card2);border:1px solid var(--bd);color:var(--mu);padding:7px 18px;border-radius:999px;font-weight:700;cursor:pointer;font-size:14px}
+.lang button.on{background:var(--vert);color:#05270f;border-color:var(--vert)}
+header{text-align:center;padding:18px 0;border-bottom:1px solid var(--bd)}
 header img{width:120px;height:120px;border-radius:26px}
 h1{margin:14px 0 4px;font-size:30px}h1 .r{color:var(--rouge)}h1 .v{color:var(--vert)}
 .sub{color:var(--tx);font-weight:600}.slog{color:var(--jaune);font-weight:600;margin-top:6px}
 h2{font-size:14px;letter-spacing:1.5px;color:var(--mu);margin:32px 0 12px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
-.dl{display:flex;align-items:center;gap:12px;background:var(--card2);border:1px solid var(--bd);
-border-radius:14px;padding:14px 16px;text-decoration:none;color:var(--tx);transition:border-color .15s}
-.dl:hover{border-color:var(--vert)}.dl .ic{font-size:26px}.dl b{display:block;font-size:15px}
-.dl span{font-size:11.5px;color:var(--mu)}
-.arg{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px 18px;margin-bottom:10px}
-.arg b{color:var(--vert)}
+.dl{display:flex;align-items:center;gap:12px;background:var(--card2);border:1px solid var(--bd);border-radius:14px;padding:14px 16px;text-decoration:none;color:var(--tx);transition:border-color .15s}
+.dl:hover{border-color:var(--vert)}.dl .ic{font-size:26px}.dl b{display:block;font-size:15px}.dl span{font-size:11.5px;color:var(--mu)}
+.arg{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px 18px;margin-bottom:10px}.arg b{color:var(--vert)}
 .note{background:#1a1508;border:1px solid #5c4a10;border-radius:12px;padding:14px 18px;font-size:13.5px}
 footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--bd);text-align:center;font-size:14px}
-.tel{display:inline-block;background:var(--jaune);color:#141414;font-weight:800;
-padding:10px 22px;border-radius:999px;margin:6px 4px;text-decoration:none}
+.tel{display:inline-block;background:var(--jaune);color:#141414;font-weight:800;padding:10px 22px;border-radius:999px;margin:6px 4px;text-decoration:none}
 </style></head><body><div class="wrap">
+
+<div class="lang">
+  <button data-l="fr" class="on" onclick="setLang('fr')">FR</button>
+  <button data-l="mg" onclick="setLang('mg')">MG</button>
+  <button data-l="en" onclick="setLang('en')">EN</button>
+</div>
 
 <header>
   <img src="logo.png" alt="LIHETI MANAGER">
   <h1><span class="r">LIHETI</span> <span class="v">MANAGER</span></h1>
-  <div class="sub">Gestion Hotspot WiFi &amp; Cybercafe — MikroTik RouterOS 6 &amp; 7</div>
-  <div class="slog">Tsy misy vola very intsony. Hitanao ny vola miditra, na aiza na aiza ianao.</div>
+  <div class="sub" data-t="sub"></div>
+  <div class="slog" data-t="slog"></div>
 </header>
 
-<h2>TELECHARGER</h2>
+<h2 data-t="h_dl"></h2>
 <div class="grid">
-  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.13/C_Liheti_Manager.apk"><span class="ic">&#128241;</span><span><b>Android</b><span>Fichier .apk</span></span></a>
-  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.13/LIHETI-Manager-CLIENT-Setup-3.12.13.exe"><span class="ic">&#128187;</span><span><b>Windows</b><span>Installateur .exe</span></span></a>
-  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.13/LIHETI-CLIENT-Linux.zip"><span class="ic">&#128421;</span><span><b>Linux</b><span>.zip (AppImage)</span></span></a>
-  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.13/LIHETI-CLIENT-macOS.zip"><span class="ic">&#127822;</span><span><b>macOS</b><span>Archive .zip</span></span></a>
+  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.13/C_Liheti_Manager.apk"><span class="ic">&#128241;</span><span><b>Android</b><span data-t="f_apk"></span></span></a>
+  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.13/LIHETI-Manager-CLIENT-Setup-3.12.13.exe"><span class="ic">&#128187;</span><span><b>Windows</b><span data-t="f_exe"></span></span></a>
+  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.13/LIHETI-CLIENT-Linux.zip"><span class="ic">&#128421;</span><span><b>Linux</b><span data-t="f_lin"></span></span></a>
+  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.13/LIHETI-CLIENT-macOS.zip"><span class="ic">&#127822;</span><span><b>macOS</b><span data-t="f_mac"></span></span></a>
 </div>
 
-<h2>POURQUOI LIHETI MANAGER</h2>
-<div class="arg"><b>Tsy misy vola very intsony</b> — PIN vendeur, journal de caisse, chaque ticket enregistre.</div>
-<div class="arg"><b>Hitanao na aiza na aiza ianao</b> — vos recettes consultables a distance (ZeroTier, VPN).</div>
-<div class="arg"><b>Mobile Money mandeha ho azy</b> — Orange Money, MVola, Airtel encaisses automatiquement.</div>
-<div class="arg"><b>Mivarotra tsy misy Internet</b> — portail et tickets fonctionnent hors ligne.</div>
-<div class="arg"><b>Fanampiana IA ao anatiny</b> — aide integree FR / EN / Malagasy, hors ligne et en ligne.</div>
-<div class="arg"><b>Aloa indray mandeha ihany</b> — pas d'abonnement, mises a jour gratuites a vie.</div>
+<h2 data-t="h_why"></h2>
+<div class="arg"><b data-t="a1t"></b> <span data-t="a1d"></span></div>
+<div class="arg"><b data-t="a2t"></b> <span data-t="a2d"></span></div>
+<div class="arg"><b data-t="a3t"></b> <span data-t="a3d"></span></div>
+<div class="arg"><b data-t="a4t"></b> <span data-t="a4d"></span></div>
+<div class="arg"><b data-t="a5t"></b> <span data-t="a5d"></span></div>
+<div class="arg"><b data-t="a6t"></b> <span data-t="a6d"></span></div>
 
-<h2>INSTALLATION ANDROID</h2>
-<div class="note">
-Android bloque par defaut les applications hors Play Store. A l'installation, touchez
-<b>Parametres</b> puis autorisez <b>&laquo; Installer des applications inconnues &raquo;</b> pour votre navigateur.
-C'est normal et sans danger : le fichier vient de cette page officielle.
+<h2 data-t="h_and"></h2>
+<div class="note" data-t="n_and"></div>
+
+<h2 data-t="h_zt"></h2>
+<div class="note" style="background:#0e1a12;border-color:#1e5c34;margin-bottom:12px;">
+  <span data-t="zt1"></span><br><br>
+  <b style="color:#ffd24d;" data-t="zt_ros6t"></b> <span data-t="zt_ros6"></span>
+</div>
+<div class="grid">
+  <a class="dl" href="https://www.zerotier.com/download/"><span class="ic">&#128421;</span><span><b>ZeroTier PC / Mac</b><span>zerotier.com</span></span></a>
+  <a class="dl" href="https://play.google.com/store/apps/details?id=com.zerotier.one"><span class="ic">&#128241;</span><span><b>ZeroTier Android</b><span>Google Play</span></span></a>
+  <a class="dl" href="https://mikrotik.com/download"><span class="ic">&#128225;</span><span><b>Paquet MikroTik</b><span data-t="z_mt"></span></span></a>
+  <a class="dl" href="https://rustdesk.com/"><span class="ic">&#128421;</span><span><b>RustDesk</b><span data-t="z_rd"></span></span></a>
 </div>
 
 <footer>
   <div style="font-weight:800;font-size:17px;margin-bottom:8px">LIHETI ZONE WIFI</div>
   <a class="tel" href="tel:+261345931199">+261 34 59 311 99</a>
   <a class="tel" href="tel:+261330315554">+261 33 03 155 54</a>
+  <br>
+  <a class="tel" style="background:#25D366;color:#fff;" href="https://wa.me/261387232054">&#128172; WhatsApp</a>
   <div style="color:var(--mu);margin-top:10px">famillemile@gmail.com</div>
 </footer>
-</div></body></html>
+</div>
+
+<script>
+var T={
+ fr:{sub:"Gestion Hotspot WiFi & Cybercafe — MikroTik RouterOS 6 & 7",
+  slog:"Tsy misy vola very intsony. Hitanao ny vola miditra, na aiza na aiza ianao.",
+  h_dl:"TELECHARGER",f_apk:"Fichier .apk",f_exe:"Installateur .exe",f_lin:".zip (AppImage)",f_mac:"Archive .zip",
+  h_why:"POURQUOI LIHETI MANAGER",
+  a1t:"TSY mila serveur ni hebergeur",a1d:"— vos donnees restent chez vous. Aucun frais mensuel, aucune dependance.",
+  a2t:"Tsy misy vola very intsony",a2d:"— PIN vendeur, journal de caisse, chaque ticket enregistre.",
+  a3t:"Hitanao na aiza na aiza ianao",a3d:"— vos recettes consultables a distance (ZeroTier, VPN).",
+  a4t:"Mobile Money automatique",a4d:"— Orange Money, MVola, Airtel encaisses automatiquement.",
+  a5t:"Mivarotra tsy misy Internet",a5d:"— portail et tickets fonctionnent hors ligne.",
+  a6t:"Aloa indray mandeha ihany",a6d:"— pas d'abonnement, mises a jour gratuites.",
+  h_and:"INSTALLATION ANDROID",
+  n_and:"Android bloque par defaut les applications hors Play Store. A l'installation, autorisez « Installer des applications inconnues » pour votre navigateur. C'est normal et sans danger : le fichier vient de cette page officielle.",
+  h_zt:"LIENS UTILES — ACCES A DISTANCE",
+  zt1:"Pour piloter votre routeur de n'importe ou, LIHETI utilise ZeroTier. Telechargez-le depuis les sources OFFICIELLES. L'aide integree vous guide pas a pas.",
+  zt_ros6t:"RouterOS 6 ?",zt_ros6:"ZeroTier ne s'installe pas sur RouterOS 6. Utilisez plutot Tailscale sur le PC de caisse (passerelle) : l'aide integree contient le guide complet. Vous gardez l'acces distant, meme en RouterOS 6.",
+  z_mt:"mikrotik.com — choisir l'architecture",z_rd:"a installer sur le PC de caisse pour l'assistance"},
+
+ mg:{sub:"Fitantanana Hotspot WiFi & Cybercafe — MikroTik RouterOS 6 & 7",
+  slog:"Tsy misy vola very intsony. Hitanao ny vola miditra, na aiza na aiza ianao.",
+  h_dl:"ALAINA (TELECHARGER)",f_apk:"Rakitra .apk",f_exe:"Fametrahana .exe",f_lin:".zip (AppImage)",f_mac:"Rakitra .zip",
+  h_why:"NAHOANA NO LIHETI MANAGER",
+  a1t:"TSY mila serveur na hebergeur",a1d:"— mitoetra ao aminao ny angona. Tsy misy saram-bolana, tsy miankina amin'olona.",
+  a2t:"Tsy misy vola very intsony",a2d:"— PIN mpivarotra, journal de caisse, voarakitra ny tapakila rehetra.",
+  a3t:"Hitanao na aiza na aiza ianao",a3d:"— jerena avy lavitra ny vola miditra (ZeroTier, VPN).",
+  a4t:"Mobile Money mandeha ho azy",a4d:"— Orange Money, MVola, Airtel vakiana ho azy.",
+  a5t:"Mivarotra tsy misy Internet",a5d:"— mandeha tsy misy aterineto ny portail sy ny tapakila.",
+  a6t:"Aloa indray mandeha ihany",a6d:"— tsy misy abonnement, fanavaozana maimaim-poana.",
+  h_and:"FAMETRAHANA AMIN' NY ANDROID",
+  n_and:"Sakanan'ny Android ny application ivelan'ny Play Store. Rehefa mametraka, ekeo ny « Installer des applications inconnues » ho an'ny navigateur-nao. Ara-dalana sy tsy misy loza izany : avy amin'ity pejy ofisialy ity ny rakitra.",
+  h_zt:"ROHY ILAINA — FIDIRANA LAVITRA",
+  zt1:"Mba hitantanana ny routeur-nao avy aiza na aiza, mampiasa ZeroTier ny LIHETI. Alaivo amin'ny loharano OFISIALY. Ny fanampiana ao anatiny no mitari-dalana anao.",
+  zt_ros6t:"RouterOS 6 ?",zt_ros6:"Tsy mety amin'ny RouterOS 6 ny ZeroTier. Ampiasao kosa ny Tailscale amin'ny PC de caisse (passerelle) : ao anatin'ny fanampiana ny torolalana feno. Mbola manana fidirana lavitra ianao, na dia RouterOS 6 aza.",
+  z_mt:"mikrotik.com — safidio ny architecture",z_rd:"apetraho amin'ny PC de caisse ho an'ny fanampiana"},
+
+ en:{sub:"WiFi Hotspot & Cybercafe management — MikroTik RouterOS 6 & 7",
+  slog:"No more lost money. See your income, wherever you are.",
+  h_dl:"DOWNLOAD",f_apk:".apk file",f_exe:".exe installer",f_lin:".zip (AppImage)",f_mac:".zip archive",
+  h_why:"WHY LIHETI MANAGER",
+  a1t:"NO server or host needed",a1d:"— your data stays with you. No monthly fees, no dependency.",
+  a2t:"No more lost money",a2d:"— seller PIN, cash log, every ticket recorded.",
+  a3t:"See it from anywhere",a3d:"— check your income remotely (ZeroTier, VPN).",
+  a4t:"Automatic Mobile Money",a4d:"— Orange Money, MVola, Airtel collected automatically.",
+  a5t:"Sell without Internet",a5d:"— portal and tickets work offline.",
+  a6t:"Pay once only",a6d:"— no subscription, free updates.",
+  h_and:"ANDROID INSTALLATION",
+  n_and:"Android blocks apps outside the Play Store by default. During install, allow « Install unknown apps » for your browser. This is normal and safe: the file comes from this official page.",
+  h_zt:"USEFUL LINKS — REMOTE ACCESS",
+  zt1:"To control your router from anywhere, LIHETI uses ZeroTier. Download it from the OFFICIAL sources. The built-in help guides you step by step.",
+  zt_ros6t:"RouterOS 6?",zt_ros6:"ZeroTier does not install on RouterOS 6. Use Tailscale on the cashier PC (gateway) instead: the built-in help has the full guide. You keep remote access, even on RouterOS 6.",
+  z_mt:"mikrotik.com — choose the architecture",z_rd:"install on the cashier PC for support"}
+};
+function setLang(l){
+  document.documentElement.lang=l;
+  document.querySelectorAll('[data-t]').forEach(function(e){var k=e.getAttribute('data-t'); if(T[l][k]!==undefined)e.textContent=T[l][k];});
+  document.querySelectorAll('.lang button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-l')===l);});
+}
+setLang('fr');
+</script>
+</body></html>
