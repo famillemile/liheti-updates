@@ -2,4 +2,3 @@
   "version": "3.12.31",
   "notes": "Nouveau : bouton Support & diagnostic dans la barre du haut — sonde votre routeur en 20 s (version, architecture, memoire, capacites API, hotspot, portail) et produit un rapport a envoyer au support en 1 clic WhatsApp. Correctifs 3.12.30 inclus : envoi du portail verifie sur tous les RouterOS 7, page Temps restant corrigee, trial natif sans erreur 400, synchronisation automatique Winbox vers l'app toutes les 2 minutes (crees ET supprimes).",
   "url": "https://github.com/famillemile/liheti-updates/releases"
-}
