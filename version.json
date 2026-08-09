@@ -1,5 +1,5 @@
 {
-  "version": "v3.12.30",
-  "notes": "Acces distant Back To Home / WireGuard (guide A-Z, marche sans IP publique et sur toutes architectures). AutoPay international : Madagascar pret a l'emploi + regles personnalisees pour tout pays, avec testeur de SMS. Forfaits et prix entierement definis par l'operateur (aucun tarif impose). Expiration calendaire des tickets apres la vente. Migration depuis Mikhmon (import CSV des prix et de l'historique). Portail protege : mode Garder, sauvegarde automatique, lecture des prix du routeur. Detection fiable du routeur injoignable. Sante enrichie : RAM, stockage, temperature, sessions. 30 guides et aide IA hors-ligne/en ligne FR/EN/MG.",
+  "version": "3.12.31",
+  "notes": "Nouveau : bouton Support & diagnostic dans la barre du haut — sonde votre routeur en 20 s (version, architecture, memoire, capacites API, hotspot, portail) et produit un rapport a envoyer au support en 1 clic WhatsApp. Correctifs 3.12.30 inclus : envoi du portail verifie sur tous les RouterOS 7, page Temps restant corrigee, trial natif sans erreur 400, synchronisation automatique Winbox vers l'app toutes les 2 minutes (crees ET supprimes).",
   "url": "https://github.com/famillemile/liheti-updates/releases"
 }
