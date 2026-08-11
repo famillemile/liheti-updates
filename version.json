@@ -1,5 +1,5 @@
 {
-  "version": "3.12.33",
+  "version": "3.12.36",
   "notes": "Acces distant complet toutes bornes : WireGuard cle en main (RouterOS 7) - l'app cree l'interface, vos cles et le peer, puis affiche un QR a scanner dans l'app WireGuard ; guide pas-a-pas inclus. RouterOS 6 sans IP publique : guide Tailscale/ZeroTier sur le PC de caisse. CAPsMAN : pilotez toutes vos antennes depuis le routeur. Mobile repense : barre a onglets en bas, pilule de connexion tactile, menu qui apprend vos raccourcis. Test debit fluide et precis avec indicateur VPN/local. Duree affichee sur le ticket + expiration calendaire. Support & diagnostic en 1 clic. Correctifs : portail verifie sur tous les RouterOS 7, page Temps restant, trial natif sans erreur 400, synchro automatique Winbox.",
   "url": "https://github.com/famillemile/liheti-updates/releases"
 }
