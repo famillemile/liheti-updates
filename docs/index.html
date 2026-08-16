@@ -40,8 +40,8 @@ footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--bd);text-alig
 <div class="grid">
   <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/latest/download/C_Liheti_Manager.apk"><span class="ic">&#128241;</span><span><b>Android</b><span data-t="f_apk"></span></span></a>
   <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/latest/download/LIHETI-Manager-CLIENT-Setup.exe"><span class="ic">&#128187;</span><span><b>Windows</b><span data-t="f_exe"></span></span></a>
-  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/latest/download/LIHETI-CLIENT-Linux.zip"><span class="ic">&#128421;</span><span><b>Linux</b><span data-t="f_lin"></span></span></a>
-  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/latest/download/LIHETI-CLIENT-macOS.zip"><span class="ic">&#127822;</span><span><b>macOS</b><span data-t="f_mac"></span></span></a>
+  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/latest/download/LIHETI-CLIENT-Linux.AppImage"><span class="ic">&#128421;</span><span><b>Linux</b><span data-t="f_lin"></span></span></a>
+  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/latest/download/LIHETI-CLIENT-macOS.dmg"><span class="ic">&#127822;</span><span><b>macOS</b><span data-t="f_mac"></span></span></a>
 </div>
 
 <h2 data-t="h_why"></h2>
@@ -54,6 +54,9 @@ footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--bd);text-alig
 
 <h2 data-t="h_and"></h2>
 <div class="note" data-t="n_and"></div>
+
+<h2 data-t="h_mac"></h2>
+<div class="note" data-t="n_mac"></div>
 
 <h2 data-t="h_zt"></h2>
 <div class="note" style="background:#0e1a12;border-color:#1e5c34;margin-bottom:12px;">
@@ -68,6 +71,7 @@ footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--bd);text-alig
   <a class="dl" href="https://www.zerotier.com/download/"><span class="ic">&#128421;</span><span><b>ZeroTier</b><span data-t="z_zt"></span></span></a>
   <a class="dl" href="https://mikrotik.com/download"><span class="ic">&#128225;</span><span><b>Paquet MikroTik</b><span data-t="z_mt"></span></span></a>
   <a class="dl" href="https://rustdesk.com/"><span class="ic">&#128421;</span><span><b>RustDesk</b><span data-t="z_rd"></span></span></a>
+  <a class="dl" href="https://www.hoptodesk.com/download"><span class="ic">&#128421;</span><span><b>HopToDesk</b><span data-t="z_hd"></span></span></a>
 </div>
 
 <footer>
@@ -85,7 +89,7 @@ var T={
  fr:{sub:"Gestion Hotspot WiFi & Cybercafe — MikroTik RouterOS 6 & 7",
   slog:"Plus d'argent qui disparait. Voyez vos recettes, ou que vous soyez.",
   slog2:"En voyage ou a l'etranger, vous voyez votre zone en direct.",
-  h_dl:"TELECHARGER",f_apk:"Fichier .apk",f_exe:"Installateur .exe",f_lin:".zip (AppImage)",f_mac:"Archive .zip",
+  h_dl:"TELECHARGER",f_apk:"Fichier .apk",f_exe:"Installateur .exe",f_lin:"Fichier .AppImage",f_mac:"Image disque .dmg",
   h_why:"POURQUOI LIHETI MANAGER",
   a1t:"PAS besoin de serveur ni d'hebergeur",a1d:"— vos donnees restent chez vous. Aucun frais mensuel, aucune dependance.",
   a2t:"Plus d'argent qui disparait",a2d:"— PIN vendeur, journal de caisse, chaque ticket enregistre.",
@@ -95,15 +99,17 @@ var T={
   a6t:"Paiement unique, une seule fois",a6d:"— pas d'abonnement, mises a jour gratuites.",
   h_and:"INSTALLATION ANDROID",
   n_and:"Android bloque par defaut les applications hors Play Store. A l'installation, autorisez « Installer des applications inconnues » pour votre navigateur. C'est normal et sans danger : le fichier vient de cette page officielle.",
+  h_mac:"INSTALLATION MACOS",
+  n_mac:"macOS bloque les applications hors App Store. Au premier lancement : clic droit sur l'application → « Ouvrir » → confirmez. A faire une seule fois ; le fichier vient de cette page officielle.",
   h_zt:"LIENS UTILES — ACCES A DISTANCE",
   zt1:"Pour piloter votre routeur de partout. <b>RouterOS 7.14+ : Back To Home</b> — un tunnel WireGuard assiste par le cloud MikroTik, qui marche <b>meme sans IP publique</b> (4G, Starlink, antenne) et sur <b>toutes les architectures</b>. Methode recommandee : le guide complet, commande par commande, est dans laide integree.",
   zt_ros6t:"Et ZeroTier ?",zt_ros6:"ZeroTier reste possible, mais <b>seulement sur ARM / ARM64 / x86</b> en RouterOS 7. Il nexiste PAS en mipsbe (RB951, hEX...) ni en RouterOS 6. Dans ces cas : Back To Home si vous etes en ROS 7, sinon Tailscale sur le PC de caisse. Les trois guides sont dans laide.",
-  z_mt:"mikrotik.com — choisir l'architecture",z_rd:"PC de caisse, pour l'assistance",w_and:"Play Store — recommande",w_win:"Installateur .exe officiel",w_mac:"App Store — officiel",w_lin:"wireguard.com — par distribution",z_zt:"zerotier.com — ARM / x86 seulement"},
+  z_mt:"mikrotik.com — choisir l'architecture",z_rd:"PC de caisse, pour l'assistance",z_hd:"Alternative gratuite a RustDesk",w_and:"Play Store — recommande",w_win:"Installateur .exe officiel",w_mac:"App Store — officiel",w_lin:"wireguard.com — par distribution",z_zt:"zerotier.com — ARM / x86 seulement"},
 
  mg:{sub:"Fitantanana Hotspot WiFi & Cybercafe — MikroTik RouterOS 6 & 7",
   slog:"Tsy misy vola very intsony. Hitanao ny vola miditra, na aiza na aiza ianao.",
   slog2:"Na aiza na aiza ianao, hitanao mivantana ny zone-nao.",
-  h_dl:"ALAINA (TELECHARGER)",f_apk:"Rakitra .apk",f_exe:"Fametrahana .exe",f_lin:".zip (AppImage)",f_mac:"Rakitra .zip",
+  h_dl:"ALAINA (TELECHARGER)",f_apk:"Rakitra .apk",f_exe:"Fametrahana .exe",f_lin:"Rakitra .AppImage",f_mac:"Rakitra .dmg",
   h_why:"NAHOANA NO LIHETI MANAGER",
   a1t:"TSY mila serveur na hebergeur",a1d:"— mitoetra ao aminao ny angona. Tsy misy saram-bolana, tsy miankina amin'olona.",
   a2t:"Tsy misy vola very intsony",a2d:"— PIN mpivarotra, journal de caisse, voarakitra ny tapakila rehetra.",
@@ -113,15 +119,17 @@ var T={
   a6t:"Aloa indray mandeha ihany",a6d:"— tsy misy abonnement, fanavaozana maimaim-poana.",
   h_and:"FAMETRAHANA AMIN' NY ANDROID",
   n_and:"Sakanan'ny Android ny application ivelan'ny Play Store. Rehefa mametraka, ekeo ny « Installer des applications inconnues » ho an'ny navigateur-nao. Ara-dalana sy tsy misy loza izany : avy amin'ity pejy ofisialy ity ny rakitra.",
+  h_mac:"FAMETRAHANA AMIN' NY MACOS",
+  n_mac:"Sakanan'ny macOS ny application ivelan'ny App Store. Amin'ny fisokafana voalohany : clic droit amin'ny application → « Ouvrir » → ekeo. Indray mandeha ihany ; avy amin'ity pejy ofisialy ity ny rakitra.",
   h_zt:"ROHY ILAINA — FIDIRANA LAVITRA",
   zt1:"Mba hitantanana ny routeur-nao avy aiza na aiza. <b>RouterOS 7.14+ : Back To Home</b> — lalana WireGuard ampian ny cloud MikroTik, mandeha <b>na tsy misy IP publique aza</b> (4G, Starlink, antenne) ary amin ny <b>architecture rehetra</b>. Izy no atolotra voalohany : ao amin ny fanampiana ny torolalana feno.",
   zt_ros6t:"Ary ny ZeroTier ?",zt_ros6:"Mbola azo atao, fa <b>amin ny ARM / ARM64 / x86 ihany</b> amin ny RouterOS 7. TSY misy amin ny mipsbe (RB951, hEX...) na amin ny RouterOS 6. Amin ireny : Back To Home raha ROS 7, raha tsy izany Tailscale amin ny PC de caisse. Ao amin ny fanampiana izy telo.",
-  z_mt:"mikrotik.com — safidio ny architecture",z_rd:"PC de caisse, ho an'ny fanampiana",w_and:"Play Store — atolotra",w_win:"Fametrahana .exe ofisialy",w_mac:"App Store — ofisialy",w_lin:"wireguard.com — isaky ny distribution",z_zt:"zerotier.com — ARM / x86 ihany"},
+  z_mt:"mikrotik.com — safidio ny architecture",z_rd:"PC de caisse, ho an'ny fanampiana",z_hd:"Safidy maimaim-poana toa an'i RustDesk",w_and:"Play Store — atolotra",w_win:"Fametrahana .exe ofisialy",w_mac:"App Store — ofisialy",w_lin:"wireguard.com — isaky ny distribution",z_zt:"zerotier.com — ARM / x86 ihany"},
 
  en:{sub:"WiFi Hotspot & Cybercafe management — MikroTik RouterOS 6 & 7",
   slog:"No more lost money. See your income, wherever you are.",
   slog2:"Travelling or abroad, watch your zone live.",
-  h_dl:"DOWNLOAD",f_apk:".apk file",f_exe:".exe installer",f_lin:".zip (AppImage)",f_mac:".zip archive",
+  h_dl:"DOWNLOAD",f_apk:".apk file",f_exe:".exe installer",f_lin:".AppImage file",f_mac:".dmg disk image",
   h_why:"WHY LIHETI MANAGER",
   a1t:"NO server or host needed",a1d:"— your data stays with you. No monthly fees, no dependency.",
   a2t:"No more lost money",a2d:"— seller PIN, cash log, every ticket recorded.",
@@ -131,10 +139,12 @@ var T={
   a6t:"Pay once only",a6d:"— no subscription, free updates.",
   h_and:"ANDROID INSTALLATION",
   n_and:"Android blocks apps outside the Play Store by default. During install, allow « Install unknown apps » for your browser. This is normal and safe: the file comes from this official page.",
+  h_mac:"MACOS INSTALLATION",
+  n_mac:"macOS blocks apps outside the App Store. On first launch: right-click the application → « Open » → confirm. Only needed once; the file comes from this official page.",
   h_zt:"USEFUL LINKS — REMOTE ACCESS",
   zt1:"To control your router from anywhere. <b>RouterOS 7.14+: Back To Home</b> — a WireGuard tunnel assisted by the MikroTik cloud, working <b>even without a public IP</b> (4G, Starlink, antenna) and on <b>every architecture</b>. Recommended method: the full guide, command by command, is in the built-in help.",
   zt_ros6t:"What about ZeroTier?",zt_ros6:"Still possible, but <b>only on ARM / ARM64 / x86</b> running RouterOS 7. It does NOT exist for mipsbe (RB951, hEX...) nor RouterOS 6. In those cases: Back To Home if you are on ROS 7, otherwise Tailscale on the cashier PC. All three guides are in the help.",
-  z_mt:"mikrotik.com — choose the architecture",z_rd:"cashier PC, for support",w_and:"Play Store — recommended",w_win:"Official .exe installer",w_mac:"App Store — official",w_lin:"wireguard.com — per distribution",z_zt:"zerotier.com — ARM / x86 only"}
+  z_mt:"mikrotik.com — choose the architecture",z_rd:"cashier PC, for support",z_hd:"Free alternative to RustDesk",w_and:"Play Store — recommended",w_win:"Official .exe installer",w_mac:"App Store — official",w_lin:"wireguard.com — per distribution",z_zt:"zerotier.com — ARM / x86 only"}
 };
 function setLang(l){
   document.documentElement.lang=l;
