@@ -29,7 +29,7 @@ footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--bd);text-alig
 </div>
 
 <header>
-  <img src="logo.png" alt="LIHETI MANAGER">
+  <img src="logo.png.png" alt="LIHETI MANAGER">
   <h1><span class="r">LIHETI</span> <span class="v">MANAGER</span></h1>
   <div class="sub" data-t="sub"></div>
   <div class="slog" data-t="slog"></div>
@@ -38,10 +38,10 @@ footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--bd);text-alig
 
 <h2 data-t="h_dl"></h2>
 <div class="grid">
-  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/latest/download/C_Liheti_Manager.apk"><span class="ic">&#128241;</span><span><b>Android</b><span data-t="f_apk"></span></span></a>
-  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/latest/download/LIHETI-Manager-CLIENT-Setup.exe"><span class="ic">&#128187;</span><span><b>Windows</b><span data-t="f_exe"></span></span></a>
-  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/latest/download/LIHETI-CLIENT-Linux.AppImage"><span class="ic">&#128421;</span><span><b>Linux</b><span data-t="f_lin"></span></span></a>
-  <a class="dl" href="https://github.com/famillemile/liheti-updates/releases/latest/download/LIHETI-CLIENT-macOS.dmg"><span class="ic">&#127822;</span><span><b>macOS</b><span data-t="f_mac"></span></span></a>
+  <a class="dl" id="dl-android" href="https://github.com/famillemile/liheti-updates/releases/latest/download/C_Liheti_Manager.apk"><span class="ic">&#128241;</span><span><b>Android</b><span data-t="f_apk"></span></span></a>
+  <a class="dl" id="dl-windows" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.42/LIHETI-Manager-CLIENT-Setup-3.12.42.exe"><span class="ic">&#128187;</span><span><b>Windows</b><span data-t="f_exe"></span></span></a>
+  <a class="dl" id="dl-linux" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.42/LIHETI-Manager-CLIENT-3.12.42-x86_64.AppImage"><span class="ic">&#128421;</span><span><b>Linux</b><span data-t="f_lin"></span></span></a>
+  <a class="dl" id="dl-mac" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.42/LIHETI-Manager-CLIENT-3.12.42-universal.dmg"><span class="ic">&#127822;</span><span><b>macOS</b><span data-t="f_mac"></span></span></a>
 </div>
 
 <h2 data-t="h_why"></h2>
@@ -151,6 +151,33 @@ function setLang(l){
   document.querySelectorAll('[data-t]').forEach(function(e){var k=e.getAttribute('data-t'); if(T[l][k]!==undefined){if(k==='zt1'||k==='zt_ros6')e.innerHTML=T[l][k];else e.textContent=T[l][k];}});
   document.querySelectorAll('.lang button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-l')===l);});
 }
+function loadCurrentDownloads(){
+  var source='https://raw.githubusercontent.com/famillemile/liheti-updates/main/version.json?t='+Date.now();
+  fetch(source,{cache:'no-store'})
+    .then(function(r){
+      if(!r.ok) throw new Error('version.json indisponible');
+      return r.json();
+    })
+    .then(function(v){
+      if(!v || !v.downloads) return;
+      var links={
+        android:'dl-android',
+        windows:'dl-windows',
+        linux:'dl-linux',
+        mac:'dl-mac'
+      };
+      Object.keys(links).forEach(function(platform){
+        var element=document.getElementById(links[platform]);
+        if(element && v.downloads[platform]){
+          element.href=v.downloads[platform];
+        }
+      });
+    })
+    .catch(function(error){
+      console.warn('LIHETI : liens locaux conservés',error);
+    });
+}
+loadCurrentDownloads();
 setLang('fr');
 </script>
 </body></html>
