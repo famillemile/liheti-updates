@@ -1,12 +1,12 @@
 {
-  "version": "3.12.40",
-  "date": "2026-08-23",
+  "version": "3.12.42",
+  "date": "2026-08-29",
   "notes": "LIHETI Console Pro (SSH), page Offres & tarifs fusionnee, duree cumulative des tickets.",
   "downloads": {
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.40/LIHETI-Manager-CLIENT-Setup-3.12.40.exe",
-    "linux":   "https://github.com/famillemile/liheti-updates/releases/download/v3.12.40/LIHETI-Manager-CLIENT-3.12.40-x86_64.AppImage",
-    "mac":     "https://github.com/famillemile/liheti-updates/releases/download/v3.12.40/LIHETI-Manager-CLIENT-3.12.40-universal.dmg",
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.40/C_Liheti_Manager.apk"
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.42/LIHETI-Manager-CLIENT-Setup-3.12.42.exe",
+    "linux":   "https://github.com/famillemile/liheti-updates/releases/download/v3.12.42/LIHETI-Manager-CLIENT-3.12.42-x86_64.AppImage",
+    "mac":     "https://github.com/famillemile/liheti-updates/releases/download/v3.12.42/LIHETI-Manager-CLIENT-3.12.42-mac.dmg",
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.42/C_Liheti_Manager.apk"
   },
   "page": "https://famillemile.github.io/liheti-updates/"
 }
