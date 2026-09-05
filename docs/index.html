@@ -1,183 +1,193 @@
-<!DOCTYPE html><html lang="fr"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>LIHETI MANAGER — Telechargement</title>
-<style>
-:root{--bg:#080c12;--card:#10151d;--card2:#161d27;--bd:#232c38;--tx:#e8eef5;--mu:#7d8b9c;--vert:#2ecc71;--rouge:#ED1D24;--jaune:#ffd24d}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6}
-.wrap{max-width:880px;margin:0 auto;padding:16px 16px 60px}
-.lang{display:flex;gap:8px;justify-content:center;padding:10px 0}
-.lang button{background:var(--card2);border:1px solid var(--bd);color:var(--mu);padding:7px 18px;border-radius:999px;font-weight:700;cursor:pointer;font-size:14px}
-.lang button.on{background:var(--vert);color:#05270f;border-color:var(--vert)}
-header{text-align:center;padding:18px 0;border-bottom:1px solid var(--bd)}
-header img{width:120px;height:120px;border-radius:26px}
-h1{margin:14px 0 4px;font-size:30px}h1 .r{color:var(--rouge)}h1 .v{color:var(--vert)}
-.sub{color:var(--tx);font-weight:600}.slog{color:var(--jaune);font-weight:600;margin-top:6px}
-h2{font-size:14px;letter-spacing:1.5px;color:var(--mu);margin:32px 0 12px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
-.dl{display:flex;align-items:center;gap:12px;background:var(--card2);border:1px solid var(--bd);border-radius:14px;padding:14px 16px;text-decoration:none;color:var(--tx);transition:border-color .15s}
-.dl:hover{border-color:var(--vert)}.dl .ic{font-size:26px}.dl b{display:block;font-size:15px}.dl span{font-size:11.5px;color:var(--mu)}
-.arg{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px 18px;margin-bottom:10px}.arg b{color:var(--vert)}
-.note{background:#1a1508;border:1px solid #5c4a10;border-radius:12px;padding:14px 18px;font-size:13.5px}
-footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--bd);text-align:center;font-size:14px}
-.tel{display:inline-block;background:var(--jaune);color:#141414;font-weight:800;padding:10px 22px;border-radius:999px;margin:6px 4px;text-decoration:none}
-</style></head><body><div class="wrap">
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Téléchargez LIHETI Manager CLIENT : gestion MikroTik, Hotspot, tickets Internet, Cybercafé et postes PC.">
+  <title>LIHETI Manager CLIENT — Téléchargement officiel</title>
+  <style>
+    :root{--bg:#080c12;--card:#10151d;--card2:#161d27;--bd:#263241;--tx:#edf3fb;--mu:#98a7b8;--vert:#2ecc71;--bleu:#4dd2ff;--rouge:#ed1d24;--jaune:#ffd24d}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+    .wrap{max-width:920px;margin:0 auto;padding:16px 16px 60px}.lang{display:flex;gap:8px;justify-content:center;padding:10px 0}
+    .lang button{background:var(--card2);border:1px solid var(--bd);color:var(--mu);padding:7px 18px;border-radius:999px;font-weight:800;cursor:pointer;font-size:14px}.lang button.on{background:var(--vert);color:#05270f;border-color:var(--vert)}
+    header{text-align:center;padding:18px 0 24px;border-bottom:1px solid var(--bd)}header img{width:116px;height:116px;border-radius:26px;box-shadow:0 12px 32px #0008}.eyebrow{margin:8px 0 0;color:var(--bleu);font-size:12px;font-weight:850;letter-spacing:1.1px}
+    h1{margin:8px 0 4px;font-size:clamp(29px,7vw,38px);line-height:1.1}h1 .r{color:var(--rouge)}h1 .v{color:var(--vert)}.sub{max-width:650px;margin:12px auto 0;color:var(--tx);font-weight:650}.slog{max-width:650px;margin:7px auto 0;color:var(--jaune);font-weight:700}
+    .release-badge{display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:16px;padding:8px 12px;border:1px solid #1f7543;background:#0d2317;border-radius:999px;color:#d7f8e2;font-size:13px}.dot{width:8px;height:8px;border-radius:50%;background:var(--vert);box-shadow:0 0 10px var(--vert)}.release-badge strong{color:#fff}
+    h2{font-size:13px;letter-spacing:1.35px;color:var(--mu);margin:31px 0 11px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(205px,1fr));gap:12px}
+    .dl{display:flex;align-items:center;gap:12px;min-height:76px;background:var(--card2);border:1px solid var(--bd);border-radius:14px;padding:14px 15px;text-decoration:none;color:var(--tx);transition:transform .15s,border-color .15s,background .15s}.dl:hover{transform:translateY(-2px);border-color:var(--vert);background:#192331}.dl .ic{font-size:27px}.dl b{display:block;font-size:15px}.dl span{font-size:11.5px;color:var(--mu)}
+    .arg{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px 17px;margin-bottom:10px}.arg b{color:var(--vert)}.note{background:#18160c;border:1px solid #5b4c16;border-radius:13px;padding:14px 17px;font-size:13.5px}.note.green{background:#0c1d13;border-color:#1e6b3c}.note p{margin:0}.note p+p{margin-top:8px}
+    .verify{background:var(--card);border:1px solid var(--bd);border-radius:13px;padding:0 16px}.verify summary{padding:14px 0;cursor:pointer;color:var(--tx);font-weight:750}.verify-inner{padding:0 0 14px;color:var(--mu);font-size:13px}.checksums{display:grid;gap:8px;margin:11px 0}.checksum{display:grid;grid-template-columns:minmax(105px,auto) minmax(0,1fr);gap:9px;padding:9px 10px;border-radius:9px;background:#0a0f16}.checksum b{color:var(--tx)}.checksum code{overflow-wrap:anywhere;color:#b5c9da;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:11px}
+    .release-link{display:inline-block;margin-top:4px;color:var(--bleu);font-weight:750;text-decoration:none}.release-link:hover{text-decoration:underline}.support{background:#0e1a12;border:1px solid #1e5c34;border-radius:13px;padding:14px 17px;margin-bottom:12px;font-size:13.5px}.support b{color:var(--jaune)}
+    footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--bd);text-align:center;font-size:14px}.tel{display:inline-block;background:var(--jaune);color:#141414;font-weight:850;padding:10px 20px;border-radius:999px;margin:6px 3px;text-decoration:none}
+    @media(max-width:480px){.wrap{padding-inline:12px}.lang button{padding-inline:14px}.checksum{grid-template-columns:1fr}.release-badge{border-radius:15px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="lang" aria-label="Langue">
+      <button data-l="fr" class="on" onclick="setLang('fr')">FR</button>
+      <button data-l="mg" onclick="setLang('mg')">MG</button>
+      <button data-l="en" onclick="setLang('en')">EN</button>
+    </div>
 
-<div class="lang">
-  <button data-l="fr" class="on" onclick="setLang('fr')">FR</button>
-  <button data-l="mg" onclick="setLang('mg')">MG</button>
-  <button data-l="en" onclick="setLang('en')">EN</button>
-</div>
+    <header>
+      <img src="logo.png.png" alt="LIHETI Manager">
+      <p class="eyebrow" data-t="edition"></p>
+      <h1><span class="r">LIHETI</span> <span class="v">MANAGER</span></h1>
+      <p class="sub" data-t="sub"></p>
+      <p class="slog" data-t="slog"></p>
+      <div class="release-badge"><span class="dot"></span><span data-t="release_ready"></span><strong id="current-version">v3.12.46</strong></div>
+    </header>
 
-<header>
-  <img src="logo.png.png" alt="LIHETI MANAGER">
-  <h1><span class="r">LIHETI</span> <span class="v">MANAGER</span></h1>
-  <div class="sub" data-t="sub"></div>
-  <div class="slog" data-t="slog"></div>
-  <div class="slog" style="color:#4dd2ff;font-size:15px;" data-t="slog2"></div>
-</header>
+    <section aria-labelledby="downloads-title">
+      <h2 id="downloads-title" data-t="h_dl"></h2>
+      <div class="grid">
+        <a class="dl" id="dl-android" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/C_Liheti_Manager.apk"><span class="ic">📱</span><span><b>Android</b><span data-t="f_apk"></span></span></a>
+        <a class="dl" id="dl-windows" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/LIHETI-Manager-CLIENT-Setup-3.12.46.exe"><span class="ic">💻</span><span><b>Windows</b><span data-t="f_exe"></span></span></a>
+        <a class="dl" id="dl-linux" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/LIHETI-Manager-CLIENT-3.12.46-x86_64.AppImage"><span class="ic">🐧</span><span><b>Linux</b><span data-t="f_lin"></span></span></a>
+        <a class="dl" id="dl-mac" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/LIHETI-Manager-CLIENT-3.12.46-universal.dmg"><span class="ic">🍎</span><span><b>macOS</b><span data-t="f_mac"></span></span></a>
+      </div>
+    </section>
 
-<h2 data-t="h_dl"></h2>
-<div class="grid">
-  <a class="dl" id="dl-android" href="https://github.com/famillemile/liheti-updates/releases/latest/download/C_Liheti_Manager.apk"><span class="ic">&#128241;</span><span><b>Android</b><span data-t="f_apk"></span></span></a>
-  <a class="dl" id="dl-windows" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.42/LIHETI-Manager-CLIENT-Setup-3.12.42.exe"><span class="ic">&#128187;</span><span><b>Windows</b><span data-t="f_exe"></span></span></a>
-  <a class="dl" id="dl-linux" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.42/LIHETI-Manager-CLIENT-3.12.42-x86_64.AppImage"><span class="ic">&#128421;</span><span><b>Linux</b><span data-t="f_lin"></span></span></a>
-  <a class="dl" id="dl-mac" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.42/LIHETI-Manager-CLIENT-3.12.42-universal.dmg"><span class="ic">&#127822;</span><span><b>macOS</b><span data-t="f_mac"></span></span></a>
-</div>
+    <section aria-labelledby="value-title">
+      <h2 id="value-title" data-t="h_value"></h2>
+      <div class="arg"><b data-t="a1t"></b> <span data-t="a1d"></span></div>
+      <div class="arg"><b data-t="a2t"></b> <span data-t="a2d"></span></div>
+      <div class="arg"><b data-t="a3t"></b> <span data-t="a3d"></span></div>
+      <div class="arg"><b data-t="a4t"></b> <span data-t="a4d"></span></div>
+      <div class="arg"><b data-t="a5t"></b> <span data-t="a5d"></span></div>
+      <div class="arg"><b data-t="a6t"></b> <span data-t="a6d"></span></div>
+    </section>
 
-<h2 data-t="h_why"></h2>
-<div class="arg"><b data-t="a1t"></b> <span data-t="a1d"></span></div>
-<div class="arg"><b data-t="a2t"></b> <span data-t="a2d"></span></div>
-<div class="arg"><b data-t="a3t"></b> <span data-t="a3d"></span></div>
-<div class="arg"><b data-t="a4t"></b> <span data-t="a4d"></span></div>
-<div class="arg"><b data-t="a5t"></b> <span data-t="a5d"></span></div>
-<div class="arg"><b data-t="a6t"></b> <span data-t="a6d"></span></div>
+    <section aria-labelledby="release-title">
+      <h2 id="release-title" data-t="h_release"></h2>
+      <div class="note green"><p><b data-t="release_label"></b> <strong id="release-version">v3.12.46</strong></p><p id="release-note"></p></div>
+    </section>
 
-<h2 data-t="h_and"></h2>
-<div class="note" data-t="n_and"></div>
+    <section aria-labelledby="verify-title">
+      <h2 id="verify-title" data-t="h_verify"></h2>
+      <details class="verify">
+        <summary data-t="verify_summary"></summary>
+        <div class="verify-inner"><p data-t="verify_intro"></p><div id="checksums" class="checksums"></div><a id="release-page" class="release-link" href="https://github.com/famillemile/liheti-updates/releases/tag/v3.12.46" target="_blank" rel="noopener" data-t="release_link"></a></div>
+      </details>
+    </section>
 
-<h2 data-t="h_mac"></h2>
-<div class="note" data-t="n_mac"></div>
+    <section aria-labelledby="android-title">
+      <h2 id="android-title" data-t="h_and"></h2>
+      <div class="note" data-t="n_and"></div>
+    </section>
 
-<h2 data-t="h_zt"></h2>
-<div class="note" style="background:#0e1a12;border-color:#1e5c34;margin-bottom:12px;">
-  <span data-t="zt1"></span><br><br>
-  <b style="color:#ffd24d;" data-t="zt_ros6t"></b> <span data-t="zt_ros6"></span>
-</div>
-<div class="grid">
-  <a class="dl" href="https://play.google.com/store/apps/details?id=com.wireguard.android"><span class="ic">&#128241;</span><span><b>WireGuard Android</b><span data-t="w_and"></span></span></a>
-  <a class="dl" href="https://download.wireguard.com/windows-client/wireguard-installer.exe"><span class="ic">&#128187;</span><span><b>WireGuard Windows</b><span data-t="w_win"></span></span></a>
-  <a class="dl" href="https://apps.apple.com/app/wireguard/id1451685025"><span class="ic">&#127822;</span><span><b>WireGuard macOS</b><span data-t="w_mac"></span></span></a>
-  <a class="dl" href="https://www.wireguard.com/install/"><span class="ic">&#128039;</span><span><b>WireGuard Linux</b><span data-t="w_lin"></span></span></a>
-  <a class="dl" href="https://www.zerotier.com/download/"><span class="ic">&#128421;</span><span><b>ZeroTier</b><span data-t="z_zt"></span></span></a>
-  <a class="dl" href="https://mikrotik.com/download"><span class="ic">&#128225;</span><span><b>Paquet MikroTik</b><span data-t="z_mt"></span></span></a>
-  <a class="dl" href="https://rustdesk.com/"><span class="ic">&#128421;</span><span><b>RustDesk</b><span data-t="z_rd"></span></span></a>
-  <a class="dl" href="https://www.hoptodesk.com/download"><span class="ic">&#128421;</span><span><b>HopToDesk</b><span data-t="z_hd"></span></span></a>
-</div>
+    <section aria-labelledby="mac-title">
+      <h2 id="mac-title" data-t="h_mac"></h2>
+      <div class="note" data-t="n_mac"></div>
+    </section>
 
-<footer>
-  <div style="font-weight:800;font-size:17px;margin-bottom:8px">LIHETI ZONE WIFI</div>
-  <a class="tel" href="tel:+261345931199">+261 34 59 311 99</a>
-  <a class="tel" href="tel:+261330315554">+261 33 03 155 54</a>
-  <br>
-  <a class="tel" style="background:#25D366;color:#fff;" href="https://wa.me/261387232054">&#128172; WhatsApp</a>
-  <div style="color:var(--mu);margin-top:10px">famillemile@gmail.com</div>
-</footer>
-</div>
+    <section aria-labelledby="remote-title">
+      <h2 id="remote-title" data-t="h_remote"></h2>
+      <div class="support"><span data-t="remote_text"></span></div>
+      <div class="grid">
+        <a class="dl" href="https://play.google.com/store/apps/details?id=com.wireguard.android"><span class="ic">📱</span><span><b>WireGuard Android</b><span data-t="w_and"></span></span></a>
+        <a class="dl" href="https://download.wireguard.com/windows-client/wireguard-installer.exe"><span class="ic">💻</span><span><b>WireGuard Windows</b><span data-t="w_win"></span></span></a>
+        <a class="dl" href="https://apps.apple.com/app/wireguard/id1451685025"><span class="ic">🍎</span><span><b>WireGuard macOS</b><span data-t="w_mac"></span></span></a>
+        <a class="dl" href="https://www.wireguard.com/install/"><span class="ic">🐧</span><span><b>WireGuard Linux</b><span data-t="w_lin"></span></span></a>
+        <a class="dl" href="https://www.zerotier.com/download/"><span class="ic">🖥️</span><span><b>ZeroTier</b><span data-t="z_zt"></span></span></a>
+        <a class="dl" href="https://mikrotik.com/download"><span class="ic">📡</span><span><b>MikroTik</b><span data-t="z_mt"></span></span></a>
+        <a class="dl" href="https://rustdesk.com/"><span class="ic">🖥️</span><span><b>RustDesk</b><span data-t="z_rd"></span></span></a>
+        <a class="dl" href="https://www.hoptodesk.com/download"><span class="ic">🖥️</span><span><b>HopToDesk</b><span data-t="z_hd"></span></span></a>
+      </div>
+    </section>
 
-<script>
-var T={
- fr:{sub:"Gestion Hotspot WiFi & Cybercafe — MikroTik RouterOS 6 & 7",
-  slog:"Plus d'argent qui disparait. Voyez vos recettes, ou que vous soyez.",
-  slog2:"En voyage ou a l'etranger, vous voyez votre zone en direct.",
-  h_dl:"TELECHARGER",f_apk:"Fichier .apk",f_exe:"Installateur .exe",f_lin:"Fichier .AppImage",f_mac:"Image disque .dmg",
-  h_why:"POURQUOI LIHETI MANAGER",
-  a1t:"PAS besoin de serveur ni d'hebergeur",a1d:"— vos donnees restent chez vous. Aucun frais mensuel, aucune dependance.",
-  a2t:"Plus d'argent qui disparait",a2d:"— PIN vendeur, journal de caisse, chaque ticket enregistre.",
-  a3t:"Visible de partout ou vous etes",a3d:"— vos recettes consultables a distance (ZeroTier, VPN).",
-  a4t:"Mobile Money automatique",a4d:"— Orange Money, MVola, Airtel prets a lemploi. Tout autre operateur, tout autre pays : configurable par vous.",
-  a5t:"Vente en quelques secondes",a5d:"— generez un ticket en un instant, vos clients ne font pas la queue.",
-  a6t:"Paiement unique, une seule fois",a6d:"— pas d'abonnement, mises a jour gratuites.",
-  h_and:"INSTALLATION ANDROID",
-  n_and:"Android bloque par defaut les applications hors Play Store. A l'installation, autorisez « Installer des applications inconnues » pour votre navigateur. C'est normal et sans danger : le fichier vient de cette page officielle.",
-  h_mac:"INSTALLATION MACOS",
-  n_mac:"macOS bloque les applications hors App Store. Au premier lancement : clic droit sur l'application → « Ouvrir » → confirmez. A faire une seule fois ; le fichier vient de cette page officielle.",
-  h_zt:"LIENS UTILES — ACCES A DISTANCE",
-  zt1:"Pour piloter votre routeur de partout. <b>RouterOS 7.14+ : Back To Home</b> — un tunnel WireGuard assiste par le cloud MikroTik, qui marche <b>meme sans IP publique</b> (4G, Starlink, antenne) et sur <b>toutes les architectures</b>. Methode recommandee : le guide complet, commande par commande, est dans laide integree.",
-  zt_ros6t:"Et ZeroTier ?",zt_ros6:"ZeroTier reste possible, mais <b>seulement sur ARM / ARM64 / x86</b> en RouterOS 7. Il nexiste PAS en mipsbe (RB951, hEX...) ni en RouterOS 6. Dans ces cas : Back To Home si vous etes en ROS 7, sinon Tailscale sur le PC de caisse. Les trois guides sont dans laide.",
-  z_mt:"mikrotik.com — choisir l'architecture",z_rd:"PC de caisse, pour l'assistance",z_hd:"Alternative gratuite a RustDesk",w_and:"Play Store — recommande",w_win:"Installateur .exe officiel",w_mac:"App Store — officiel",w_lin:"wireguard.com — par distribution",z_zt:"zerotier.com — ARM / x86 seulement"},
+    <footer>
+      <div style="font-weight:850;font-size:17px;margin-bottom:8px">LIHETI ZONE WIFI</div>
+      <a class="tel" href="tel:+261345931199">+261 34 59 311 99</a>
+      <a class="tel" href="tel:+261330315554">+261 33 03 155 54</a><br>
+      <a class="tel" style="background:#25d366;color:#fff" href="https://wa.me/261387232054">💬 WhatsApp</a>
+      <div style="color:var(--mu);margin-top:10px">famillemile@gmail.com</div>
+    </footer>
+  </main>
 
- mg:{sub:"Fitantanana Hotspot WiFi & Cybercafe — MikroTik RouterOS 6 & 7",
-  slog:"Tsy misy vola very intsony. Hitanao ny vola miditra, na aiza na aiza ianao.",
-  slog2:"Na aiza na aiza ianao, hitanao mivantana ny zone-nao.",
-  h_dl:"ALAINA (TELECHARGER)",f_apk:"Rakitra .apk",f_exe:"Fametrahana .exe",f_lin:"Rakitra .AppImage",f_mac:"Rakitra .dmg",
-  h_why:"NAHOANA NO LIHETI MANAGER",
-  a1t:"TSY mila serveur na hebergeur",a1d:"— mitoetra ao aminao ny angona. Tsy misy saram-bolana, tsy miankina amin'olona.",
-  a2t:"Tsy misy vola very intsony",a2d:"— PIN mpivarotra, journal de caisse, voarakitra ny tapakila rehetra.",
-  a3t:"Hitanao na aiza na aiza ianao",a3d:"— jerena avy lavitra ny vola miditra (ZeroTier, VPN).",
-  a4t:"Mobile Money mandeha ho azy",a4d:"— Orange Money, MVola, Airtel vonona ampiasaina. Operateur hafa, firenena hafa : azonao amboarina samirery.",
-  a5t:"Mivarotra anatin'ny segondra",a5d:"— mamorona tapakila haingana, tsy mijanona ny mpanjifanao.",
-  a6t:"Aloa indray mandeha ihany",a6d:"— tsy misy abonnement, fanavaozana maimaim-poana.",
-  h_and:"FAMETRAHANA AMIN' NY ANDROID",
-  n_and:"Sakanan'ny Android ny application ivelan'ny Play Store. Rehefa mametraka, ekeo ny « Installer des applications inconnues » ho an'ny navigateur-nao. Ara-dalana sy tsy misy loza izany : avy amin'ity pejy ofisialy ity ny rakitra.",
-  h_mac:"FAMETRAHANA AMIN' NY MACOS",
-  n_mac:"Sakanan'ny macOS ny application ivelan'ny App Store. Amin'ny fisokafana voalohany : clic droit amin'ny application → « Ouvrir » → ekeo. Indray mandeha ihany ; avy amin'ity pejy ofisialy ity ny rakitra.",
-  h_zt:"ROHY ILAINA — FIDIRANA LAVITRA",
-  zt1:"Mba hitantanana ny routeur-nao avy aiza na aiza. <b>RouterOS 7.14+ : Back To Home</b> — lalana WireGuard ampian ny cloud MikroTik, mandeha <b>na tsy misy IP publique aza</b> (4G, Starlink, antenne) ary amin ny <b>architecture rehetra</b>. Izy no atolotra voalohany : ao amin ny fanampiana ny torolalana feno.",
-  zt_ros6t:"Ary ny ZeroTier ?",zt_ros6:"Mbola azo atao, fa <b>amin ny ARM / ARM64 / x86 ihany</b> amin ny RouterOS 7. TSY misy amin ny mipsbe (RB951, hEX...) na amin ny RouterOS 6. Amin ireny : Back To Home raha ROS 7, raha tsy izany Tailscale amin ny PC de caisse. Ao amin ny fanampiana izy telo.",
-  z_mt:"mikrotik.com — safidio ny architecture",z_rd:"PC de caisse, ho an'ny fanampiana",z_hd:"Safidy maimaim-poana toa an'i RustDesk",w_and:"Play Store — atolotra",w_win:"Fametrahana .exe ofisialy",w_mac:"App Store — ofisialy",w_lin:"wireguard.com — isaky ny distribution",z_zt:"zerotier.com — ARM / x86 ihany"},
+  <script>
+    var activeLang='fr';
+    var fallbackRelease={
+      version:'3.12.46',
+      release:'https://github.com/famillemile/liheti-updates/releases/tag/v3.12.46',
+      notes:{
+        fr:'Correctif Tickets, Licences et Cybercafé / Postes PC : ventes visibles dans Vendus, activation plus fiable et compteur connexion-déconnexion par poste.',
+        mg:'Fanitsiana Tickets, Licences ary Cybercafé / Postes PC : hita ao amin ny Vendus ny varotra, azo antoka kokoa ny activation ary misy compteur connexion-déconnexion isaky ny poste.',
+        en:'Tickets, licences and Cybercafé / PC stations fixes: sales are visible in Sold, activation is more reliable and every station has a connection-disconnection counter.'
+      },
+      downloads:{
+        android:'https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/C_Liheti_Manager.apk',
+        windows:'https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/LIHETI-Manager-CLIENT-Setup-3.12.46.exe',
+        linux:'https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/LIHETI-Manager-CLIENT-3.12.46-x86_64.AppImage',
+        mac:'https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/LIHETI-Manager-CLIENT-3.12.46-universal.dmg'
+      },
+      checksums:{
+        android:'6564bfdb0ce32b5a1b757e60d1a2efa1780316dcf369642c7e872e173b412add',
+        windows:'7bb694681b7d536c8c7a0dc960075b836820fd68e2bb1e7ad85a6f86a92394ba',
+        linux:'7dda2ce16bddbbf245e1c2e60ba4a312a710f35cbb8f43d12afe4554107b316b',
+        mac:'718b2a917833d56c5ddd80446b707b8927a4f60e376f61ff061513ed7ddf03fa'
+      }
+    };
+    var releaseData=fallbackRelease;
+    var T={
+      fr:{edition:'ÉDITION CLIENT • MIKROTIK, HOTSPOT & CYBERCAFÉ',sub:'Le poste de pilotage de votre activité Internet : tickets, portail captif, caisse, abonnés et postes PC.',slog:'Gardez la maîtrise de vos ventes et de votre réseau, sur place comme à distance.',release_ready:'Version officielle disponible :',h_dl:'TÉLÉCHARGER LIHETI MANAGER CLIENT',f_apk:'APK Android',f_exe:'Installateur Windows (.exe)',f_lin:'Application Linux (.AppImage)',f_mac:'Application macOS (.dmg)',h_value:'CE QUE LIHETI APPORTE À VOTRE ACTIVITÉ',a1t:'Tickets Internet et portail captif',a1d:'— créez les vouchers, vendez-les au comptoir et retrouvez immédiatement chaque vente dans Vendus.',a2t:'Cybercafé — postes PC suivis',a2d:'— responsable, connexion, déconnexion, temps de session et accès Hotspot gérés poste par poste.',a3t:'Caisse traçable',a3d:'— PIN vendeur, journal de caisse et historique des ventes pour réduire les pertes et répondre aux contestations.',a4t:'MikroTik au centre',a4d:'— Hotspot, PPPoE, profils, débit et diagnostic conçus pour MikroTik RouterOS 6 et 7.',a5t:'Mobile Money sur Android, après configuration',a5d:'— lecture et traitement des SMS de paiement avec les autorisations nécessaires ; aucun débit automatique de portefeuille.',a6t:'Fonctionnement local prioritaire',a6d:'— vos paramètres et votre activité restent sous votre contrôle ; accès distant seulement lorsque vous le choisissez.',h_release:'NOUVEAUTÉS',release_label:'Version',h_verify:'VÉRIFIER LE TÉLÉCHARGEMENT',verify_summary:'Afficher les empreintes SHA-256 officielles',verify_intro:'Après téléchargement, comparez l’empreinte SHA-256 du fichier avec celle ci-dessous pour vérifier son intégrité.',release_link:'Voir la version officielle et les fichiers sur GitHub',h_and:'INSTALLATION ANDROID',n_and:'Android peut afficher un avertissement car l’application n’est pas distribuée via Play Store. Téléchargez uniquement depuis cette page officielle et comparez l’empreinte SHA-256 avant l’installation.',h_mac:'INSTALLATION macOS',n_mac:'Au premier lancement, macOS peut demander une confirmation : clic droit sur l’application → Ouvrir → confirmer. Téléchargez uniquement depuis cette page officielle.',h_remote:'LIENS UTILES — ACCÈS À DISTANCE',remote_text:'Pour administrer votre routeur à distance, utilisez la méthode adaptée à votre installation : WireGuard / Back To Home sous RouterOS 7, ou ZeroTier lorsque votre architecture MikroTik le permet. Les guides restent dans l’aide intégrée.',w_and:'Play Store — recommandé',w_win:'Installateur officiel',w_mac:'App Store — officiel',w_lin:'Guide officiel par distribution',z_zt:'ARM / ARM64 / x86 selon RouterOS',z_mt:'Choisir l’architecture RouterOS',z_rd:'Assistance sur PC de caisse',z_hd:'Alternative à RustDesk'},
+      mg:{edition:'ÉDITION CLIENT • MIKROTIK, HOTSPOT & CYBERCAFÉ',sub:'Fitaovana fitantanana ny asa Internet-nao : tickets, portail captif, caisse, abonnés ary postes PC.',slog:'Tazomy eo am-pelatananao ny varotra sy ny réseau-nao, na eny an-toerana na lavitra.',release_ready:'Misy ny version officielle :',h_dl:'ALAINA LIHETI MANAGER CLIENT',f_apk:'APK Android',f_exe:'Fametrahana Windows (.exe)',f_lin:'Application Linux (.AppImage)',f_mac:'Application macOS (.dmg)',h_value:'IZAY ENTIN’NY LIHETI HO AN’NY ASANAO',a1t:'Tickets Internet sy portail captif',a1d:'— mamorona vouchers, mivarotra eny amin ny comptoir ary mahita avy hatrany ny varotra rehetra ao amin ny Vendus.',a2t:'Cybercafé — postes PC arahina',a2d:'— tomponandraikitra, connexion, déconnexion, fotoam-piasana ary accès Hotspot tantanina isaky ny poste.',a3t:'Caisse azo arahina',a3d:'— PIN mpivarotra, journal de caisse ary tantaran ny varotra mba hampihenana ny very sy hamaliana ny fitarainana.',a4t:'MikroTik no fototra',a4d:'— Hotspot, PPPoE, profils, débit ary diagnostic natao ho an’ny MikroTik RouterOS 6 sy 7.',a5t:'Mobile Money amin’ny Android, rehefa voaamboatra',a5d:'— mamaky sy mikarakara SMS de paiement miaraka amin’ny autorisations ilaina ; tsy mandoa vola ho azy ao amin’ny portefeuille.',a6t:'Miasa eo an-toerana aloha',a6d:'— eo ambany fifehezanao ny paramètres sy ny asa ; accès lavitra raha ianao no misafidy azy.',h_release:'VAOVAO',release_label:'Version',h_verify:'HAMARINO NY FAMPIHENANA',verify_summary:'Asehoy ny empreintes SHA-256 officielles',verify_intro:'Rehefa avy naka rakitra ianao dia ampitahao amin’ity SHA-256 ity mba hanamarinana ny fahamarinan’ny rakitra.',release_link:'Jereo ao amin’ny GitHub ny version officielle sy ny rakitra',h_and:'FAMETRAHANA ANDROID',n_and:'Mety hampiseho fampitandremana ny Android satria tsy avy amin’ny Play Store ny application. Raiso avy amin’ity pejy officielle ity ihany ary ampitahao ny SHA-256 alohan’ny hametrahana.',h_mac:'FAMETRAHANA macOS',n_mac:'Amin’ny fisokafana voalohany dia mety hangataka fanamafisana ny macOS : clic droit amin’ny application → Ouvrir → ekeo. Raiso avy amin’ity pejy officielle ity ihany.',h_remote:'ROHY ILAINA — FIDIRANA LAVITRA',remote_text:'Mba hitantanana routeur lavitra dia ampiasao ny fomba mifanaraka amin’ny installation-nao : WireGuard / Back To Home amin’ny RouterOS 7, na ZeroTier raha tohanan’ny architecture MikroTik. Ao amin’ny aide intégrée ny guides.',w_and:'Play Store — atolotra',w_win:'Fametrahana officielle',w_mac:'App Store — officiel',w_lin:'Torolalana officielle isaky ny distribution',z_zt:'ARM / ARM64 / x86 arakaraka RouterOS',z_mt:'Safidio ny architecture RouterOS',z_rd:'Fanampiana amin’ny PC de caisse',z_hd:'Safidy hafa amin’i RustDesk'},
+      en:{edition:'CLIENT EDITION • MIKROTIK, HOTSPOT & CYBERCAFÉ',sub:'The control center for your Internet business: tickets, captive portal, cash desk, subscribers and PC stations.',slog:'Keep control of your sales and your network, on site or remotely.',release_ready:'Official version available:',h_dl:'DOWNLOAD LIHETI MANAGER CLIENT',f_apk:'Android APK',f_exe:'Windows installer (.exe)',f_lin:'Linux app (.AppImage)',f_mac:'macOS app (.dmg)',h_value:'WHAT LIHETI BRINGS TO YOUR BUSINESS',a1t:'Internet tickets and captive portal',a1d:'— create vouchers, sell them at the counter and find every sale immediately in Sold.',a2t:'Cybercafé — monitored PC stations',a2d:'— responsible person, connection, disconnection, session time and Hotspot access managed per station.',a3t:'Traceable cash desk',a3d:'— seller PIN, cash journal and sales history to reduce losses and answer customer disputes.',a4t:'MikroTik at the core',a4d:'— Hotspot, PPPoE, profiles, bandwidth and diagnostics designed for MikroTik RouterOS 6 and 7.',a5t:'Mobile Money on Android, after configuration',a5d:'— reads and processes payment SMS after required permissions are enabled; it never debits a wallet automatically.',a6t:'Local-first operation',a6d:'— your settings and activity remain under your control; remote access is used only when you choose it.',h_release:'WHAT’S NEW',release_label:'Version',h_verify:'VERIFY YOUR DOWNLOAD',verify_summary:'Show official SHA-256 checksums',verify_intro:'After downloading, compare the file’s SHA-256 checksum with the value below to verify its integrity.',release_link:'View the official release and files on GitHub',h_and:'ANDROID INSTALLATION',n_and:'Android may display a warning because the app is not distributed through Play Store. Download only from this official page and compare the SHA-256 checksum before installing.',h_mac:'macOS INSTALLATION',n_mac:'At first launch, macOS may ask for confirmation: right-click the application → Open → confirm. Download only from this official page.',h_remote:'USEFUL LINKS — REMOTE ACCESS',remote_text:'To manage your router remotely, use the method suitable for your installation: WireGuard / Back To Home on RouterOS 7, or ZeroTier when your MikroTik architecture supports it. The guides remain in the built-in help.',w_and:'Play Store — recommended',w_win:'Official installer',w_mac:'Official App Store',w_lin:'Official distribution guide',z_zt:'ARM / ARM64 / x86 depending on RouterOS',z_mt:'Choose the RouterOS architecture',z_rd:'Cashier-PC support',z_hd:'RustDesk alternative'}
+    };
 
- en:{sub:"WiFi Hotspot & Cybercafe management — MikroTik RouterOS 6 & 7",
-  slog:"No more lost money. See your income, wherever you are.",
-  slog2:"Travelling or abroad, watch your zone live.",
-  h_dl:"DOWNLOAD",f_apk:".apk file",f_exe:".exe installer",f_lin:".AppImage file",f_mac:".dmg disk image",
-  h_why:"WHY LIHETI MANAGER",
-  a1t:"NO server or host needed",a1d:"— your data stays with you. No monthly fees, no dependency.",
-  a2t:"No more lost money",a2d:"— seller PIN, cash log, every ticket recorded.",
-  a3t:"See it from anywhere",a3d:"— check your income remotely (ZeroTier, VPN).",
-  a4t:"Automatic Mobile Money",a4d:"— Orange Money, MVola, Airtel ready to use. Any other provider, any country: you configure it yourself.",
-  a5t:"Sell in seconds",a5d:"— generate a ticket instantly, no queue for your customers.",
-  a6t:"Pay once only",a6d:"— no subscription, free updates.",
-  h_and:"ANDROID INSTALLATION",
-  n_and:"Android blocks apps outside the Play Store by default. During install, allow « Install unknown apps » for your browser. This is normal and safe: the file comes from this official page.",
-  h_mac:"MACOS INSTALLATION",
-  n_mac:"macOS blocks apps outside the App Store. On first launch: right-click the application → « Open » → confirm. Only needed once; the file comes from this official page.",
-  h_zt:"USEFUL LINKS — REMOTE ACCESS",
-  zt1:"To control your router from anywhere. <b>RouterOS 7.14+: Back To Home</b> — a WireGuard tunnel assisted by the MikroTik cloud, working <b>even without a public IP</b> (4G, Starlink, antenna) and on <b>every architecture</b>. Recommended method: the full guide, command by command, is in the built-in help.",
-  zt_ros6t:"What about ZeroTier?",zt_ros6:"Still possible, but <b>only on ARM / ARM64 / x86</b> running RouterOS 7. It does NOT exist for mipsbe (RB951, hEX...) nor RouterOS 6. In those cases: Back To Home if you are on ROS 7, otherwise Tailscale on the cashier PC. All three guides are in the help.",
-  z_mt:"mikrotik.com — choose the architecture",z_rd:"cashier PC, for support",z_hd:"Free alternative to RustDesk",w_and:"Play Store — recommended",w_win:"Official .exe installer",w_mac:"App Store — official",w_lin:"wireguard.com — per distribution",z_zt:"zerotier.com — ARM / x86 only"}
-};
-function setLang(l){
-  document.documentElement.lang=l;
-  document.querySelectorAll('[data-t]').forEach(function(e){var k=e.getAttribute('data-t'); if(T[l][k]!==undefined){if(k==='zt1'||k==='zt_ros6')e.innerHTML=T[l][k];else e.textContent=T[l][k];}});
-  document.querySelectorAll('.lang button').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-l')===l);});
-}
-function loadCurrentDownloads(){
-  var source='https://raw.githubusercontent.com/famillemile/liheti-updates/main/version.json?t='+Date.now();
-  fetch(source,{cache:'no-store'})
-    .then(function(r){
-      if(!r.ok) throw new Error('version.json indisponible');
-      return r.json();
-    })
-    .then(function(v){
-      if(!v || !v.downloads) return;
-      var links={
-        android:'dl-android',
-        windows:'dl-windows',
-        linux:'dl-linux',
-        mac:'dl-mac'
-      };
-      Object.keys(links).forEach(function(platform){
-        var element=document.getElementById(links[platform]);
-        if(element && v.downloads[platform]){
-          element.href=v.downloads[platform];
-        }
+    function setLang(lang){
+      activeLang=lang;
+      document.documentElement.lang=lang;
+      document.querySelectorAll('[data-t]').forEach(function(el){
+        var key=el.getAttribute('data-t');
+        if(T[lang][key]!==undefined) el.textContent=T[lang][key];
       });
-    })
-    .catch(function(error){
-      console.warn('LIHETI : liens locaux conservés',error);
-    });
-}
-loadCurrentDownloads();
-setLang('fr');
-</script>
-</body></html>
+      document.querySelectorAll('.lang button').forEach(function(button){
+        button.classList.toggle('on',button.getAttribute('data-l')===lang);
+      });
+      renderRelease(releaseData);
+    }
+
+    function releaseNote(data){
+      if(data.notes && typeof data.notes==='object') return data.notes[activeLang] || data.notes.fr || data.notes.en || '';
+      return data.notes || '';
+    }
+
+    function renderRelease(data){
+      if(!data) return;
+      var version=data.version ? 'v'+String(data.version).replace(/^v/i,'') : 'v3.12.46';
+      document.getElementById('current-version').textContent=version;
+      document.getElementById('release-version').textContent=version;
+      document.getElementById('release-note').textContent=releaseNote(data);
+      var ids={android:'dl-android',windows:'dl-windows',linux:'dl-linux',mac:'dl-mac'};
+      Object.keys(ids).forEach(function(platform){
+        var link=document.getElementById(ids[platform]);
+        if(link && data.downloads && data.downloads[platform]) link.href=data.downloads[platform];
+      });
+      var names={android:'Android APK',windows:'Windows .exe',linux:'Linux .AppImage',mac:'macOS .dmg'};
+      var list=document.getElementById('checksums');
+      list.textContent='';
+      Object.keys(names).forEach(function(platform){
+        if(!data.checksums || !data.checksums[platform]) return;
+        var row=document.createElement('div'); row.className='checksum';
+        var name=document.createElement('b'); name.textContent=names[platform];
+        var hash=document.createElement('code'); hash.textContent='SHA-256  '+data.checksums[platform];
+        row.appendChild(name); row.appendChild(hash); list.appendChild(row);
+      });
+      document.getElementById('release-page').href=data.release || 'https://github.com/famillemile/liheti-updates/releases/tag/'+version;
+    }
+
+    function loadCurrentDownloads(){
+      var source='https://raw.githubusercontent.com/famillemile/liheti-updates/main/version.json?t='+Date.now();
+      fetch(source,{cache:'no-store'})
+        .then(function(response){ if(!response.ok) throw new Error('version.json indisponible'); return response.json(); })
+        .then(function(data){ releaseData=data; renderRelease(releaseData); })
+        .catch(function(error){ console.warn('LIHETI : informations locales conservées',error); });
+    }
+
+    setLang('fr');
+    loadCurrentDownloads();
+  </script>
+</body>
+</html>

@@ -1,12 +1,24 @@
 {
   "version": "3.12.46",
   "date": "2026-09-05",
-  "notes": "LIHETI Console Pro (SSH), page Offres & tarifs fusionnee, duree cumulative des tickets.",
+  "edition": "CLIENT",
+  "notes": {
+    "fr": "Correctif Tickets, Licences et Cybercafé / Postes PC : ventes visibles dans Vendus, activation plus fiable et compteur connexion-déconnexion par poste.",
+    "mg": "Fanitsiana Tickets, Licences ary Cybercafé / Postes PC : hita ao amin ny Vendus ny varotra, azo antoka kokoa ny activation ary misy compteur connexion-déconnexion isaky ny poste.",
+    "en": "Tickets, licences and Cybercafé / PC stations fixes: sales are visible in Sold, activation is more reliable and every station has a connection-disconnection counter."
+  },
   "downloads": {
     "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/LIHETI-Manager-CLIENT-Setup-3.12.46.exe",
-    "linux":   "https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/LIHETI-Manager-CLIENT-3.12.46-x86_64.AppImage",
-    "mac":     "https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/LIHETI-Manager-CLIENT-3.12.46-universal.dmg",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/LIHETI-Manager-CLIENT-3.12.46-x86_64.AppImage",
+    "mac": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/LIHETI-Manager-CLIENT-3.12.46-universal.dmg",
     "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/C_Liheti_Manager.apk"
   },
+  "checksums": {
+    "windows": "7bb694681b7d536c8c7a0dc960075b836820fd68e2bb1e7ad85a6f86a92394ba",
+    "linux": "7dda2ce16bddbbf245e1c2e60ba4a312a710f35cbb8f43d12afe4554107b316b",
+    "mac": "718b2a917833d56c5ddd80446b707b8927a4f60e376f61ff061513ed7ddf03fa",
+    "android": "6564bfdb0ce32b5a1b757e60d1a2efa1780316dcf369642c7e872e173b412add"
+  },
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.46",
   "page": "https://famillemile.github.io/liheti-updates/"
 }
