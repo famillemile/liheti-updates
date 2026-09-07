@@ -1,24 +1,24 @@
 {
-  "version": "3.12.46",
-  "date": "2026-09-05",
+  "version": "3.12.47",
+  "date": "2026-09-07",
   "edition": "CLIENT",
   "notes": {
-    "fr": "Correctif Tickets, Licences et Cybercafé / Postes PC : ventes visibles dans Vendus, activation plus fiable et compteur connexion-déconnexion par poste.",
-    "mg": "Fanitsiana Tickets, Licences ary Cybercafé / Postes PC : hita ao amin ny Vendus ny varotra, azo antoka kokoa ny activation ary misy compteur connexion-déconnexion isaky ny poste.",
-    "en": "Tickets, licences and Cybercafé / PC stations fixes: sales are visible in Sold, activation is more reliable and every station has a connection-disconnection counter."
+    "fr": "Version 3.12.47 : Diagnostic Pro pour routeurs, antennes et postes de cybercafé ; partage équitable MikroTik avec réserve privée réglable et redistribution du débit inutilisé. Débits de référence à renseigner, analyse de compatibilité avant application. Inclut le raccordement des antennes clientes et Console Pro avec Root / Shizuku sur Android compatible et autorisé.",
+    "mg": "Kinova 3.12.47 : Diagnostic Pro hanampy amin’ny fizahana routeur, antenne ary solosaina ao amin’ny cybercafé ; fizarana ara-drariny ny hafainganam-pandehan’ny Internet amin’ny MikroTik, miaraka amin’ny anjara natokana ho anao sy fizarana indray ny anjara tsy ampiasaina. Ampidiro aloha ny hafainganam-pandeha fototra ary jereo ny fifanarahan’ny fikirakirana. Ao koa ny fampifandraisana antenan’ny mpanjifa sy Console Pro miaraka amin’ny Root / Shizuku amin’ny Android mifanaraka sy nahazo alalana.",
+    "en": "Version 3.12.47: Diagnostic Pro for routers, antennas and cybercafé PCs; fair MikroTik bandwidth sharing with an adjustable private reserve and redistribution of unused capacity. Enter reference speeds and review compatibility before applying. Includes client antenna setup and Console Pro with Root / Shizuku on compatible, authorized Android devices."
   },
   "downloads": {
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/LIHETI-Manager-CLIENT-Setup-3.12.46.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/LIHETI-Manager-CLIENT-3.12.46-x86_64.AppImage",
-    "mac": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/LIHETI-Manager-CLIENT-3.12.46-universal.dmg",
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.46/C_Liheti_Manager.apk"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.47-build34169773002/C_Liheti_Manager.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.47-build34169773002/LIHETI-Manager-CLIENT-Setup-3.12.47.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.47-build34169773002/LIHETI-Manager-CLIENT-3.12.47-x86_64.AppImage",
+    "mac": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.47-build34169773002/LIHETI-Manager-CLIENT-3.12.47-universal.dmg"
   },
   "checksums": {
-    "windows": "7bb694681b7d536c8c7a0dc960075b836820fd68e2bb1e7ad85a6f86a92394ba",
-    "linux": "7dda2ce16bddbbf245e1c2e60ba4a312a710f35cbb8f43d12afe4554107b316b",
-    "mac": "718b2a917833d56c5ddd80446b707b8927a4f60e376f61ff061513ed7ddf03fa",
-    "android": "6564bfdb0ce32b5a1b757e60d1a2efa1780316dcf369642c7e872e173b412add"
+    "android": "e2ae4b37b8c620b660ac4a9820a08386f2cf71c263aa1620743a7b36f72bfe53",
+    "windows": "813a5f030945bf07294c1b5e5537cec084bd31ebc72d5aa02f4e26830b386c54",
+    "linux": "962eb0593f2ed34e3672177974282aaa5f4f90fdd701702211a8466c1ca56554",
+    "mac": "75f9501aae20e2383ac2a3994a44f4fca38e7d8553f856374a585efb5a69aba3"
   },
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.46",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.47-build34169773002",
   "page": "https://famillemile.github.io/liheti-updates/"
 }
