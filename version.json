@@ -1,24 +1,26 @@
 {
   "version": "3.12.47",
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "edition": "CLIENT",
   "notes": {
-    "fr": "Version 3.12.47 : Diagnostic Pro pour routeurs, antennes et cybercafe ; repartition equitable MikroTik avec reserve privee reglable et redistribution du debit inutilise. Debits de reference a renseigner et compatibilite a verifier avant application. Console Pro et Root / Shizuku sur Android compatible avec les autorisations necessaires.",
-    "mg": "Kinova 3.12.47 : Diagnostic Pro ho an ny routeur, antenne ary cybercafe ; fizarana ara-drariny ny Internet amin ny MikroTik, miaraka amin ny anjara natokana ho anao. Ampidiro ny hafainganam-pandeha fototra ary hamarino ny fifanarahan ny fikirakirana. Console Pro sy Root / Shizuku amin ny Android mifanaraka sy nahazo alalana.",
-    "en": "Version 3.12.47: Diagnostic Pro for routers, antennas and cybercafe PCs; fair MikroTik bandwidth sharing with an adjustable private reserve and redistribution of unused capacity. Enter reference speeds and check compatibility before applying. Console Pro and Root / Shizuku on compatible Android devices with the required permissions."
+    "fr": "Correctifs CLIENT 3.12.47 : corrections guidées après diagnostic, aperçu avant confirmation, vérification du résultat et retour arrière pour les actions compatibles. Cybercafé : accès des postes et compteur Windows avec détails masquables. Répartition équitable MikroTik et traductions français–malagasy complétées. Les réparations proposées dépendent du matériel et de sa configuration ; elles ne garantissent pas la résolution de toutes les pannes.",
+    "mg": "Fanitsiana CLIENT 3.12.47 : fanamboarana arahina dingana aorian’ny fizahana, fijerena mialoha ny fanovana, fanamarinana ny vokatra ary famerenana ny fanovana raha tohanan’ilay asa. Cybercafé : fidiran’ny solosaina sy famantaranandro Windows azo afenina ny antsipiriany. Fizarana ara-drariny ny Internet amin’ny MikroTik sy fandikan-teny frantsay–malagasy nohatsaraina. Miankina amin’ny fitaovana sy ny fikirakirany ny fanamboarana azo atao; tsy voatery hahavaha ny olana rehetra izany.",
+    "en": "CLIENT 3.12.47 corrections: guided repairs after diagnosis, preview before confirmation, result verification and rollback for supported actions. Cybercafé PC access and Windows counter with collapsible details. Fair MikroTik bandwidth sharing and expanded French–Malagasy translations. Available repairs depend on the hardware and its configuration; they do not guarantee resolution of every fault."
   },
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.47-build34169773002/C_Liheti_Manager.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.47-build34169773002/LIHETI-Manager-CLIENT-Setup-3.12.47.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.47-build34169773002/LIHETI-Manager-CLIENT-3.12.47-x86_64.AppImage",
-    "mac": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.47-build34169773002/LIHETI-Manager-CLIENT-3.12.47-universal.dmg"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.47-build34327745059/C_Liheti_Manager.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.47-build34327745059/LIHETI-Manager-CLIENT-Setup-3.12.47.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.47-build34327745059/LIHETI-Manager-CLIENT-3.12.47-x86_64.AppImage",
+    "mac": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.47-build34327745059/LIHETI-Manager-CLIENT-3.12.47-universal.dmg"
   },
   "checksums": {
-    "android": "e2ae4b37b8c620b660ac4a9820a08386f2cf71c263aa1620743a7b36f72bfe53",
-    "windows": "813a5f030945bf07294c1b5e5537cec084bd31ebc72d5aa02f4e26830b386c54",
-    "linux": "962eb0593f2ed34e3672177974282aaa5f4f90fdd701702211a8466c1ca56554",
-    "mac": "75f9501aae20e2383ac2a3994a44f4fca38e7d8553f856374a585efb5a69aba3"
+    "android": "0e88ca9136cddc6f2a3635eb5024ab1440f78125f84c291695c75c3c6412e632",
+    "windows": "3165a9e36438b0cebcfd0dc2474b513fe5c982bffe55e39f3c04548407040ad2",
+    "linux": "c9b0727012c5d7ff6028e2720e2d18767294e04e856f640268624bbe106e5d5f",
+    "mac": "8227072cf5289a7ea18b746e6f96b7c43100a8a09c577b20dd12d777170785a2"
   },
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.47-build34169773002",
-  "page": "https://famillemile.github.io/liheti-updates/"
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.47-build34327745059",
+  "page": "https://famillemile.github.io/liheti-updates/",
+  "sourceRunId": 34327745059,
+  "sourceCommit": "6165848fb8639b97d12a5c4fbf93ef362882dc0c"
 }
