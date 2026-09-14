@@ -1,24 +1,10 @@
 {
-  "version": "3.12.48",
-  "date": "2026-09-13",
-  "edition": "CLIENT",
-  "notes": {
-    "fr": "Nouveautés CLIENT 3.12.48 : premier démarrage guidé (langue, pays, mise en service) pour les nouvelles installations. Mesure de la capacité Internet fiabilisée avec trois sources (test routeur, historique, saisie manuelle) et traçabilité systématique. Activation de licence simplifiée, sauvegarde automatique désormais aussi sur PC, assistance à distance unifiée sur HopToDesk. La traduction malgache continue d'avancer ; certains écrans avancés restent en français en attendant un relecteur natif.",
-    "mg": "Fanavaozana CLIENT 3.12.48 : fanombohana voatarika voalohany (fiteny, firenena, fametrahana) ho an'ny fametrahana vaovao. Fandrefesana ny kapasite Internet natsaraina, misy loharano telo (fitsapana avy amin'ny routeur, tantara, fanoratana an-tanana) ary fanaraha-maso mazava. Fanamafisana ny fanomezan-dàlana ho tsotra kokoa, fitehirizana ho azy amin'ny PC koa izao, fanampiana lavitra iray ihany amin'ny HopToDesk. Mandroso hatrany ny fandikan-teny malagasy ; misy efijery mandroso mbola amin'ny teny frantsay miandry mpandinika mpiteny malagasy.",
-    "en": "CLIENT 3.12.48 updates: guided first-time setup (language, country, initial configuration) for new installations. More reliable Internet capacity measurement with three sources (router test, history, manual entry) and systematic traceability. Simplified license activation, automatic backup now also on PC, remote assistance unified on HopToDesk. Malagasy translation keeps improving; some advanced screens remain in French pending a native reviewer."
-  },
+  "version": "main",
+  "date": "2026-09-14",
+  "page": "https://github.com/famillemile/liheti-updates/releases/tag/vmain",
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.48/C_Liheti_Manager.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.48/LIHETI-Manager-CLIENT-Setup-3.12.48.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.48/LIHETI-Manager-CLIENT-3.12.48-x86_64.AppImage",
-    "mac": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.48/LIHETI-Manager-CLIENT-3.12.48-universal.dmg"
-  },
-  "checksums": {
-    "android": "d000d5336638e808e693e32e7d6c17d1d9a0a0b754213c2afc2fffe0a20fd140",
-    "windows": "32756cb27899aff10788c7304abf1635646c21149bb398edaa0291c9eafd49bd",
-    "linux": "3ae44c21c098d61eeb79143d595999eb5604b7fd7a4cf280841707ac44db21f8",
-    "mac": "ff8eb424b24da4a6f8ccd8b46427947cddaa86385d12e11a8408fd0917aef426"
-  },
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.48",
-  "page": "https://famillemile.github.io/liheti-updates/"
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/vmain/LIHETI-Manager-CLIENT-Setup-3.12.49.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/vmain/LIHETI-Manager-CLIENT-3.12.49-x86_64.AppImage",
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/vmain/LIHETI-Manager-CLIENT-3.12.49.apk"
+  }
 }
