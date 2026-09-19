@@ -1,11 +1,11 @@
 ﻿{
-  "version": "3.12.50",
-  "date": "2026-09-19",
-  "page": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.50",
-  "downloads": {
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.50/LIHETI-Manager-CLIENT-Setup-3.12.50.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.50/LIHETI-Manager-CLIENT-3.12.50-x86_64.AppImage",
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.50/LIHETI-Manager-CLIENT-3.12.50.apk"
-  }
+    "version":  "3.12.50",
+    "date":  "2026-09-19",
+    "page":  "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.50",
+    "downloads":  {
+                      "windows":  "https://github.com/famillemile/liheti-updates/releases/download/v3.12.50/LIHETI-Manager-CLIENT-Setup-3.12.50.exe",
+                      "linux":  "https://github.com/famillemile/liheti-updates/releases/download/v3.12.50/LIHETI-Manager-CLIENT-3.12.50-x86_64.AppImage",
+                      "android":  "https://github.com/famillemile/liheti-updates/releases/download/v3.12.50/LIHETI-Manager-CLIENT-3.12.50.apk",
+                      "mac":  "https://github.com/famillemile/liheti-updates/releases/download/v3.12.50/LIHETI-Manager-CLIENT-3.12.50-universal.dmg"
+                  }
 }
-
