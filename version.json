@@ -1,10 +1,23 @@
 {
-  "version": "3.12.49",
+  "version": "3.12.50",
   "date": "2026-09-19",
-  "page": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.49",
+  "edition": "CLIENT",
+  "notes": {
+    "fr": "V50.11.13 / 3.12.50 : synchronisation V50, tickets et ventes, Agent LIHETI, impressions personnalisées, sessions/cookies, corrections terrain et zoom natif.",
+    "mg": "V50.11.13 / 3.12.50 : fanatsarana synchronisation V50, ticket sy varotra, Agent LIHETI, fanontana, sessions/cookies, fanitsiana eny an-kianja ary zoom natif.",
+    "en": "V50.11.13 / 3.12.50: V50 synchronization, ticket and sales fixes, LIHETI Agent, custom printing, sessions/cookies, field fixes and native zoom."
+  },
+  "page": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.50",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.50",
   "downloads": {
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.49/LIHETI-Manager-CLIENT-Setup-3.12.49.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.49/LIHETI-Manager-CLIENT-3.12.49-x86_64.AppImage",
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.49/LIHETI-Manager-CLIENT-3.12.49.apk"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.50/LIHETI-Manager-CLIENT-3.12.50.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.50/LIHETI-Manager-CLIENT-Setup-3.12.50.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.50/LIHETI-Manager-CLIENT-3.12.50-x86_64.AppImage",
+    "mac": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.50"
+  },
+  "checksums": {
+    "android": "0d1e039b81da68b2367c57db96c216a748af8a8f09a03f5ae42a716d24c3dea9",
+    "windows": "caaaba8394fdbd094ce64a74b9febf953f749001bde30cc8d519ac33f0cfc777",
+    "linux": "c16b1c273196854129ab24bd69568ff892f50b7ca596c49ab837eebb0b5f6bc0"
   }
 }
