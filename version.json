@@ -1,23 +1,25 @@
 {
-  "version": "3.12.50",
-  "date": "2026-09-19",
+  "version": "3.12.62",
+  "date": "2026-11-09",
   "edition": "CLIENT",
+  "channel": "prerelease",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-qa.20261109",
+  "page": "https://famillemile.github.io/liheti-updates/",
   "notes": {
-    "fr": "V50.11.13 / 3.12.50 : synchronisation V50, tickets et ventes, Agent LIHETI, impressions personnalisées, sessions/cookies, corrections terrain et zoom natif.",
-    "mg": "V50.11.13 / 3.12.50 : fanatsarana synchronisation V50, ticket sy varotra, Agent LIHETI, fanontana, sessions/cookies, fanitsiana eny an-kianja ary zoom natif.",
-    "en": "V50.11.13 / 3.12.50: V50 synchronization, ticket and sales fixes, LIHETI Agent, custom printing, sessions/cookies, field fixes and native zoom."
+    "fr": "Préversion V100 CLIENT pour recette contrôlée. Tickets par lots, correctifs Ubuntu et PDF thermique Electron. PDF Android trop haut et qualification CLIENT non achevée. APK DEBUG et EXE non signé.",
+    "mg": "CLIENT V100 andrana : tickets maromaro, fanitsiana Ubuntu sy PDF thermique Electron. PDF Android sy fitiliana CLIENT mbola tsy vita. APK DEBUG sy EXE tsy misy sonia.",
+    "en": "CLIENT V100 test preview: batch ticket fixes, Ubuntu installation and Electron thermal PDF fixes. Android PDF height and CLIENT qualification pending. DEBUG APK and unsigned EXE."
   },
-  "page": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.50",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.50",
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.50/LIHETI-Manager-CLIENT-3.12.50.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.50/LIHETI-Manager-CLIENT-Setup-3.12.50.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.50/LIHETI-Manager-CLIENT-3.12.50-x86_64.AppImage",
-    "mac": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.50"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-qa.20261109/LIHETI-GV1-CLIENT-3.12.62-tickets-lots-debug.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-qa.20261109/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-qa.20261109/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-qa.20261109/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
   },
   "checksums": {
-    "android": "0d1e039b81da68b2367c57db96c216a748af8a8f09a03f5ae42a716d24c3dea9",
-    "windows": "caaaba8394fdbd094ce64a74b9febf953f749001bde30cc8d519ac33f0cfc777",
-    "linux": "c16b1c273196854129ab24bd69568ff892f50b7ca596c49ab837eebb0b5f6bc0"
+    "android": "e54f26730032c9acd89684c8283bc194f26c5aaf31a87a1504ddd65612aa8efe",
+    "windows": "04ec174cde52b7a517de1f7441f67dd66c07381c68e18ce336a538347b5dcc43",
+    "linux": "d14e9cdf65741104bc4a207572317721479686211407855e5ec56db96315f5de",
+    "linux_deb": "2de6ace1e5151ff92a060b631bdeb03fcbce1651601a39b5a34f3f7e3e192ade"
   }
 }
