@@ -1,11 +1,11 @@
 # LIHETI MANAGER CLIENT
 
-> **VIP fonctionnel dans le correctif LIHETI GV1.** La création et la relecture ont été vérifiées sur MikroTik RB5009. Durée par défaut : 1 heure, modifiable ; débit Standard : 2,5 / 8 Mb/s par appareil, modifiable. Les liens de la préversion ci-dessous pointent encore vers les anciens installateurs jusqu'à leur remplacement par les nouvelles compilations.
+> **VIP fonctionnel dans le correctif LIHETI GV1.** La création et la relecture ont été vérifiées sur MikroTik RB5009. Durée par défaut : 1 heure, modifiable ; débit Standard : 2,5 / 8 Mb/s par appareil, modifiable. Les nouveaux installateurs CLIENT corrigés sont maintenant disponibles sur la release VIP 2,5/8.
 
 Gestion des tickets Internet, Hotspot et cybercafé, avec un moteur métier commun et des adaptateurs selon les capacités réelles des équipements.
 
 - [Page de téléchargement FR / MG / EN](https://famillemile.github.io/liheti-updates/)
-- [Préversion V100 CLIENT — Android signé, Linux GPG et réglages partagés](https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-sync4.20261110)
+- [Nouvelle préversion V100 CLIENT — VIP corrigé 2,5/8, Android signé](https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-vip25.20261110)
 
 ## Cinq constructeurs intégrés
 
@@ -30,10 +30,10 @@ Les fonctionnalités dépendent du modèle, du firmware, du contrôleur et de la
 
 Quatre installateurs CLIENT : Windows EXE, Linux DEB et AppImage, Android APK. Empreintes dans `SHA256SUMS.txt` sur la release. 
 
-**Signatures** : APK Android release signé avec le certificat historique CLIENT, non DEBUG ; mise à jour versionCode 8 vers 22 vérifiée dans l’émulateur. Linux DEB et AppImage accompagnés de signatures GPG vérifiées. Empreinte publique : `E0996A03C0484D62559DDBD1A951F5974E07555A`. [Clé publique](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-RELEASE-PUBLIC-KEY.asc) · [Manifeste signé](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/SHA256SUMS.txt.asc).
+**Authenticité** : APK Android release signé avec le certificat historique CLIENT (`SHA-256 : 4e8466d8890a8bb4f3daf906fc0978ccb59d7a9bc8478b76f2998e643413eb22`). Windows ne possède pas de signature Authenticode et les paquets Linux de cette release ne sont pas signés GPG. Vérifiez les empreintes dans le manifeste `SHA256SUMS.txt`.
 
 **Préversion de recette** : EXE sans Authenticode et PDF Android encore trop haut. Le paquet macOS universel est compilé pour QA privée, en attente de Developer ID et de notarisation. Les tests de convergence sur quatre contextes et de stockage natif Linux ont réussi ; la recette simultanée de quatre appareils physiques reste à compléter.
 
 **Migration Android** : un APK release ne remplace pas directement une installation signée DEBUG. Sauvegarder les données et prévoir une migration contrôlée ; aucune désinstallation de téléphone sans sauvegarde.
 
-[Rapport de tests et checklist](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/RAPPORT-SYNC4-SIGNATURES.md)
+[Manifeste SHA-256 des quatre nouveaux installateurs](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip25.20261110/SHA256SUMS.txt)
