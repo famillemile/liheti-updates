@@ -1,6 +1,6 @@
 # LIHETI MANAGER CLIENT
 
-> **Correctif VIP en attente de livraison.** Les installateurs liés ci-dessous contiennent un blocage de création VIP. Une correction plus récente a réussi une création et une relecture réelles sur RB5009, avec une durée par défaut de 1 heure modifiable. Les quatre compilations CLIENT corrigées ont réussi ; leur publication finale et la vérification de la réinstallation PERSO restent à terminer. Aucun nouveau binaire corrigé n’est annoncé comme distribué ici.
+> **VIP fonctionnel dans le correctif LIHETI GV1.** La création et la relecture ont été vérifiées sur MikroTik RB5009. Durée par défaut : 1 heure, modifiable ; débit Standard : 2,5 / 8 Mb/s par appareil, modifiable. Les liens de la préversion ci-dessous pointent encore vers les anciens installateurs jusqu'à leur remplacement par les nouvelles compilations.
 
 Gestion des tickets Internet, Hotspot et cybercafé, avec un moteur métier commun et des adaptateurs selon les capacités réelles des équipements.
 
@@ -21,14 +21,14 @@ Les fonctionnalités dépendent du modèle, du firmware, du contrôleur et de la
 
 ## Fonctions et correctifs de cette préversion
 
-- Débit par défaut **2,8 / 8 Mb/s par appareil**, modifiable.
+- Débit par défaut **2,5 / 8 Mb/s par appareil**, modifiable.
 - Trois modes : durée uniquement avec données illimitées, quota uniquement, ou durée + quota.
 - Mode choisi enregistré ; quota activé partagé entre les appareils.
 - Une création incertaine est relue avant toute reprise ; aucun second envoi aveugle.
 - Réglages commerciaux partagés : débits, profils, tarifs et ligne VIP via le transport universel existant.
 - Bluetooth Android : autorisations SCAN + CONNECT demandées avec consentement, sans attribution automatique.
 
-Quatre installateurs CLIENT : Windows EXE, Linux DEB et AppImage, Android APK. Empreintes dans `SHA256SUMS.txt` sur la release. Aucun installateur PERSO publié.
+Quatre installateurs CLIENT : Windows EXE, Linux DEB et AppImage, Android APK. Empreintes dans `SHA256SUMS.txt` sur la release. 
 
 **Signatures** : APK Android release signé avec le certificat historique CLIENT, non DEBUG ; mise à jour versionCode 8 vers 22 vérifiée dans l’émulateur. Linux DEB et AppImage accompagnés de signatures GPG vérifiées. Empreinte publique : `E0996A03C0484D62559DDBD1A951F5974E07555A`. [Clé publique](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-RELEASE-PUBLIC-KEY.asc) · [Manifeste signé](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/SHA256SUMS.txt.asc).
 
