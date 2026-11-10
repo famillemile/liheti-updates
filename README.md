@@ -1,5 +1,7 @@
 # LIHETI MANAGER CLIENT
 
+> **Correctif VIP en attente de livraison.** Les installateurs liés ci-dessous contiennent un blocage de création VIP. Une correction plus récente a réussi une création et une relecture réelles sur RB5009, avec une durée par défaut de 1 heure modifiable. Les quatre compilations CLIENT corrigées ont réussi ; leur publication finale et la vérification de la réinstallation PERSO restent à terminer. Aucun nouveau binaire corrigé n’est annoncé comme distribué ici.
+
 Gestion des tickets Internet, Hotspot et cybercafé, avec un moteur métier commun et des adaptateurs selon les capacités réelles des équipements.
 
 - [Page de téléchargement FR / MG / EN](https://famillemile.github.io/liheti-updates/)
