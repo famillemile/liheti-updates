@@ -1,25 +1,25 @@
 {
   "version": "3.12.62",
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-qa.20261109",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-vip-fix.20261110",
   "page": "https://famillemile.github.io/liheti-updates/",
   "notes": {
-    "fr": "Préversion V100 CLIENT pour recette contrôlée. Tickets par lots, correctifs Ubuntu et PDF thermique Electron. PDF Android trop haut et qualification CLIENT non achevée. APK DEBUG et EXE non signé.",
-    "mg": "CLIENT V100 andrana : tickets maromaro, fanitsiana Ubuntu sy PDF thermique Electron. PDF Android sy fitiliana CLIENT mbola tsy vita. APK DEBUG sy EXE tsy misy sonia.",
-    "en": "CLIENT V100 test preview: batch ticket fixes, Ubuntu installation and Electron thermal PDF fixes. Android PDF height and CLIENT qualification pending. DEBUG APK and unsigned EXE."
+    "fr": "Préversion CLIENT : VIP à 2,8 / 8 Mb/s par appareil, modifiable ; trois modes durée/quota ; données illimitées en mode durée ; reprise en lecture seule après création incertaine. Synchronisation complète des quatre systèmes en cours de validation. APK DEBUG, EXE non signé, PDF Android trop haut et recette CLIENT partielle.",
+    "mg": "CLIENT andrana : VIP 2,8 / 8 Mb/s isaky ny appareil, azo ovaina; mode durée/quota telo; données illimitées amin’ny durée; relecture tsy mandefa fanindroany rehefa tsy voamarina ny création. Synchronisation amin’ny système efatra mbola hamarinina. APK DEBUG, EXE tsy misy sonia, PDF Android mbola lava.",
+    "en": "CLIENT preview: editable VIP speed of 2.8 / 8 Mb/s per device; three duration/quota modes; unlimited data in duration mode; read-only recovery after uncertain creation. Full four-system synchronization is under validation. DEBUG APK, unsigned EXE, tall Android PDF and incomplete CLIENT acceptance tests."
   },
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-qa.20261109/LIHETI-GV1-CLIENT-3.12.62-tickets-lots-debug.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-qa.20261109/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-qa.20261109/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-qa.20261109/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip-fix.20261110/LIHETI-GV1-CLIENT-3.12.62-vip-fix-debug.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip-fix.20261110/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip-fix.20261110/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip-fix.20261110/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
   },
   "checksums": {
-    "android": "e54f26730032c9acd89684c8283bc194f26c5aaf31a87a1504ddd65612aa8efe",
-    "windows": "04ec174cde52b7a517de1f7441f67dd66c07381c68e18ce336a538347b5dcc43",
-    "linux": "d14e9cdf65741104bc4a207572317721479686211407855e5ec56db96315f5de",
-    "linux_deb": "2de6ace1e5151ff92a060b631bdeb03fcbce1651601a39b5a34f3f7e3e192ade"
+    "android": "603b20cada933045b652d173d27c0836373b5fdb5fd2df40f38620a22224887d",
+    "windows": "f9924117ca65fcf211c2aaa40ea4f5fbf9f66a254806786c20f12771aab1c6af",
+    "linux": "e699f6de0b882b4abecee6f7cdae389f9ee8e107d0be1841fbd351befc4345e0",
+    "linux_deb": "9b5dc7bd746e2e9055098cbcd04144c74703f1d6abbb84d134a37a4f8c938249"
   }
 }
