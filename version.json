@@ -6,9 +6,9 @@
   "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-sync4.20261110",
   "page": "https://famillemile.github.io/liheti-updates/",
   "notes": {
-    "fr": "Attention : la création VIP est bloquée dans ces installateurs. Un correctif plus récent a réussi un test réel sur RB5009, mais il n’est pas encore distribué dans cette release. Préversion CLIENT : APK release signé avec la clé historique ; Linux DEB et AppImage signés GPG ; réglages commerciaux partagés ; VIP 2,8 / 8 Mb/s modifiable et trois modes durée/quota ; permissions Bluetooth corrigées. Tests de convergence sur quatre contextes et stockage natif Linux vérifiés. Recette de quatre appareils réels à compléter. Windows sans Authenticode ; macOS QA privé ; PDF Android trop haut.",
-    "mg": "Tandremo: mbola misy blocage amin’ny création VIP ao amin’ireo installateurs ireo. Correctif vaovao nosedraina tamin’ny RB5009, mbola tsy tafiditra amin’ity release ity. CLIENT andrana : APK release voasonia amin’ny clé historique ; Linux DEB sy AppImage voasonia GPG ; paramètres commerciaux zaraina ; VIP 2,8 / 8 Mb/s azo ovaina sy mode durée/quota telo ; Bluetooth voahitsy. Fitsapana contexte efatra sy stockage natif Linux vita ; appareils efatra tena izy mbola hamarinina. Windows tsy misy Authenticode ; macOS QA privé ; PDF Android mbola lava.",
-    "en": "Known issue: VIP creation is blocked in these installers. A newer fix passed a live RB5009 test but is not yet distributed in this release. CLIENT preview: release APK signed with the historical key; GPG-signed Linux DEB and AppImage; shared commercial settings; editable 2.8 / 8 Mb/s VIP with three duration/quota modes; Bluetooth permission fix. Four-context convergence and native Linux storage tested. Four real-device acceptance tests remain. Windows has no Authenticode; macOS is private QA; Android PDF remains too tall."
+    "fr": "VIP fonctionnel dans le correctif LIHETI GV1 : création et relecture vérifiées sur MikroTik RB5009. Débit Standard par défaut : 2,5 / 8 Mb/s par appareil, modifiable. Trois modes : durée uniquement sans quota, quota uniquement, durée + quota (première limite atteinte). Durée par défaut : 1 heure, modifiable. Synchronisation Android / Windows / Linux / macOS. Les liens de téléchargement de cette préversion renvoient encore aux anciens installateurs, en cours de remplacement. APK CLIENT signé avec la clé historique ; Linux DEB et AppImage signés GPG. Windows sans Authenticode ; macOS QA privé ; PDF Android à corriger.",
+    "mg": "Miasa ny VIP ao amin’ny fanitsiana LIHETI GV1 : voamarina tamin’ny MikroTik RB5009 ny famoronana sy ny famerenana mamaky ny ticket. Débit Standard voalohany : 2,5 / 8 Mb/s isaky ny appareil, azo ovaina. Mode telo : durée tsy misy quota, quota ihany, na durée + quota (limite tonga aloha). Durée voalohany : 1 ora, azo ovaina. Synchronisation Android / Windows / Linux / macOS. Mbola ireo installer taloha no asehon’ny rohy fampidinana mandra-panolo azy. APK CLIENT voasonia amin’ny clé historique ; Linux DEB sy AppImage voasonia GPG. Windows tsy misy Authenticode ; macOS QA privé ; PDF Android mbola mila fanitsiana.",
+    "en": "VIP works in the corrected LIHETI GV1 build: creation and read-back verified on MikroTik RB5009. Default Standard rate: editable 2.5 / 8 Mb/s per device. Three modes: duration only without quota, quota only, or duration plus quota (first limit reached). Default duration: editable 1 hour. Android / Windows / Linux / macOS synchronization. The current preview download links still point to older installers pending replacement. CLIENT APK uses the historical signing key; Linux DEB and AppImage are GPG-signed. Windows has no Authenticode; macOS is private QA; Android PDF still needs correction."
   },
   "downloads": {
     "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-GV1-CLIENT-3.12.62-release.apk",
@@ -32,7 +32,7 @@
     "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-GV1-CLIENT-3.12.62-amd64.deb.asc"
   },
   "pending_vip_fix": {
-    "status": "built-and-live-tested-not-yet-published",
+    "status": "corrected-source-and-live-tested;download-binaries-not-yet-replaced",
     "date": "2026-11-10",
     "source_commit": "d9b1497",
     "default_duration_seconds": 3600,
@@ -47,6 +47,7 @@
       "result": "created-and-read-back",
       "legacy_accounts_unchanged": true
     },
-    "final_installation_verified": false
+    "final_installation_verified": false,
+    "default_bandwidth": "2.5M/8M"
   }
 }
