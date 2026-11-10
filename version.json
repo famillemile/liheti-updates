@@ -3,23 +3,32 @@
   "date": "2026-11-10",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-vip-fix.20261110",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-sync4.20261110",
   "page": "https://famillemile.github.io/liheti-updates/",
   "notes": {
-    "fr": "Préversion CLIENT : VIP à 2,8 / 8 Mb/s par appareil, modifiable ; trois modes durée/quota ; données illimitées en mode durée ; reprise en lecture seule après création incertaine. Synchronisation complète des quatre systèmes en cours de validation. APK DEBUG, EXE non signé, PDF Android trop haut et recette CLIENT partielle.",
-    "mg": "CLIENT andrana : VIP 2,8 / 8 Mb/s isaky ny appareil, azo ovaina; mode durée/quota telo; données illimitées amin’ny durée; relecture tsy mandefa fanindroany rehefa tsy voamarina ny création. Synchronisation amin’ny système efatra mbola hamarinina. APK DEBUG, EXE tsy misy sonia, PDF Android mbola lava.",
-    "en": "CLIENT preview: editable VIP speed of 2.8 / 8 Mb/s per device; three duration/quota modes; unlimited data in duration mode; read-only recovery after uncertain creation. Full four-system synchronization is under validation. DEBUG APK, unsigned EXE, tall Android PDF and incomplete CLIENT acceptance tests."
+    "fr": "Préversion CLIENT : APK release signé avec la clé historique ; Linux DEB et AppImage signés GPG ; réglages commerciaux partagés ; VIP 2,8 / 8 Mb/s modifiable et trois modes durée/quota ; permissions Bluetooth corrigées. Tests de convergence sur quatre contextes et stockage natif Linux vérifiés. Recette de quatre appareils réels à compléter. Windows sans Authenticode ; macOS QA privé ; PDF Android trop haut.",
+    "mg": "CLIENT andrana : APK release voasonia amin’ny clé historique ; Linux DEB sy AppImage voasonia GPG ; paramètres commerciaux zaraina ; VIP 2,8 / 8 Mb/s azo ovaina sy mode durée/quota telo ; Bluetooth voahitsy. Fitsapana contexte efatra sy stockage natif Linux vita ; appareils efatra tena izy mbola hamarinina. Windows tsy misy Authenticode ; macOS QA privé ; PDF Android mbola lava.",
+    "en": "CLIENT preview: release APK signed with the historical key; GPG-signed Linux DEB and AppImage; shared commercial settings; editable 2.8 / 8 Mb/s VIP with three duration/quota modes; Bluetooth permission fix. Four-context convergence and native Linux storage tested. Four real-device acceptance tests remain. Windows has no Authenticode; macOS is private QA; Android PDF remains too tall."
   },
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip-fix.20261110/LIHETI-GV1-CLIENT-3.12.62-vip-fix-debug.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip-fix.20261110/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip-fix.20261110/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip-fix.20261110/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-GV1-CLIENT-3.12.62-release.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
   },
   "checksums": {
-    "android": "603b20cada933045b652d173d27c0836373b5fdb5fd2df40f38620a22224887d",
-    "windows": "f9924117ca65fcf211c2aaa40ea4f5fbf9f66a254806786c20f12771aab1c6af",
-    "linux": "e699f6de0b882b4abecee6f7cdae389f9ee8e107d0be1841fbd351befc4345e0",
-    "linux_deb": "9b5dc7bd746e2e9055098cbcd04144c74703f1d6abbb84d134a37a4f8c938249"
+    "android": "a78a1561f6917cbb4c18078c5af3b44c3546b85d619daae41d099db22c55851b",
+    "windows": "8c0001fe0aea8be02d461b987cdbc13a37eca7a76c686d373e56d8f526c35715",
+    "linux": "112ef6bdf1c08ea236fca3373fa3451c3b402bc9b707d0b2dc754a28740e2643",
+    "linux_deb": "5b02baec4a9d6b6669f5001fe20586cb4349e49ee6e202fc13e589e1686cfaeb"
+  },
+  "signatures": {
+    "android_certificate_sha256": "4e8466d8890a8bb4f3daf906fc0978ccb59d7a9bc8478b76f2998e643413eb22",
+    "gpg_fingerprint": "E0996A03C0484D62559DDBD1A951F5974E07555A",
+    "public_key": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-RELEASE-PUBLIC-KEY.asc",
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/SHA256SUMS.txt",
+    "manifest_signature": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/SHA256SUMS.txt.asc",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage.asc",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-GV1-CLIENT-3.12.62-amd64.deb.asc"
   }
 }
