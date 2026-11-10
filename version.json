@@ -3,51 +3,27 @@
   "date": "2026-11-10",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-sync4.20261110",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-vip25.20261110",
   "page": "https://famillemile.github.io/liheti-updates/",
   "notes": {
-    "fr": "VIP fonctionnel dans le correctif LIHETI GV1 : création et relecture vérifiées sur MikroTik RB5009. Débit Standard par défaut : 2,5 / 8 Mb/s par appareil, modifiable. Trois modes : durée uniquement sans quota, quota uniquement, durée + quota (première limite atteinte). Durée par défaut : 1 heure, modifiable. Synchronisation Android / Windows / Linux / macOS. Les liens de téléchargement de cette préversion renvoient encore aux anciens installateurs, en cours de remplacement. APK CLIENT signé avec la clé historique ; Linux DEB et AppImage signés GPG. Windows sans Authenticode ; macOS QA privé ; PDF Android à corriger.",
-    "mg": "Miasa ny VIP ao amin’ny fanitsiana LIHETI GV1 : voamarina tamin’ny MikroTik RB5009 ny famoronana sy ny famerenana mamaky ny ticket. Débit Standard voalohany : 2,5 / 8 Mb/s isaky ny appareil, azo ovaina. Mode telo : durée tsy misy quota, quota ihany, na durée + quota (limite tonga aloha). Durée voalohany : 1 ora, azo ovaina. Synchronisation Android / Windows / Linux / macOS. Mbola ireo installer taloha no asehon’ny rohy fampidinana mandra-panolo azy. APK CLIENT voasonia amin’ny clé historique ; Linux DEB sy AppImage voasonia GPG. Windows tsy misy Authenticode ; macOS QA privé ; PDF Android mbola mila fanitsiana.",
-    "en": "VIP works in the corrected LIHETI GV1 build: creation and read-back verified on MikroTik RB5009. Default Standard rate: editable 2.5 / 8 Mb/s per device. Three modes: duration only without quota, quota only, or duration plus quota (first limit reached). Default duration: editable 1 hour. Android / Windows / Linux / macOS synchronization. The current preview download links still point to older installers pending replacement. CLIENT APK uses the historical signing key; Linux DEB and AppImage are GPG-signed. Windows has no Authenticode; macOS is private QA; Android PDF still needs correction."
+    "fr": "Nouveaux installateurs CLIENT corriges : VIP 2,5 Mb/s en envoi et 8 Mb/s en reception par appareil, modifiables. Trois modes : duree, quota, duree + quota. APK release signe avec la cle historique. Windows sans Authenticode ; Linux sans signature GPG pour cette release. Tests terrain sur plusieurs equipements a poursuivre.",
+    "mg": "Installer CLIENT vaovao : VIP 2,5 Mb/s envoi sy 8 Mb/s reception isaky ny appareil, azo ovaina. Mode telo : duree, quota, duree + quota. APK voasonia tamin ny cle historique. Windows tsy misy Authenticode; Linux tsy misy signature GPG amin ity release ity.",
+    "en": "New corrected CLIENT installers: editable VIP 2.5 Mb/s upload and 8 Mb/s download per device. Three modes: duration, quota, combined. Android APK signed with the historical key. Windows unsigned by Authenticode; Linux not GPG-signed in this release."
   },
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-GV1-CLIENT-3.12.62-release.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip25.20261110/LIHETI-GV1-CLIENT-3.12.62-release.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip25.20261110/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip25.20261110/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip25.20261110/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
   },
   "checksums": {
-    "android": "a78a1561f6917cbb4c18078c5af3b44c3546b85d619daae41d099db22c55851b",
-    "windows": "8c0001fe0aea8be02d461b987cdbc13a37eca7a76c686d373e56d8f526c35715",
-    "linux": "112ef6bdf1c08ea236fca3373fa3451c3b402bc9b707d0b2dc754a28740e2643",
-    "linux_deb": "5b02baec4a9d6b6669f5001fe20586cb4349e49ee6e202fc13e589e1686cfaeb"
+    "android": "80969beef53073e6d10be41c46b900308c108defe84bcd3fac37d33f7b7c109b",
+    "windows": "fb6a295cab42c6fcfd3327fbcf5f4b753c05d75d03cae080d8d11854ad74ea3e",
+    "linux": "ad7a9cc0bdf047e5e6f1648da4047b39e39ae1116275805d8b1915f3f4f112f2",
+    "linux_deb": "fcda2ab66a9cc52c2a8315c12b7147425e4759cc4c13dd3cc32af7229aa0ff4c"
   },
   "signatures": {
     "android_certificate_sha256": "4e8466d8890a8bb4f3daf906fc0978ccb59d7a9bc8478b76f2998e643413eb22",
-    "gpg_fingerprint": "E0996A03C0484D62559DDBD1A951F5974E07555A",
-    "public_key": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-RELEASE-PUBLIC-KEY.asc",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/SHA256SUMS.txt",
-    "manifest_signature": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/SHA256SUMS.txt.asc",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage.asc",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-sync4.20261110/LIHETI-GV1-CLIENT-3.12.62-amd64.deb.asc"
-  },
-  "pending_vip_fix": {
-    "status": "corrected-source-and-live-tested;download-binaries-not-yet-replaced",
-    "date": "2026-11-10",
-    "source_commit": "d9b1497",
-    "default_duration_seconds": 3600,
-    "default_duration_editable": true,
-    "live_test": {
-      "router_model": "RB5009",
-      "edition": "PERSO",
-      "duration_seconds": 300,
-      "devices": 2,
-      "data_unlimited": true,
-      "price_mga": 0,
-      "result": "created-and-read-back",
-      "legacy_accounts_unchanged": true
-    },
-    "final_installation_verified": false,
-    "default_bandwidth": "2.5M/8M"
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip25.20261110/SHA256SUMS.txt"
   }
 }
