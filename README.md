@@ -9,7 +9,7 @@ Gestion des tickets Internet, Hotspot et cybercafé, avec un moteur métier comm
 
 | Constructeur | Mode de connexion présent |
 |---|---|
-| MikroTik | RouterOS 7 REST pour le pilote VIP par appareil |
+| MikroTik | RB5009 et hAP ac² compatibles sous RouterOS 7 avec API REST activée ; tickets Hotspot et VIP multi-appareils |
 | Cudy | Modèles OpenWrt/openNDS compatibles ; ou point d’accès derrière passerelle LIHETI |
 | TP-Link | Omada 5.9+ Open API, modèles OpenWrt compatibles, ou point d’accès derrière passerelle |
 | Tenda | Modèles OpenWrt/openNDS compatibles ; ou point d’accès derrière passerelle |
@@ -26,4 +26,4 @@ Les fonctionnalités dépendent du modèle, du firmware, du contrôleur et de la
 
 Quatre installateurs CLIENT : Windows EXE, Linux DEB et AppImage, Android APK. Empreintes dans `SHA256SUMS.txt` sur la release. Aucun installateur PERSO publié.
 
-**Préversion de recette** : APK signé DEBUG, EXE sans Authenticode, PDF Android encore trop haut. Le correctif de délai doit être exercé sur le hAP ac² lent. Aucun binaire macOS V100 fourni à ce stade. La synchronisation immédiate de tous les nouveaux réglages sur Android, Windows, Linux et macOS est en cours de validation ; elle n’est pas certifiée par cette release.
+**Préversion de recette** : APK signé DEBUG, EXE sans Authenticode, PDF Android encore trop haut. Aucun binaire macOS V100 fourni à ce stade. La synchronisation immédiate de tous les nouveaux réglages sur Android, Windows, Linux et macOS est en cours de validation ; elle n’est pas certifiée par cette release.
