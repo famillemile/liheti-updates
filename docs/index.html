@@ -75,11 +75,6 @@
       <div class="arg"><b data-t="a8t"></b> <span data-t="a8d"></span></div>
     </section>
 
-    <section aria-labelledby="release-title">
-      <h2 id="release-title" data-t="h_release"></h2>
-      <div class="note green"><p><b data-t="release_label"></b> <strong id="release-version">v3.12.62</strong></p><p id="release-note"></p></div>
-    </section>
-
     <section aria-labelledby="verify-title">
       <h2 id="verify-title" data-t="h_verify"></h2>
       <details class="verify">
@@ -209,8 +204,6 @@
       if(!data) return;
       var version=data.version ? 'v'+String(data.version).replace(/^v/i,'') : 'v3.12.62';
       document.getElementById('current-version').textContent=version+' — PRÉVERSION CLIENT';
-      document.getElementById('release-version').textContent=version;
-      document.getElementById('release-note').textContent=releaseNote(data);
       var ids={android:'dl-android',windows:'dl-windows',linux:'dl-linux',linux_deb:'dl-linux-deb'};
       Object.keys(ids).forEach(function(platform){
         var link=document.getElementById(ids[platform]);
