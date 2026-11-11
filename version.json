@@ -1,29 +1,29 @@
 {
   "version": "3.12.62",
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-vip25.20261110",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-final.20261111",
   "page": "https://famillemile.github.io/liheti-updates/",
   "notes": {
-    "fr": "Nouveaux installateurs CLIENT corriges : VIP 2,5 Mb/s en envoi et 8 Mb/s en reception par appareil, modifiables. Trois modes : duree, quota, duree + quota. APK release signe avec la cle historique. Windows sans Authenticode ; Linux sans signature GPG pour cette release. Tests terrain sur plusieurs equipements a poursuivre.",
-    "mg": "Installer CLIENT vaovao : VIP 2,5 Mb/s envoi sy 8 Mb/s reception isaky ny appareil, azo ovaina. Mode telo : duree, quota, duree + quota. APK voasonia tamin ny cle historique. Windows tsy misy Authenticode; Linux tsy misy signature GPG amin ity release ity.",
-    "en": "New corrected CLIENT installers: editable VIP 2.5 Mb/s upload and 8 Mb/s download per device. Three modes: duration, quota, combined. Android APK signed with the historical key. Windows unsigned by Authenticode; Linux not GPG-signed in this release."
+    "fr": "Correctifs du 11 novembre : Windows et Linux recompilés, tests VIP 30 jours, protections tickets et Kiosque réussis. Android : APK signé du 10 novembre conservé (les correctifs du 11 novembre ne sont PAS inclus). Préversion : tests terrain restants.",
+    "mg": "Fanitsiana 11 Novambra: Windows sy Linux vaovao. Android: APK voasonia tamin ny 10 Novambra ihany, tsy misy fanitsiana 11 Novambra. Mbola version fitsapana.",
+    "en": "November 11 fixes: rebuilt Windows and Linux with VIP/ticket/kiosk automated checks. Android remains the signed November 10 APK WITHOUT November 11 fixes. Preview; field testing pending."
   },
   "downloads": {
     "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip25.20261110/LIHETI-GV1-CLIENT-3.12.62-release.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip25.20261110/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip25.20261110/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip25.20261110/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
   },
   "checksums": {
     "android": "80969beef53073e6d10be41c46b900308c108defe84bcd3fac37d33f7b7c109b",
-    "windows": "fb6a295cab42c6fcfd3327fbcf5f4b753c05d75d03cae080d8d11854ad74ea3e",
-    "linux": "ad7a9cc0bdf047e5e6f1648da4047b39e39ae1116275805d8b1915f3f4f112f2",
-    "linux_deb": "fcda2ab66a9cc52c2a8315c12b7147425e4759cc4c13dd3cc32af7229aa0ff4c"
+    "windows": "c6ff592e83e0a8488819d9ebae68871a79fbbcb5dc8d35ea1ab8f89411010880",
+    "linux": "d2da975375abb6e240b6de1f8238c550d8c49b5e7647294a5aee38c1f64d5143",
+    "linux_deb": "9c9a80c313506172aa19887dce2e5c37e585ec4b7aa395f9ca18f5acf465a0f0"
   },
   "signatures": {
     "android_certificate_sha256": "4e8466d8890a8bb4f3daf906fc0978ccb59d7a9bc8478b76f2998e643413eb22",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip25.20261110/SHA256SUMS.txt"
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/SHA256SUMS-LINUX.txt"
   }
 }
