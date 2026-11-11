@@ -6,8 +6,8 @@
   <meta name="description" content="Téléchargez LIHETI Manager CLIENT : gestion MikroTik, Cudy, TP-Link, Tenda et Ubiquiti ; tickets VIP, Hotspot et cybercafé.">
   <title>LIHETI V100 CLIENT — Préversion à télécharger</title>
   <style>
-    :root{--bg:#080c12;--card:#10151d;--card2:#161d27;--bd:#263241;--tx:#edf3fb;--mu:#98a7b8;--vert:#2ecc71;--bleu:#4dd2ff;--rouge:#ed1d24;--jaune:#ffd24d}
-    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+    :root{--bg:#053d50;--card:rgba(4,27,45,.90);--card2:rgba(5,33,53,.92);--bd:rgba(107,225,224,.31);--tx:#f3fbff;--mu:#c3e5ee;--vert:#42f39a;--bleu:#75e8ff;--rouge:#ff6366;--jaune:#ffe373}
+    *{box-sizing:border-box} body{margin:0;background-color:var(--bg);background-image:linear-gradient(180deg,rgba(0,25,53,.61) 0%,rgba(0,41,64,.68) 42%,rgba(0,39,60,.78) 100%),url("ocean-indien-liheti-fond.jpg");background-position:center top;background-repeat:no-repeat;background-size:cover;background-attachment:fixed;color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
     .wrap{max-width:1120px;margin:0 auto;padding:16px 16px 60px}.lang{display:flex;gap:8px;justify-content:center;padding:10px 0}
     .lang button{background:var(--card2);border:1px solid var(--bd);color:var(--mu);padding:7px 18px;border-radius:999px;font-weight:800;cursor:pointer;font-size:14px}.lang button.on{background:var(--vert);color:#05270f;border-color:var(--vert)}
     header{text-align:center;padding:18px 0 24px;border-bottom:1px solid var(--bd)}header img{width:116px;height:116px;border-radius:26px;box-shadow:0 12px 32px #0008}.eyebrow{margin:8px 0 0;color:var(--bleu);font-size:12px;font-weight:850;letter-spacing:1.1px}
@@ -19,6 +19,16 @@
     .verify{background:var(--card);border:1px solid var(--bd);border-radius:13px;padding:0 16px}.verify summary{padding:14px 0;cursor:pointer;color:var(--tx);font-weight:750}.verify-inner{padding:0 0 14px;color:var(--mu);font-size:13px}.checksums{display:grid;gap:8px;margin:11px 0}.checksum{display:grid;grid-template-columns:minmax(105px,auto) minmax(0,1fr);gap:9px;padding:9px 10px;border-radius:9px;background:#0a0f16}.checksum b{color:var(--tx)}.checksum code{overflow-wrap:anywhere;color:#b5c9da;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:11px}
     .release-link{display:inline-block;margin-top:4px;color:var(--bleu);font-weight:750;text-decoration:none}.release-link:hover{text-decoration:underline}.support{background:#0e1a12;border:1px solid #1e5c34;border-radius:13px;padding:14px 17px;margin-bottom:12px;font-size:13.5px}.support b{color:var(--jaune)}
     footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--bd);text-align:center;font-size:14px}.tel{display:inline-block;background:var(--jaune);color:#141414;font-weight:850;padding:10px 20px;border-radius:999px;margin:6px 3px;text-decoration:none}
+    /* Océan Indien — fond issu du visuel fourni, cartes contrastées et thème responsive. */
+    .wrap{max-width:1120px}.wrap>header{background:rgba(3,24,42,.27);border-radius:22px;padding:24px 12px 28px;backdrop-filter:blur(2px)}
+    .dl,.arg,.verify,.support,.note{box-shadow:0 12px 32px rgba(0,12,31,.30);backdrop-filter:blur(9px)}
+    .dl:hover{background:rgba(5,58,78,.96);border-color:#70ffb4;box-shadow:0 14px 34px rgba(0,19,39,.45)}
+    .note{background:rgba(54,40,7,.88);border-color:rgba(255,218,108,.45)}.note.green{background:rgba(4,58,41,.88);border-color:rgba(102,244,166,.48)}
+    .support{background:rgba(4,48,44,.88);border-color:rgba(99,237,192,.45)}
+    .checksum{background:rgba(2,22,39,.82)}
+    h2{color:#e6fbff;text-shadow:0 2px 8px rgba(0,17,37,.7)}.eyebrow{color:#a8efff}
+    footer{background:rgba(3,27,44,.36);border-radius:16px;padding-bottom:15px}
+    @media(max-width:700px){body{background-attachment:scroll;background-position:54% top}.wrap>header{border-radius:16px}.dl,.arg,.verify,.support,.note{backdrop-filter:none}}
     @media(max-width:480px){.wrap{padding-inline:12px}.lang button{padding-inline:14px}.checksum{grid-template-columns:1fr}.release-badge{border-radius:15px}}
   </style>
 </head>
