@@ -3,21 +3,21 @@
   "date": "2026-11-11",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-final.20261111",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-android-client-signed24.20261111",
   "page": "https://famillemile.github.io/liheti-updates/",
   "notes": {
-    "fr": "11 novembre : installateurs CLIENT corrigés Windows, Linux et Android. APK Android 3.12.62.23 signé avec le certificat historique, mise à jour depuis versionCode 22. Tests automatisés VIP 30 jours, tickets et Kiosque réussis. Préversion : tests terrain et PDF Android à poursuivre.",
-    "mg": "11 Novambra: Windows, Linux ary Android CLIENT nohavaozina. APK Android 3.12.62.23 voasonia amin ny certificat taloha; versionCode 23. Mbola préversion mila fitsapana eny an-kianja.",
-    "en": "November 11: updated Windows, Linux and Android CLIENT. Android APK 3.12.62.23 uses the historical signing certificate, versionCode 23. Automated VIP, ticket and kiosk checks passed. Preview; field tests and Android PDF checks remain."
+    "fr": "11 novembre : Android CLIENT 3.12.62.24 signé avec le certificat officiel, versionCode 24. Correction des fausses alertes « Le routeur a changé » lors de la création VIP, amélioration de la lisibilité et clarification de l’expiration. Mise à jour possible sans désinstaller la version CLIENT 3.12.62.23 signée. Préversion : vérification sur un routeur réel et impression PDF Android à poursuivre.",
+    "mg": "11 Novambra: Android CLIENT 3.12.62.24 voasonia amin ny certificat ofisialy, versionCode 24. Voahitsy ny fampitandremana diso momba ny fiovan’ny router rehefa mamorona VIP. Aza esorina ny app taloha: havaozy eo amboniny. Mbola mila fitsapana amin’ny router tena izy.",
+    "en": "November 11: Android CLIENT 3.12.62.24 signed with the existing release certificate, versionCode 24. Fixes false router-changed warnings during VIP creation, improves mobile contrast and clarifies expiry. Update in place from signed CLIENT 3.12.62.23. Preview: real-router and Android PDF printing tests pending."
   },
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-3.12.62-release.apk",
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-android-client-signed24.20261111/LIHETI-GV1-CLIENT-3.12.62.24-release.apk",
     "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
     "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
     "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
   },
   "checksums": {
-    "android": "cfd1ce8b4bd3d2eaafd33ee7519f3c1650af1b73f23a02edc5093e5f5fa9d2c8",
+    "android": "24a832b9a345b82a6194b08fcd209a000dcfc9e383bcc94f0dc3f27a0dca729f",
     "windows": "c6ff592e83e0a8488819d9ebae68871a79fbbcb5dc8d35ea1ab8f89411010880",
     "linux": "d2da975375abb6e240b6de1f8238c550d8c49b5e7647294a5aee38c1f64d5143",
     "linux_deb": "9c9a80c313506172aa19887dce2e5c37e585ec4b7aa395f9ca18f5acf465a0f0"
@@ -25,5 +25,7 @@
   "signatures": {
     "android_certificate_sha256": "4e8466d8890a8bb4f3daf906fc0978ccb59d7a9bc8478b76f2998e643413eb22",
     "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/SHA256SUMS-LINUX.txt"
-  }
+  },
+  "android_version_code": 24,
+  "android_version_name": "3.12.62.24"
 }
