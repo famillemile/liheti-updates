@@ -1,31 +1,33 @@
 {
   "version": "3.12.62",
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-android-client-signed24.20261111",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-desktop-delete-fix.20261112",
   "page": "https://famillemile.github.io/liheti-updates/",
   "notes": {
-    "fr": "11 novembre : Android CLIENT 3.12.62.24 signé avec le certificat officiel, versionCode 24. Correction des fausses alertes « Le routeur a changé » lors de la création VIP, amélioration de la lisibilité et clarification de l’expiration. Mise à jour possible sans désinstaller la version CLIENT 3.12.62.23 signée. Préversion : vérification sur un routeur réel et impression PDF Android à poursuivre.",
-    "mg": "11 Novambra: Android CLIENT 3.12.62.24 voasonia amin ny certificat ofisialy, versionCode 24. Voahitsy ny fampitandremana diso momba ny fiovan’ny router rehefa mamorona VIP. Aza esorina ny app taloha: havaozy eo amboniny. Mbola mila fitsapana amin’ny router tena izy.",
-    "en": "November 11: Android CLIENT 3.12.62.24 signed with the existing release certificate, versionCode 24. Fixes false router-changed warnings during VIP creation, improves mobile contrast and clarifies expiry. Update in place from signed CLIENT 3.12.62.23. Preview: real-router and Android PDF printing tests pending."
+    "fr": "12 novembre : Windows, Ubuntu/Debian et Linux CLIENT 3.12.62 recompilés avec corrections de la suppression (En vente, Vendus, Nettoyage). Préversion : tests automatisés réussis, tests réels CLIENT à poursuivre. Android : version signée officielle 3.12.62.24 du 11 novembre, compatible mise à jour de .23 ; le correctif de suppression du 12 novembre n'est pas encore inclus dans cet APK. Sauvegardez vos données avant mise à jour.",
+    "mg": "12 Novambra: Windows sy Linux CLIENT 3.12.62 nohavaozina amin'ny fanitsiana famafana ticket (En vente, Vendus, Nettoyage). Préversion: mbola mila fitsapana mivantana CLIENT. Android: APK 3.12.62.24 ofisialy voasonia tamin'ny 11 Novambra; mbola tsy ahitana ny fanitsiana famafana tamin'ny 12 Novambra. Manaova sauvegarde aloha.",
+    "en": "November 12: rebuilt Windows and Linux CLIENT 3.12.62 with ticket deletion fixes (For Sale, Sold, Cleanup). Prerelease: on-device CLIENT testing remains pending. Android is still the officially signed 3.12.62.24 from November 11, and does not yet include the November 12 deletion fix. Back up your data before updating."
   },
   "downloads": {
     "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-android-client-signed24.20261111/LIHETI-GV1-CLIENT-3.12.62.24-release.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
   },
   "checksums": {
     "android": "24a832b9a345b82a6194b08fcd209a000dcfc9e383bcc94f0dc3f27a0dca729f",
-    "windows": "c6ff592e83e0a8488819d9ebae68871a79fbbcb5dc8d35ea1ab8f89411010880",
-    "linux": "d2da975375abb6e240b6de1f8238c550d8c49b5e7647294a5aee38c1f64d5143",
-    "linux_deb": "9c9a80c313506172aa19887dce2e5c37e585ec4b7aa395f9ca18f5acf465a0f0"
+    "windows": "89f2692e6d5f12d279c8c985107f8276e4be1d03b48452e00e891cc905b7fd18",
+    "linux": "794c4933cb3e4e86811e28aa4c295d984800db9cfabdd99c4913e5f9b7738f34",
+    "linux_deb": "4c0f772f03bc82d4106e87e8aa7818b42e8806ba09041f52147860af5dc2963c"
   },
   "signatures": {
     "android_certificate_sha256": "4e8466d8890a8bb4f3daf906fc0978ccb59d7a9bc8478b76f2998e643413eb22",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/SHA256SUMS-LINUX.txt"
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/SHA256SUMS-CLIENT-20261112.txt"
   },
   "android_version_code": 24,
-  "android_version_name": "3.12.62.24"
+  "android_version_name": "3.12.62.24",
+  "desktop_release_date": "2026-11-12",
+  "android_release_date": "2026-11-11"
 }

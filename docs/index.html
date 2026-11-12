@@ -52,15 +52,15 @@
     <section aria-labelledby="downloads-title">
       <h2 id="downloads-title" data-t="h_dl"></h2>
       <div class="grid">
-        <a class="dl" id="dl-android" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-3.12.62-release.apk"><span class="ic">📱</span><span><b>Android CLIENT</b><span data-t="f_apk"></span></span></a>
-        <a class="dl" id="dl-windows" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-Setup-3.12.62.exe"><span class="ic">💻</span><span><b>Windows CLIENT</b><span data-t="f_exe"></span></span></a>
-        <a class="dl" id="dl-linux-deb" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"><span class="ic">🐧</span><span><b>Ubuntu / Debian CLIENT</b><span data-t="f_deb"></span></span></a>
-        <a class="dl" id="dl-linux" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage"><span class="ic">🐧</span><span><b>Linux CLIENT</b><span data-t="f_lin"></span></span></a>
+        <a class="dl" id="dl-android" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-android-client-signed24.20261111/LIHETI-GV1-CLIENT-3.12.62.24-release.apk"><span class="ic">📱</span><span><b>Android CLIENT 3.12.62.24</b><span data-t="f_apk"></span></span></a>
+        <a class="dl" id="dl-windows" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/LIHETI-GV1-CLIENT-Setup-3.12.62.exe"><span class="ic">💻</span><span><b>Windows CLIENT — 12/11</b><span data-t="f_exe"></span></span></a>
+        <a class="dl" id="dl-linux-deb" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"><span class="ic">🐧</span><span><b>Ubuntu / Debian CLIENT — 12/11</b><span data-t="f_deb"></span></span></a>
+        <a class="dl" id="dl-linux" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage"><span class="ic">🐧</span><span><b>Linux CLIENT — 12/11</b><span data-t="f_lin"></span></span></a>
       </div>
     </section>
 
-    <div class="note" style="margin-top:14px"><b data-t="qa_title"></b> <span data-t="qa_notice"></span> <a class="release-link" href="https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-final.20261111" target="_blank" rel="noopener noreferrer" data-t="qa_link"></a></div>
-    <div class="note" style="margin-top:12px"><b>11/11/2026 — Windows, Linux et Android actualisés.</b> Android 3.12.62.23 signé avec le certificat historique et actualisé le 11/11/2026. Préversion : essais terrain à poursuivre.</div>
+    <div class="note" style="margin-top:14px"><b data-t="qa_title"></b> <span data-t="qa_notice"></span> <a class="release-link" href="https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-desktop-delete-fix.20261112" target="_blank" rel="noopener noreferrer" data-t="qa_link"></a></div>
+    <div class="note" style="margin-top:12px"><b>12/11/2026 — nouveaux installateurs Windows et Linux CLIENT.</b> Android : <b>3.12.62.24 signé</b> (11/11). Le correctif de suppression du 12/11 est dans les versions desktop, <b>pas encore dans Android</b>. Préversion : sauvegarde et validation terrain recommandées.</div>
     <section aria-labelledby="brands-title">
       <h2 id="brands-title" data-t="h_brands"></h2>
       <div class="support" data-t="brands_intro"></div>
@@ -90,7 +90,7 @@
       <h2 id="verify-title" data-t="h_verify"></h2>
       <details class="verify">
         <summary data-t="verify_summary"></summary>
-        <div class="verify-inner"><p data-t="verify_intro"></p><div id="checksums" class="checksums"></div><a id="release-page" class="release-link" href="https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-final.20261111" target="_blank" rel="noopener" data-t="release_link"></a></div>
+        <div class="verify-inner"><p data-t="verify_intro"></p><div id="checksums" class="checksums"></div><a id="release-page" class="release-link" href="https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-desktop-delete-fix.20261112" target="_blank" rel="noopener" data-t="release_link"></a></div>
       </details>
       <div class="note green" style="margin-top:12px"><b>Vérification des téléchargements</b><p>APK Android signé avec le certificat CLIENT historique. Comparez les empreintes SHA-256 avant installation. <a class="release-link" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip25.20261110/SHA256SUMS.txt">Manifeste SHA-256 de cette version</a>.</p></div>
     </section>
@@ -133,34 +133,38 @@
     var activeLang='fr';
     var fallbackRelease={
   "version": "3.12.62",
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-v100-final.20261111",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-desktop-delete-fix.20261112",
   "page": "https://famillemile.github.io/liheti-updates/",
   "notes": {
-    "fr": "Nouveaux installateurs CLIENT corriges : VIP 2,5 Mb/s en envoi et 8 Mb/s en reception par appareil, modifiables. Trois modes : duree, quota, duree + quota. APK release signe avec la cle historique. Windows sans Authenticode ; Linux sans signature GPG pour cette release. Tests terrain sur plusieurs equipements a poursuivre.",
-    "mg": "Installer CLIENT vaovao : VIP 2,5 Mb/s envoi sy 8 Mb/s reception isaky ny appareil, azo ovaina. Mode telo : duree, quota, duree + quota. APK voasonia tamin ny cle historique. Windows tsy misy Authenticode; Linux tsy misy signature GPG amin ity release ity.",
-    "en": "New corrected CLIENT installers: editable VIP 2.5 Mb/s upload and 8 Mb/s download per device. Three modes: duration, quota, combined. Android APK signed with the historical key. Windows unsigned by Authenticode; Linux not GPG-signed in this release."
+    "fr": "12 novembre : Windows, Ubuntu/Debian et Linux CLIENT 3.12.62 recompilés avec corrections de la suppression (En vente, Vendus, Nettoyage). Préversion : tests automatisés réussis, tests réels CLIENT à poursuivre. Android : version signée officielle 3.12.62.24 du 11 novembre, compatible mise à jour de .23 ; le correctif de suppression du 12 novembre n'est pas encore inclus dans cet APK. Sauvegardez vos données avant mise à jour.",
+    "mg": "12 Novambra: Windows sy Linux CLIENT 3.12.62 nohavaozina amin'ny fanitsiana famafana ticket (En vente, Vendus, Nettoyage). Préversion: mbola mila fitsapana mivantana CLIENT. Android: APK 3.12.62.24 ofisialy voasonia tamin'ny 11 Novambra; mbola tsy ahitana ny fanitsiana famafana tamin'ny 12 Novambra. Manaova sauvegarde aloha.",
+    "en": "November 12: rebuilt Windows and Linux CLIENT 3.12.62 with ticket deletion fixes (For Sale, Sold, Cleanup). Prerelease: on-device CLIENT testing remains pending. Android is still the officially signed 3.12.62.24 from November 11, and does not yet include the November 12 deletion fix. Back up your data before updating."
   },
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-3.12.62-release.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-final.20261111/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-android-client-signed24.20261111/LIHETI-GV1-CLIENT-3.12.62.24-release.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
   },
   "checksums": {
-    "android": "cfd1ce8b4bd3d2eaafd33ee7519f3c1650af1b73f23a02edc5093e5f5fa9d2c8",
-    "windows": "fb6a295cab42c6fcfd3327fbcf5f4b753c05d75d03cae080d8d11854ad74ea3e",
-    "linux": "ad7a9cc0bdf047e5e6f1648da4047b39e39ae1116275805d8b1915f3f4f112f2",
-    "linux_deb": "fcda2ab66a9cc52c2a8315c12b7147425e4759cc4c13dd3cc32af7229aa0ff4c"
+    "android": "24a832b9a345b82a6194b08fcd209a000dcfc9e383bcc94f0dc3f27a0dca729f",
+    "windows": "89f2692e6d5f12d279c8c985107f8276e4be1d03b48452e00e891cc905b7fd18",
+    "linux": "794c4933cb3e4e86811e28aa4c295d984800db9cfabdd99c4913e5f9b7738f34",
+    "linux_deb": "4c0f772f03bc82d4106e87e8aa7818b42e8806ba09041f52147860af5dc2963c"
   },
   "signatures": {
     "android_certificate_sha256": "4e8466d8890a8bb4f3daf906fc0978ccb59d7a9bc8478b76f2998e643413eb22",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-vip25.20261110/SHA256SUMS.txt"
-  }
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/SHA256SUMS-CLIENT-20261112.txt"
+  },
+  "android_version_code": 24,
+  "android_version_name": "3.12.62.24",
+  "desktop_release_date": "2026-11-12",
+  "android_release_date": "2026-11-11"
 };
-    var releaseData=fallbackRelease;
+        var releaseData=fallbackRelease;
     var T={
       fr:{edition:'ÉDITION CLIENT • MIKROTIK, HOTSPOT & CYBERCAFÉ',sub:'Le poste de pilotage de votre activité Internet : tickets, portail captif, caisse, abonnés et postes PC.',slog:'Gardez la maîtrise de vos ventes et de votre réseau, sur place comme à distance.',release_ready:'Version officielle disponible :',h_dl:'TÉLÉCHARGER LIHETI MANAGER CLIENT',f_apk:'APK Android',f_exe:'Installateur Windows (.exe)',f_lin:'Application Linux (.AppImage)',f_mac:'Application macOS (.dmg)',h_value:'CE QUE LIHETI APPORTE À VOTRE ACTIVITÉ',a1t:'Tickets Internet et portail captif',a1d:'— créez les vouchers, vendez-les au comptoir et retrouvez immédiatement chaque vente dans Vendus.',a2t:'Cybercafé — postes PC suivis',a2d:'— responsable, connexion, déconnexion, temps de session et accès Hotspot gérés poste par poste.',a3t:'Caisse traçable',a3d:'— PIN vendeur, journal de caisse et historique des ventes pour réduire les pertes et répondre aux contestations.',a4t:'MikroTik au centre',a4d:'— Hotspot, PPPoE, profils, débit et diagnostic conçus pour MikroTik RouterOS 6 et 7.',a5t:'Mobile Money sur Android, après configuration',a5d:'— lecture et traitement des SMS de paiement avec les autorisations nécessaires ; aucun débit automatique de portefeuille.',a6t:'Fonctionnement local prioritaire',a6d:'— vos paramètres et votre activité restent sous votre contrôle ; accès distant seulement lorsque vous le choisissez.',a7t:'Diagnostic et corrections guidées par IA, en ligne et hors ligne',a7d:'— l’app analyse la configuration, propose une correction, montre un aperçu avant confirmation, vérifie le résultat et peut revenir en arrière pour les actions compatibles.',a8t:'Voix en trois langues, en ligne et hors ligne',a8d:'— accompagnement vocal en malgache, français et anglais, qu’il y ait une connexion Internet ou non.',h_release:'NOUVEAUTÉS',release_label:'Version',h_verify:'VÉRIFIER LE TÉLÉCHARGEMENT',verify_summary:'Afficher les empreintes SHA-256 officielles',verify_intro:'Après téléchargement, comparez l’empreinte SHA-256 du fichier avec celle ci-dessous pour vérifier son intégrité.',release_link:'Voir la version officielle et les fichiers sur GitHub',h_and:'INSTALLATION ANDROID',n_and:'Android peut afficher un avertissement car l’application n’est pas distribuée via Play Store. Téléchargez uniquement depuis cette page officielle et comparez l’empreinte SHA-256 avant l’installation.',h_mac:'INSTALLATION macOS',n_mac:'Au premier lancement, macOS peut demander une confirmation : clic droit sur l’application → Ouvrir → confirmer. Téléchargez uniquement depuis cette page officielle.',h_remote:'LIENS UTILES — ACCÈS À DISTANCE',remote_text:'Pour administrer votre routeur à distance, utilisez la méthode adaptée à votre installation : WireGuard / Back To Home sous RouterOS 7, ou ZeroTier lorsque votre architecture MikroTik le permet. Les guides restent dans l’aide intégrée.',w_and:'Play Store — recommandé',w_win:'Installateur officiel',w_mac:'App Store — officiel',w_lin:'Guide officiel par distribution',z_zt:'ARM / ARM64 / x86 selon RouterOS',z_mt:'Choisir l’architecture RouterOS',z_rd:'Assistance sur PC de caisse',z_hd:'Alternative à RustDesk'},
       mg:{edition:'ÉDITION CLIENT • MIKROTIK, HOTSPOT & CYBERCAFÉ',sub:'Fitaovana fitantanana ny asa Internet-nao : tickets, portail captif, caisse, abonnés ary postes PC.',slog:'Tazomy eo am-pelatananao ny varotra sy ny réseau-nao, na eny an-toerana na lavitra.',release_ready:'Misy ny version officielle :',h_dl:'ALAINA LIHETI MANAGER CLIENT',f_apk:'APK Android',f_exe:'Fametrahana Windows (.exe)',f_lin:'Application Linux (.AppImage)',f_mac:'Application macOS (.dmg)',h_value:'IZAY ENTIN’NY LIHETI HO AN’NY ASANAO',a1t:'Tickets Internet sy portail captif',a1d:'— mamorona vouchers, mivarotra eny amin ny comptoir ary mahita avy hatrany ny varotra rehetra ao amin ny Vendus.',a2t:'Cybercafé — postes PC arahina',a2d:'— tomponandraikitra, connexion, déconnexion, fotoam-piasana ary accès Hotspot tantanina isaky ny poste.',a3t:'Caisse azo arahina',a3d:'— PIN mpivarotra, journal de caisse ary tantaran ny varotra mba hampihenana ny very sy hamaliana ny fitarainana.',a4t:'MikroTik no fototra',a4d:'— Hotspot, PPPoE, profils, débit ary diagnostic natao ho an’ny MikroTik RouterOS 6 sy 7.',a5t:'Mobile Money amin’ny Android, rehefa voaamboatra',a5d:'— mamaky sy mikarakara SMS de paiement miaraka amin’ny autorisations ilaina ; tsy mandoa vola ho azy ao amin’ny portefeuille.',a6t:'Miasa eo an-toerana aloha',a6d:'— eo ambany fifehezanao ny paramètres sy ny asa ; accès lavitra raha ianao no misafidy azy.',a7t:'Fanadihadiana sy fanamboarana tarihin’ny IA, na misy Internet na tsia',a7d:'— ny app no mizaha ny configuration, manolotra fanamboarana, mampiseho fijerena mialoha ny fanamarinana, manamarina ny vokatra, ary afaka miverina amin’ny laoniny amin’ireo asa tohanana.',a8t:'Feo amin’ny teny telo, na misy Internet na tsia',a8d:'— fanaperana am-peo amin’ny teny malagasy, frantsay ary anglisy, na misy fifandraisana Internet na tsia.',h_release:'VAOVAO',release_label:'Version',h_verify:'HAMARINO NY FAMPIHENANA',verify_summary:'Asehoy ny empreintes SHA-256 officielles',verify_intro:'Rehefa avy naka rakitra ianao dia ampitahao amin’ity SHA-256 ity mba hanamarinana ny fahamarinan’ny rakitra.',release_link:'Jereo ao amin’ny GitHub ny version officielle sy ny rakitra',h_and:'FAMETRAHANA ANDROID',n_and:'Mety hampiseho fampitandremana ny Android satria tsy avy amin’ny Play Store ny application. Raiso avy amin’ity pejy officielle ity ihany ary ampitahao ny SHA-256 alohan’ny hametrahana.',h_mac:'FAMETRAHANA macOS',n_mac:'Amin’ny fisokafana voalohany dia mety hangataka fanamafisana ny macOS : clic droit amin’ny application → Ouvrir → ekeo. Raiso avy amin’ity pejy officielle ity ihany.',h_remote:'ROHY ILAINA — FIDIRANA LAVITRA',remote_text:'Mba hitantanana routeur lavitra dia ampiasao ny fomba mifanaraka amin’ny installation-nao : WireGuard / Back To Home amin’ny RouterOS 7, na ZeroTier raha tohanan’ny architecture MikroTik. Ao amin’ny aide intégrée ny guides.',w_and:'Play Store — atolotra',w_win:'Fametrahana officielle',w_mac:'App Store — officiel',w_lin:'Torolalana officielle isaky ny distribution',z_zt:'ARM / ARM64 / x86 arakaraka RouterOS',z_mt:'Safidio ny architecture RouterOS',z_rd:'Fanampiana amin’ny PC de caisse',z_hd:'Safidy hafa amin’i RustDesk'},
