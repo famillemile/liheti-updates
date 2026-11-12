@@ -3,28 +3,28 @@
   "date": "2026-11-12",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-desktop-delete-fix.20261112",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-v57-suppression-synchro.20261112",
   "page": "https://famillemile.github.io/liheti-updates/",
   "notes": {
-    "fr": "12 novembre : Windows, Ubuntu/Debian et Linux CLIENT 3.12.62 recompilés avec corrections de la suppression (En vente, Vendus, Nettoyage). Préversion : tests automatisés réussis, tests réels CLIENT à poursuivre. Android : version signée officielle 3.12.62.24 du 11 novembre, compatible mise à jour de .23 ; le correctif de suppression du 12 novembre n'est pas encore inclus dans cet APK. Sauvegardez vos données avant mise à jour.",
-    "mg": "12 Novambra: Windows sy Linux CLIENT 3.12.62 nohavaozina amin'ny fanitsiana famafana ticket (En vente, Vendus, Nettoyage). Préversion: mbola mila fitsapana mivantana CLIENT. Android: APK 3.12.62.24 ofisialy voasonia tamin'ny 11 Novambra; mbola tsy ahitana ny fanitsiana famafana tamin'ny 12 Novambra. Manaova sauvegarde aloha.",
-    "en": "November 12: rebuilt Windows and Linux CLIENT 3.12.62 with ticket deletion fixes (For Sale, Sold, Cleanup). Prerelease: on-device CLIENT testing remains pending. Android is still the officially signed 3.12.62.24 from November 11, and does not yet include the November 12 deletion fix. Back up your data before updating."
+    "fr": "Correctif V57 du 12 novembre 2026 : Windows et Linux CLIENT recompilés, suppression En vente/Vendus/Nettoyage et Liste utilisateurs (simple et sélection multiple) avec contrôle sur routeur et relecture. Tests terrain réussis depuis LIHETI PERSO sur MikroTik avec comptes dédiés aux essais ; la recette CLIENT reste à effectuer. Préversion. Android CLIENT 3.12.62.24 signé (11 novembre) reste inchangé : le correctif V57 n'y est PAS encore présent. Sauvegardez avant mise à jour.",
+    "mg": "12 Novambra 2026: CLIENT Windows sy Linux V57 misy fanitsiana famafana ticket sy Liste utilisateurs, anisan'izany famafana maromaro. Vita ny fitsapana tamin'ny PERSO sy MikroTik, mbola mila fitiliana manokana CLIENT. Android 3.12.62.24 voasonia mbola tsy misy ny fanitsiana V57. Manaova sauvegarde alohan'ny fanavaozana.",
+    "en": "Nov 12, 2026 V57: new Windows and Linux CLIENT builds with fixes for Tickets (For Sale, Sold, Cleanup) and Users list (individual and bulk deletion) with router validation and read-back. On-site tests used PERSO with dedicated MikroTik QA accounts; the CLIENT build still requires on-device testing. Prerelease. Signed Android 3.12.62.24 remains unchanged and does NOT include V57. Back up before updating."
   },
   "downloads": {
     "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-v100-android-client-signed24.20261111/LIHETI-GV1-CLIENT-3.12.62.24-release.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-v57-suppression-synchro.20261112/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-v57-suppression-synchro.20261112/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-v57-suppression-synchro.20261112/LIHETI-GV1-CLIENT-3.12.62-amd64.deb"
   },
   "checksums": {
     "android": "24a832b9a345b82a6194b08fcd209a000dcfc9e383bcc94f0dc3f27a0dca729f",
-    "windows": "89f2692e6d5f12d279c8c985107f8276e4be1d03b48452e00e891cc905b7fd18",
-    "linux": "794c4933cb3e4e86811e28aa4c295d984800db9cfabdd99c4913e5f9b7738f34",
-    "linux_deb": "4c0f772f03bc82d4106e87e8aa7818b42e8806ba09041f52147860af5dc2963c"
+    "windows": "1d57822638b5a82d8471e47bbd4cc18401d60b8dd288d3a4046144173a2e0a8e",
+    "linux": "8613b1c4b23133d7695617d95a611b4c07b9738872dd286f2ec8e1182d5e1d55",
+    "linux_deb": "86dc9f9becd55cc5dc1122ee467ae250a4a4f7d78c6a6553540b0652179be2ba"
   },
   "signatures": {
     "android_certificate_sha256": "4e8466d8890a8bb4f3daf906fc0978ccb59d7a9bc8478b76f2998e643413eb22",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-desktop-delete-fix.20261112/SHA256SUMS-CLIENT-20261112.txt"
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-v57-suppression-synchro.20261112/SHA256SUMS-CLIENT-V57.txt"
   },
   "android_version_code": 24,
   "android_version_name": "3.12.62.24",
