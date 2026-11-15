@@ -1,38 +1,49 @@
 {
   "version": "3.12.62",
-  "date": "2026-11-12",
+  "date": "2026-11-15",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-v57-suppression-synchro.20261112",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-corrige.20261115",
   "page": "https://famillemile.github.io/liheti-updates/",
-  "notes": {
-    "fr": "12 novembre : CLIENT V57 avec suppression corrigée dans En vente, Vendus, Nettoyage et Liste utilisateurs. Windows/Linux et Android APK signé 3.12.62.25 sont disponibles. L'APK .25 porte le même certificat que .24 et peut le mettre à jour sans désinstallation ; son contenu a été vérifié. macOS Intel et Apple Silicon disponibles en ZIP non signés/non notarisés. Préversions : sauvegardez avant installation ; recette Android et macOS physiques encore à effectuer.",
-    "mg": "12 Novambra: CLIENT V57 misy fanitsiana famafana ticket sy Liste utilisateurs. Android 3.12.62.25 APK voasonia ofisialy, mitovy certificat amin'ny .24 ka afaka manao mise à jour tsy manaisotra ilay app. Windows sy Linux havaozina. Mac Intel/Apple Silicon ZIP tsy voasonia Apple. Manaova sauvegarde sy fitsapana mivantana.",
-    "en": "Nov 12: CLIENT V57 now includes ticket and user-list deletion fixes. Officially signed Android 3.12.62.25 uses the same signing certificate as .24 and is update-installable without uninstalling; embedded content was verified. Windows/Linux updated. macOS Intel/Apple Silicon ZIPs are unsigned/unnotarized. Previews: back up before installation; on-device Android and Mac testing is still pending."
-  },
+  "android_version_code": 35,
+  "android_version_name": "3.12.62.35",
+  "desktop_release_date": "2026-11-15",
+  "android_release_date": "2026-11-15",
+  "build": "20261115-vpn",
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-android-v57-signed25.20261112/LIHETI-GV1-CLIENT-3.12.62.25-release.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-v57-suppression-synchro.20261112/LIHETI-GV1-CLIENT-Setup-3.12.62.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-v57-suppression-synchro.20261112/LIHETI-GV1-CLIENT-3.12.62-x86_64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-v57-suppression-synchro.20261112/LIHETI-GV1-CLIENT-3.12.62-amd64.deb",
-    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-macos-v57.20261112/LIHETI-GV1-CLIENT-3.12.62-x64.zip",
-    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-macos-v57.20261112/LIHETI-GV1-CLIENT-3.12.62-arm64.zip"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/LIHETI-GV1-CLIENT-3.12.62.35-VPN-20261115.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/LIHETI-GV1-CLIENT-Setup-3.12.62-VPN-20261115.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/LIHETI-GV1-CLIENT-3.12.62-VPN-20261115-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/LIHETI-GV1-CLIENT-3.12.62-VPN-20261115-amd64.deb",
+    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/LIHETI-GV1-CLIENT-3.12.62-VPN-20261115-x64.zip",
+    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/LIHETI-GV1-CLIENT-3.12.62-VPN-20261115-arm64.zip"
   },
   "checksums": {
-    "android": "d56dfad4975da61184fe8147a4364e39966c4ad48db79ec6ccc3a88f45fe916d",
-    "windows": "1d57822638b5a82d8471e47bbd4cc18401d60b8dd288d3a4046144173a2e0a8e",
-    "linux": "8613b1c4b23133d7695617d95a611b4c07b9738872dd286f2ec8e1182d5e1d55",
-    "linux_deb": "86dc9f9becd55cc5dc1122ee467ae250a4a4f7d78c6a6553540b0652179be2ba",
-    "mac_intel": "e4431627f24cba4f74c0b8cdb309645f9365b4e793c1ec1c8dd8c2315ea49fd7",
-    "mac_apple": "c458a07d7cef1b31d304739c80ab17a92347c59238a5098d44d7eb9c21da6d7e"
+    "android": "6bc866e93a27ee7ae6d229fbc09f4f66d1e493fab56666b0153104e57f7072c7",
+    "windows": "01888d179831d7541c2aeaf237033898d86f2473ddfe37e1d51a6b88e22b3e21",
+    "linux": "e697bfc84f6c9ac5893501de64f164780a3eb8c5cca79d4a7ee5aac4c0031ecc",
+    "linux_deb": "6171a6c0e2a1d8312c507c615d521c2bae11d849378079616ca18bda9c3edaa6",
+    "mac_intel": "1e2f842f1c0bf27899a98f6d64597750a52da12759453f9ee26811f25ebfe521",
+    "mac_apple": "c8700337a8a3ceea9c9814c737e99f206d2752895a958985eb5988057476f520"
+  },
+  "labels": {
+    "android": "Android CLIENT 3.12.62.35",
+    "windows": "Windows CLIENT — 15/11/2026",
+    "linux": "Linux CLIENT — 15/11/2026",
+    "linux_deb": "Ubuntu / Debian CLIENT — 15/11/2026",
+    "mac_intel": "macOS Intel — 15/11/2026",
+    "mac_apple": "macOS Apple Silicon — 15/11/2026"
   },
   "signatures": {
     "android_certificate_sha256": "4e8466d8890a8bb4f3daf906fc0978ccb59d7a9bc8478b76f2998e643413eb22",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-v57-suppression-synchro.20261112/SHA256SUMS-CLIENT-V57.txt",
-    "macos": "Non signé / non notarisé Apple : préversion de test"
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/SHA256SUMS-CLIENT.txt",
+    "windows": "Sans Authenticode",
+    "linux": "Sans signature GPG",
+    "macos": "ZIP non signés / non notarisés Apple ; test sur Mac à effectuer"
   },
-  "android_version_code": 25,
-  "android_version_name": "3.12.62.25",
-  "desktop_release_date": "2026-11-12",
-  "android_release_date": "2026-11-12"
+  "notes": {
+    "fr": "15 novembre 2026 : installateurs CLIENT reconstruits avec les correctifs de synchronisation PC/Android et VPN. Android 3.12.62.35 signé avec le certificat historique. Back To Home testé sur Ubuntu et émulateur Android SDK ; le tunnel Waydroid a échoué pendant les essais. Windows/macOS compilés et contrôlés, sans validation sur appareil réel. Import WireGuard et autorisation VPN nécessaires ; téléphone physique, partage Android natif et accès WireGuard direct public restent à valider.",
+    "mg": "15 Novambra 2026: installer CLIENT nohavaozina miaraka amin’ny fanitsiana synchronisation PC/Android sy VPN. Android 3.12.62.35 voasonia amin’ny certificat historique. Nosedraina tamin’ny Ubuntu sy émulateur Android SDK ny Back To Home; tsy nahomby ny tunnel VPN tao Waydroid. Windows/macOS voa-compile sy voamarina ny rakitra, mbola mila fitsapana amin’ny fitaovana tena izy. Ilaina ny import profil WireGuard sy fanekena VPN.",
+    "en": "November 15, 2026: CLIENT installers rebuilt with PC/Android synchronization and VPN fixes. Android 3.12.62.35 uses the historical signing certificate. Back To Home tested on Ubuntu and the Android SDK emulator; the Waydroid VPN tunnel failed during testing. Windows/macOS packages compiled and checked without real-device validation. WireGuard profile import and VPN consent remain necessary; physical phones, native Android sharing and publicly reachable direct WireGuard remain to be validated."
+  }
 }
