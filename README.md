@@ -3,14 +3,14 @@
 Gestion des tickets Internet, Hotspot et cybercafé, avec un moteur métier commun et des adaptateurs selon les capacités des équipements.
 
 - [Télécharger la version CLIENT corrigée — FR / MG / EN](https://famillemile.github.io/liheti-updates/)
-- [Installateurs et notes de la livraison](https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-corrige.20261115)
-- [Empreintes SHA-256](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/SHA256SUMS-CLIENT.txt)
+- [Installateurs et notes de la livraison](https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-corrige.20261115.2)
+- [Empreintes SHA-256](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/SHA256SUMS-CLIENT.txt)
 
 ## Fichiers actuels
 
 | Plateforme | Version proposée |
 |---|---|
-| Android | CLIENT 3.12.62.35, signé avec le certificat CLIENT historique |
+| Android | CLIENT 3.12.62.36, signé avec le certificat CLIENT historique |
 | Windows x64 | Installateur CLIENT 3.12.62 reconstruit le 15 novembre, sans Authenticode |
 | Linux x64 | AppImage et paquet Ubuntu/Debian reconstruits le 15 novembre |
 | macOS | ZIP Intel et Apple Silicon reconstruits le 15 novembre, non signés / non notarisés |
@@ -34,3 +34,7 @@ MikroTik, Cudy, TP-Link, Tenda et Ubiquiti restent intégrés selon le modèle, 
 APK Android release signé avec le certificat historique CLIENT : `4e8466d8890a8bb4f3daf906fc0978ccb59d7a9bc8478b76f2998e643413eb22`. Mise à jour sans désinstallation depuis un APK release compatible. Une installation DEBUG ou signée autrement nécessite une migration adaptée avec sauvegarde. Windows sans Authenticode ; Linux sans signature GPG pour cette livraison ; macOS non signé et non notarisé.
 
 Vérifiez les empreintes du manifeste avant installation et sauvegardez vos données avant mise à jour. Les fichiers PERSO et les clés privées ne sont pas distribués par ce dépôt public.
+
+## Lots STANDARD — correctif supplémentaire
+
+Lots normaux corrigés : Ticket STANDARD, migration des anciens tickets code seul, attente du journal partagé et annulation pendant la préparation. Création vérifiée sur PC ; interface Android Waydroid vérifiée à 390 px. Création Android à chaud suspendue pendant une interruption ZeroTier. Les profils VIP et les ventes existantes sont conservés. Voir les notes de la nouvelle livraison.

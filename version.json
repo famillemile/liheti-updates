@@ -3,31 +3,31 @@
   "date": "2026-11-15",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-corrige.20261115",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-corrige.20261115.2",
   "page": "https://famillemile.github.io/liheti-updates/",
-  "android_version_code": 35,
-  "android_version_name": "3.12.62.35",
+  "android_version_code": 36,
+  "android_version_name": "3.12.62.36",
   "desktop_release_date": "2026-11-15",
   "android_release_date": "2026-11-15",
-  "build": "20261115-vpn",
+  "build": "20261115-standard",
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/LIHETI-GV1-CLIENT-3.12.62.35-VPN-20261115.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/LIHETI-GV1-CLIENT-Setup-3.12.62-VPN-20261115.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/LIHETI-GV1-CLIENT-3.12.62-VPN-20261115-x86_64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/LIHETI-GV1-CLIENT-3.12.62-VPN-20261115-amd64.deb",
-    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/LIHETI-GV1-CLIENT-3.12.62-VPN-20261115-x64.zip",
-    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/LIHETI-GV1-CLIENT-3.12.62-VPN-20261115-arm64.zip"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/LIHETI-GV1-CLIENT-3.12.62.36-STANDARD-20261115.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/LIHETI-GV1-CLIENT-Setup-3.12.62-STANDARD-20261115.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/LIHETI-GV1-CLIENT-3.12.62-STANDARD-20261115-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/LIHETI-GV1-CLIENT-3.12.62-STANDARD-20261115-amd64.deb",
+    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/LIHETI-GV1-CLIENT-3.12.62-STANDARD-20261115-x64.zip",
+    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/LIHETI-GV1-CLIENT-3.12.62-STANDARD-20261115-arm64.zip"
   },
   "checksums": {
-    "android": "6bc866e93a27ee7ae6d229fbc09f4f66d1e493fab56666b0153104e57f7072c7",
-    "windows": "01888d179831d7541c2aeaf237033898d86f2473ddfe37e1d51a6b88e22b3e21",
-    "linux": "e697bfc84f6c9ac5893501de64f164780a3eb8c5cca79d4a7ee5aac4c0031ecc",
-    "linux_deb": "6171a6c0e2a1d8312c507c615d521c2bae11d849378079616ca18bda9c3edaa6",
-    "mac_intel": "1e2f842f1c0bf27899a98f6d64597750a52da12759453f9ee26811f25ebfe521",
-    "mac_apple": "c8700337a8a3ceea9c9814c737e99f206d2752895a958985eb5988057476f520"
+    "android": "7db9ed527a5bdfb7d7916b84e4489cbffc7f541fd77aa8643501c559052f9dc1",
+    "windows": "1e7b573087a9ba2566b7f141e73f98800218cd789a66f05d172cbf6db0828387",
+    "linux": "e967d9d0529a7da445d40baa01cae63fd23e913c857a7ad10d59130e7cce4d9f",
+    "linux_deb": "13509cd5933d40174408a6e3673016aaf1cf20190f07767f08dedb41e09f7b8f",
+    "mac_intel": "3dd5c06b2c905596b7a201eeaed2a1823139d19ce821775ad38ead4ce5154772",
+    "mac_apple": "ad8e3fcd5b4563db0690b1887de209d6bdf6fd5811268b5690d35c635853527e"
   },
   "labels": {
-    "android": "Android CLIENT 3.12.62.35",
+    "android": "Android CLIENT 3.12.62.36",
     "windows": "Windows CLIENT — 15/11/2026",
     "linux": "Linux CLIENT — 15/11/2026",
     "linux_deb": "Ubuntu / Debian CLIENT — 15/11/2026",
@@ -36,14 +36,14 @@
   },
   "signatures": {
     "android_certificate_sha256": "4e8466d8890a8bb4f3daf906fc0978ccb59d7a9bc8478b76f2998e643413eb22",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115/SHA256SUMS-CLIENT.txt",
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/SHA256SUMS-CLIENT.txt",
     "windows": "Sans Authenticode",
     "linux": "Sans signature GPG",
     "macos": "ZIP non signés / non notarisés Apple ; test sur Mac à effectuer"
   },
   "notes": {
-    "fr": "15 novembre 2026 : installateurs CLIENT reconstruits avec les correctifs de synchronisation PC/Android et VPN. Android 3.12.62.35 signé avec le certificat historique. Back To Home testé sur Ubuntu et émulateur Android SDK ; le tunnel Waydroid a échoué pendant les essais. Windows/macOS compilés et contrôlés, sans validation sur appareil réel. Import WireGuard et autorisation VPN nécessaires ; téléphone physique, partage Android natif et accès WireGuard direct public restent à valider.",
-    "mg": "15 Novambra 2026: installer CLIENT nohavaozina miaraka amin’ny fanitsiana synchronisation PC/Android sy VPN. Android 3.12.62.35 voasonia amin’ny certificat historique. Nosedraina tamin’ny Ubuntu sy émulateur Android SDK ny Back To Home; tsy nahomby ny tunnel VPN tao Waydroid. Windows/macOS voa-compile sy voamarina ny rakitra, mbola mila fitsapana amin’ny fitaovana tena izy. Ilaina ny import profil WireGuard sy fanekena VPN.",
-    "en": "November 15, 2026: CLIENT installers rebuilt with PC/Android synchronization and VPN fixes. Android 3.12.62.35 uses the historical signing certificate. Back To Home tested on Ubuntu and the Android SDK emulator; the Waydroid VPN tunnel failed during testing. Windows/macOS packages compiled and checked without real-device validation. WireGuard profile import and VPN consent remain necessary; physical phones, native Android sharing and publicly reachable direct WireGuard remain to be validated."
+    "fr": "Lots normaux corrigés : Ticket STANDARD, migration des anciens tickets code seul, attente du journal partagé et annulation pendant la préparation. Création vérifiée sur PC ; interface Android Waydroid vérifiée à 390 px. Création Android à chaud suspendue pendant une interruption ZeroTier. 15 novembre 2026 : installateurs CLIENT reconstruits avec les correctifs de synchronisation PC/Android et VPN. Android 3.12.62.36 signé avec le certificat historique. Back To Home testé sur Ubuntu et émulateur Android SDK ; le tunnel Waydroid a échoué pendant les essais. Windows/macOS compilés et contrôlés, sans validation sur appareil réel. Import WireGuard et autorisation VPN nécessaires ; téléphone physique, partage Android natif et accès WireGuard direct public restent à valider.",
+    "mg": "Voahitsy ny lot mahazatra: Ticket STANDARD, migration tapakila taloha, fiandrasana journal partagé ary fanafoanana mandritra ny préparation. Voasedra tamin’ny PC; interface Android Waydroid voamarina amin’ny 390 px. Mbola miandry ny fifandraisana ZeroTier ny création Android à chaud. 15 Novambra 2026: installer CLIENT nohavaozina miaraka amin’ny fanitsiana synchronisation PC/Android sy VPN. Android 3.12.62.36 voasonia amin’ny certificat historique. Nosedraina tamin’ny Ubuntu sy émulateur Android SDK ny Back To Home; tsy nahomby ny tunnel VPN tao Waydroid. Windows/macOS voa-compile sy voamarina ny rakitra, mbola mila fitsapana amin’ny fitaovana tena izy. Ilaina ny import profil WireGuard sy fanekena VPN.",
+    "en": "Normal batches fixed: Ticket STANDARD, legacy code-only ticket migration, waiting for the shared journal and cancellation during preparation. Creation verified on PC; Android Waydroid UI checked at 390px. Live Android creation paused during a ZeroTier outage. November 15, 2026: CLIENT installers rebuilt with PC/Android synchronization and VPN fixes. Android 3.12.62.36 uses the historical signing certificate. Back To Home tested on Ubuntu and the Android SDK emulator; the Waydroid VPN tunnel failed during testing. Windows/macOS packages compiled and checked without real-device validation. WireGuard profile import and VPN consent remain necessary; physical phones, native Android sharing and publicly reachable direct WireGuard remain to be validated."
   }
 }
