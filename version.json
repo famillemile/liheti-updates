@@ -1,49 +1,55 @@
 {
   "version": "3.12.62",
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-corrige.20261115.2",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-portail-zoom.20261116",
   "page": "https://famillemile.github.io/liheti-updates/",
-  "android_version_code": 36,
-  "android_version_name": "3.12.62.36",
-  "desktop_release_date": "2026-11-15",
-  "android_release_date": "2026-11-15",
-  "build": "20261115-standard",
+  "android_version_code": 37,
+  "android_version_name": "3.12.62.37",
+  "desktop_release_date": "2026-11-16",
+  "android_release_date": "2026-11-16",
+  "build": "20261116-portail-zoom",
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/LIHETI-GV1-CLIENT-3.12.62.36-STANDARD-20261115.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/LIHETI-GV1-CLIENT-Setup-3.12.62-STANDARD-20261115.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/LIHETI-GV1-CLIENT-3.12.62-STANDARD-20261115-x86_64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/LIHETI-GV1-CLIENT-3.12.62-STANDARD-20261115-amd64.deb",
-    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/LIHETI-GV1-CLIENT-3.12.62-STANDARD-20261115-x64.zip",
-    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/LIHETI-GV1-CLIENT-3.12.62-STANDARD-20261115-arm64.zip"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-3.12.62.37-PORTAIL-ZOOM-20261116.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-Setup-3.12.62-PORTAIL-ZOOM-20261116.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-ZOOM-20261116-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-ZOOM-20261116-amd64.deb",
+    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-ZOOM-20261116-x64.zip",
+    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-ZOOM-20261116-arm64.zip"
   },
   "checksums": {
-    "android": "7db9ed527a5bdfb7d7916b84e4489cbffc7f541fd77aa8643501c559052f9dc1",
-    "windows": "1e7b573087a9ba2566b7f141e73f98800218cd789a66f05d172cbf6db0828387",
-    "linux": "e967d9d0529a7da445d40baa01cae63fd23e913c857a7ad10d59130e7cce4d9f",
-    "linux_deb": "13509cd5933d40174408a6e3673016aaf1cf20190f07767f08dedb41e09f7b8f",
-    "mac_intel": "3dd5c06b2c905596b7a201eeaed2a1823139d19ce821775ad38ead4ce5154772",
-    "mac_apple": "ad8e3fcd5b4563db0690b1887de209d6bdf6fd5811268b5690d35c635853527e"
+    "android": "f93133af9088cf89bb7b4f6f006f61521365463af74b686b5979c000eeb46107",
+    "windows": "1d8426e2787c0c0f7dac389c48273a7bc7809907712ae524d75e3c09507e0dc7",
+    "linux": "5efcda5c45b5df76f4ea9239e8e647fc2f233b64858d9fc7289cf00eae61707d",
+    "linux_deb": "4446842994e8ff3d485b4224f605039e9051466918b8826328540edac6daf822",
+    "mac_intel": "58d5026a56b4b804431c008e0ba4afbede1aa0080a86aab19c9ae7527ede9f66",
+    "mac_apple": "a205f6ec0ba4247aff63b2af78824cdef69acc5c0959cbae3752e0c84e67b5e2"
   },
   "labels": {
-    "android": "Android CLIENT 3.12.62.36",
-    "windows": "Windows CLIENT — 15/11/2026",
-    "linux": "Linux CLIENT — 15/11/2026",
-    "linux_deb": "Ubuntu / Debian CLIENT — 15/11/2026",
-    "mac_intel": "macOS Intel — 15/11/2026",
-    "mac_apple": "macOS Apple Silicon — 15/11/2026"
+    "android": "Android CLIENT 3.12.62.37",
+    "windows": "Windows CLIENT — 16/11/2026",
+    "linux": "Linux CLIENT — 16/11/2026",
+    "linux_deb": "Ubuntu / Debian CLIENT — 16/11/2026",
+    "mac_intel": "macOS Intel — 16/11/2026",
+    "mac_apple": "macOS Apple Silicon — 16/11/2026"
   },
   "signatures": {
-    "android_certificate_sha256": "4e8466d8890a8bb4f3daf906fc0978ccb59d7a9bc8478b76f2998e643413eb22",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-corrige.20261115.2/SHA256SUMS-CLIENT.txt",
+    "android_certificate_sha256": "000d5cadff59ad8f5228abcf663c1fc20533bb78fb645ac062394e9b30c1a2cc",
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/SHA256SUMS-CLIENT.txt",
     "windows": "Sans Authenticode",
     "linux": "Sans signature GPG",
     "macos": "ZIP non signés / non notarisés Apple ; test sur Mac à effectuer"
   },
   "notes": {
-    "fr": "Lots normaux corrigés : Ticket STANDARD, migration des anciens tickets code seul, attente du journal partagé et annulation pendant la préparation. Création vérifiée sur PC ; interface Android Waydroid vérifiée à 390 px. Création Android à chaud suspendue pendant une interruption ZeroTier. 15 novembre 2026 : installateurs CLIENT reconstruits avec les correctifs de synchronisation PC/Android et VPN. Android 3.12.62.36 signé avec le certificat historique. Back To Home testé sur Ubuntu et émulateur Android SDK ; le tunnel Waydroid a échoué pendant les essais. Windows/macOS compilés et contrôlés, sans validation sur appareil réel. Import WireGuard et autorisation VPN nécessaires ; téléphone physique, partage Android natif et accès WireGuard direct public restent à valider.",
-    "mg": "Voahitsy ny lot mahazatra: Ticket STANDARD, migration tapakila taloha, fiandrasana journal partagé ary fanafoanana mandritra ny préparation. Voasedra tamin’ny PC; interface Android Waydroid voamarina amin’ny 390 px. Mbola miandry ny fifandraisana ZeroTier ny création Android à chaud. 15 Novambra 2026: installer CLIENT nohavaozina miaraka amin’ny fanitsiana synchronisation PC/Android sy VPN. Android 3.12.62.36 voasonia amin’ny certificat historique. Nosedraina tamin’ny Ubuntu sy émulateur Android SDK ny Back To Home; tsy nahomby ny tunnel VPN tao Waydroid. Windows/macOS voa-compile sy voamarina ny rakitra, mbola mila fitsapana amin’ny fitaovana tena izy. Ilaina ny import profil WireGuard sy fanekena VPN.",
-    "en": "Normal batches fixed: Ticket STANDARD, legacy code-only ticket migration, waiting for the shared journal and cancellation during preparation. Creation verified on PC; Android Waydroid UI checked at 390px. Live Android creation paused during a ZeroTier outage. November 15, 2026: CLIENT installers rebuilt with PC/Android synchronization and VPN fixes. Android 3.12.62.36 uses the historical signing certificate. Back To Home tested on Ubuntu and the Android SDK emulator; the Waydroid VPN tunnel failed during testing. Windows/macOS packages compiled and checked without real-device validation. WireGuard profile import and VPN consent remain necessary; physical phones, native Android sharing and publicly reachable direct WireGuard remain to be validated."
-  }
+    "fr": "16 novembre 2026 — Portail corrigé : coordonnées Mobile Money du serveur actif, opérateurs régionaux, tarifs STANDARD et durées écrites en entier. Réglages initiaux modifiables ; zoom PC avec clavier, molette et menu Plus. Essais à chaud Ubuntu et Windows ; Android .36 → .37 installé sans désinstallation dans Waydroid sur Ubuntu. Navigation tactile et aperçus Compact, CONNECT et CONNECT+ vérifiés à 320, 390 et 412 px, sans débordement horizontal. Six paquets contrôlés et SHA-256 publiés. macOS Intel/Apple Silicon : ZIP non signés, sans essai sur Mac réel. Téléphone physique, paiement réel et connexion Hotspot jusqu’à expiration restent à valider. Les anciennes versions Android portant un autre certificat nécessitent une migration sauvegardée. La version de base PC reste 3.12.62 : télécharger ce nouveau fichier pour installer les correctifs.",
+    "mg": "16 Novambra 2026 — Voahitsy ny portail: coordonnées Mobile Money an’ilay serveur ampiasaina, opérateurs, tarif STANDARD ary durée voasoratra feno. Azo ovaina ny réglages voalohany; nohatsaraina ny zoom PC. Voasedra mivantana tamin’ny Ubuntu sy Windows. Android .36 → .37 nohavaozina tao Waydroid amin’ny Ubuntu tsy nanala ny app; navigation tactile sy aperçu Compact, CONNECT ary CONNECT+ voamarina amin’ny 320, 390 ary 412 px. Voamarina ny fonosana enina sy SHA-256. Tsy voasonia ny ZIP macOS ary mbola tsy nosedraina tamin’ny Mac tena izy. Mbola mila fitsapana ny finday tena izy, paiement réel ary fahataperan’ny ticket Hotspot. Mila sauvegarde sy migration ireo Android taloha manana certificat hafa. Mbola 3.12.62 ny version fototra PC: alao ity rakitra vaovao ity.",
+    "en": "November 16, 2026 — Portal fixes reuse the active server’s Mobile Money accounts, regional providers, STANDARD prices and full duration labels. Editable initial settings and improved PC keyboard, wheel and Plus-menu zoom. Live Ubuntu and Windows checks; Android .36 → .37 update installed without uninstalling in Waydroid on Ubuntu. Touch navigation and Compact, CONNECT and CONNECT+ previews checked at 320, 390 and 412px without horizontal overflow. Six packages verified with SHA-256. macOS Intel/Apple Silicon ZIPs are unsigned and have not been tested on a real Mac. Physical phones, real payments and Hotspot authentication through expiry remain to be validated. Older Android releases with another certificate require a backed-up migration. Desktop base version remains 3.12.62; download this new installer to get these fixes."
+  },
+  "android_update_compatibility": {
+    "verified_from_version_code": 36,
+    "uninstall_required": false,
+    "older_certificate_note": "Certaines anciennes versions CLIENT utilisent un autre certificat : sauvegarde et migration à prévoir ; ne pas désinstaller automatiquement."
+  },
+  "source_commit": "809cef1167cfd53208c1f31f76ef6bd0ccad3c5f"
 }
