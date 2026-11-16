@@ -3,54 +3,55 @@
   "date": "2026-11-16",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-android-trafic.20261116",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-connexion-ip.20261116",
   "page": "https://famillemile.github.io/liheti-updates/",
-  "android_version_code": 38,
-  "android_version_name": "3.12.62.38",
+  "android_version_code": 39,
+  "android_version_name": "3.12.62.39",
   "desktop_release_date": "2026-11-16",
   "android_release_date": "2026-11-16",
-  "build": "20261116-android-trafic",
+  "build": "20261116-connexion-ip",
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-android-trafic.20261116/LIHETI-GV1-CLIENT-3.12.62.38-TRAFIC-ANDROID-20261116.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-Setup-3.12.62-PORTAIL-ZOOM-20261116.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-ZOOM-20261116-x86_64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-ZOOM-20261116-amd64.deb",
-    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-ZOOM-20261116-x64.zip",
-    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-ZOOM-20261116-arm64.zip"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexion-ip.20261116/LIHETI-GV1-CLIENT-3.12.62.39-CONNEXION-IP-20261116.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexion-ip.20261116/LIHETI-GV1-CLIENT-Setup-3.12.62-CONNEXION-IP-20261116.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexion-ip.20261116/LIHETI-GV1-CLIENT-3.12.62-CONNEXION-IP-20261116-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexion-ip.20261116/LIHETI-GV1-CLIENT-3.12.62-CONNEXION-IP-20261116-amd64.deb",
+    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexion-ip.20261116/LIHETI-GV1-CLIENT-3.12.62-CONNEXION-IP-20261116-x64.zip",
+    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexion-ip.20261116/LIHETI-GV1-CLIENT-3.12.62-CONNEXION-IP-20261116-arm64.zip"
   },
   "checksums": {
-    "android": "c256ef63600845312df34bd6a0cd7d984370988331462fef1f8cae82a52ac13a",
-    "windows": "1d8426e2787c0c0f7dac389c48273a7bc7809907712ae524d75e3c09507e0dc7",
-    "linux": "5efcda5c45b5df76f4ea9239e8e647fc2f233b64858d9fc7289cf00eae61707d",
-    "linux_deb": "4446842994e8ff3d485b4224f605039e9051466918b8826328540edac6daf822",
-    "mac_intel": "58d5026a56b4b804431c008e0ba4afbede1aa0080a86aab19c9ae7527ede9f66",
-    "mac_apple": "a205f6ec0ba4247aff63b2af78824cdef69acc5c0959cbae3752e0c84e67b5e2"
+    "android": "45f12bef7921a6b57b205b05ef58ab73c8d7abd67ce9f7874809cfbe2474b75f",
+    "windows": "444c53cd7dc3a77469e2805abcd0a8c0adefc9682fc6d67eb2059be3ab3577a7",
+    "linux": "1adb028499bc66646bb32196ccba8aed3d1d1526e6c1abfb61a7cc952d25ed44",
+    "linux_deb": "9474429d083b97fd3861494c12b069c845843e7f7cf10a2cb9fa4364261c57cf",
+    "mac_intel": "a90aa55618b4ee89e90f2622e02614c89965a43cf27fd102676f869988df184a",
+    "mac_apple": "b64d25220a1bc70146f0f8061ee039ed2edb6f219135440f5f2b592f460f397c"
   },
   "labels": {
-    "android": "Android CLIENT 3.12.62.38",
-    "windows": "Windows CLIENT — 16/11/2026",
-    "linux": "Linux CLIENT — 16/11/2026",
-    "linux_deb": "Ubuntu / Debian CLIENT — 16/11/2026",
-    "mac_intel": "macOS Intel — 16/11/2026",
-    "mac_apple": "macOS Apple Silicon — 16/11/2026"
+    "android": "Android CLIENT 3.12.62.39",
+    "windows": "Windows CLIENT — connexion IP — 16/11/2026",
+    "linux": "Linux CLIENT — connexion IP — 16/11/2026",
+    "linux_deb": "Ubuntu / Debian CLIENT — connexion IP — 16/11/2026",
+    "mac_intel": "macOS Intel — connexion IP — 16/11/2026",
+    "mac_apple": "macOS Apple Silicon — connexion IP — 16/11/2026"
   },
   "signatures": {
     "android_certificate_sha256": "000d5cadff59ad8f5228abcf663c1fc20533bb78fb645ac062394e9b30c1a2cc",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-android-trafic.20261116/SHA256SUMS-CLIENT.txt",
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexion-ip.20261116/SHA256SUMS-CLIENT.txt",
     "windows": "Sans Authenticode",
     "linux": "Sans signature GPG",
     "macos": "ZIP non signés / non notarisés Apple ; test sur Mac à effectuer"
   },
   "notes": {
-    "fr": "Android CLIENT .38 — débit WAN disponible lorsque le PC partagé est fermé ou indisponible : lecture directe des compteurs réels du routeur, source Android explicite, puis reprise automatique des mesures communes au retour du PC. Les totaux de consommation restent le dernier état connu du PC ou indisponibles ; les relevés mobiles ne sont pas ajoutés à cet historique. Essais à chaud dans Waydroid sur Ubuntu, mise à jour sans désinstallation et contrôle des données. Les correctifs précédents du portail, Mobile Money, des durées et du zoom sont conservés. Les téléchargements Windows, Linux et macOS restent ceux du 16 novembre. Téléphone physique et Mac réel non testés ; ZIP macOS non signés.",
-    "mg": "Android CLIENT .38 — mandeha ny débit WAN na dia tsy mandeha aza ny PC partagé: vakin’ny Android mivantana ny compteurs tena izy ao amin’ny routeur, ary miverina ho azy amin’ny mesure commune rehefa tafaverina ny PC. Mijanona ho état farany voaray avy amin’ny PC na indisponible ny historique; tsy ampidirina ao ny relevé mobile. Nosedraina tao Waydroid amin’ny Ubuntu, tsy nesorina ny app nandritra ny fanavaozana. Voatahiry ny fanitsiana portail, Mobile Money, durée ary zoom. Tsy niova ireo rakitra PC tamin’ny 16 Novambra. Mbola tsy nosedraina tamin’ny finday sy Mac tena izy; tsy voasonia ny ZIP macOS.",
-    "en": "Android CLIENT .38 — WAN traffic continues when the paired PC is closed or unreachable, using real read-only router counters with an explicit Android source. Shared samples resume automatically when the PC returns. Consumption history remains the last known PC state or unavailable; mobile samples are not added to that history. Live tests in Waydroid on Ubuntu, update without uninstalling and data checks. Previous portal, Mobile Money, duration and zoom fixes retained. Windows, Linux and macOS downloads remain the November 16 packages. No physical phone or real Mac test; macOS ZIPs unsigned."
+    "fr": "Connexions corrigées : l’IP modifiée reste enregistrée, un ancien test ne rétablit plus l’adresse précédente et « Utiliser » se limite au serveur choisi. Le dernier serveur peut être supprimé et ne revient pas au redémarrage. Cette action ne supprime ni les tickets, ni les ventes, ni les comptes du routeur. Essais dans l’application Linux et Android Waydroid sur profils isolés ; Android .39 installé sans désinstallation. Le test de connexion au routeur SMILE WIFI sur son PC Windows reste à effectuer. Les correctifs précédents du portail, Mobile Money, durées, zoom et trafic WAN Android sont conservés. Six paquets contrôlés ; macOS non signé et non testé sur Mac réel.",
+    "mg": "Voahitsy ny connexion: voatahiry ny IP vaovao, tsy averin’ny test taloha intsony ny adiresy teo aloha, ary ilay serveur nofidina ihany no ampiasain’ny « Utiliser ». Azo fafana ny serveur farany ary tsy miverina rehefa averina ny app. Tsy mamafa ticket, vente na compte ao amin’ny routeur izany. Nosedraina tao amin’ny app Linux sy Android Waydroid amin’ny profil fitsapana; Android .39 napetraka tsy nanala ny app. Mbola mila andramana amin’ny PC Windows an’i SMILE WIFI ny connexion amin’ny routeur. Voatahiry ny fanitsiana portail, Mobile Money, durée, zoom ary WAN Android. Tsy voasonia ny macOS ary tsy nosedraina tamin’ny Mac tena izy.",
+    "en": "Connection fixes: edited IPs stay saved, obsolete tests cannot restore an old address, and Use stays within the selected server. The last server can be deleted and stays deleted after restart. This does not delete tickets, sales or router accounts. Tested in the Linux app and Android Waydroid with isolated profiles; Android .39 installed without uninstalling. Connection to SMILE WIFI’s router on its Windows PC remains to be tested. Previous portal, Mobile Money, duration, zoom and Android WAN fixes are retained. Six packages verified; macOS unsigned and not tested on a real Mac."
   },
   "android_update_compatibility": {
-    "verified_from_version_code": 37,
     "uninstall_required": false,
-    "older_certificate_note": "Certaines anciennes versions CLIENT utilisent un autre certificat : sauvegarde et migration à prévoir ; ne pas désinstaller automatiquement."
+    "older_certificate_note": "Certaines anciennes versions CLIENT utilisent un autre certificat : sauvegarde et migration à prévoir ; ne pas désinstaller automatiquement.",
+    "verified_version_code": 39,
+    "certificate_compatible_from_version_code": 36
   },
-  "source_commit": "dc077bc46053d043537f8af90460e20b7b421524",
-  "desktop_release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-portail-zoom.20261116"
+  "source_commit": "449d2739a9730ac44c18eceb34a06814e6b7c7b6",
+  "desktop_release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-connexion-ip.20261116"
 }
