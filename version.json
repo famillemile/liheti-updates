@@ -3,15 +3,15 @@
   "date": "2026-11-16",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-portail-zoom.20261116",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-android-trafic.20261116",
   "page": "https://famillemile.github.io/liheti-updates/",
-  "android_version_code": 37,
-  "android_version_name": "3.12.62.37",
+  "android_version_code": 38,
+  "android_version_name": "3.12.62.38",
   "desktop_release_date": "2026-11-16",
   "android_release_date": "2026-11-16",
-  "build": "20261116-portail-zoom",
+  "build": "20261116-android-trafic",
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-3.12.62.37-PORTAIL-ZOOM-20261116.apk",
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-android-trafic.20261116/LIHETI-GV1-CLIENT-3.12.62.38-TRAFIC-ANDROID-20261116.apk",
     "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-Setup-3.12.62-PORTAIL-ZOOM-20261116.exe",
     "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-ZOOM-20261116-x86_64.AppImage",
     "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-ZOOM-20261116-amd64.deb",
@@ -19,7 +19,7 @@
     "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-ZOOM-20261116-arm64.zip"
   },
   "checksums": {
-    "android": "f93133af9088cf89bb7b4f6f006f61521365463af74b686b5979c000eeb46107",
+    "android": "c256ef63600845312df34bd6a0cd7d984370988331462fef1f8cae82a52ac13a",
     "windows": "1d8426e2787c0c0f7dac389c48273a7bc7809907712ae524d75e3c09507e0dc7",
     "linux": "5efcda5c45b5df76f4ea9239e8e647fc2f233b64858d9fc7289cf00eae61707d",
     "linux_deb": "4446842994e8ff3d485b4224f605039e9051466918b8826328540edac6daf822",
@@ -27,7 +27,7 @@
     "mac_apple": "a205f6ec0ba4247aff63b2af78824cdef69acc5c0959cbae3752e0c84e67b5e2"
   },
   "labels": {
-    "android": "Android CLIENT 3.12.62.37",
+    "android": "Android CLIENT 3.12.62.38",
     "windows": "Windows CLIENT — 16/11/2026",
     "linux": "Linux CLIENT — 16/11/2026",
     "linux_deb": "Ubuntu / Debian CLIENT — 16/11/2026",
@@ -36,20 +36,21 @@
   },
   "signatures": {
     "android_certificate_sha256": "000d5cadff59ad8f5228abcf663c1fc20533bb78fb645ac062394e9b30c1a2cc",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-zoom.20261116/SHA256SUMS-CLIENT.txt",
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-android-trafic.20261116/SHA256SUMS-CLIENT.txt",
     "windows": "Sans Authenticode",
     "linux": "Sans signature GPG",
     "macos": "ZIP non signés / non notarisés Apple ; test sur Mac à effectuer"
   },
   "notes": {
-    "fr": "16 novembre 2026 — Portail corrigé : coordonnées Mobile Money du serveur actif, opérateurs régionaux, tarifs STANDARD et durées écrites en entier. Réglages initiaux modifiables ; zoom PC avec clavier, molette et menu Plus. Essais à chaud Ubuntu et Windows ; Android .36 → .37 installé sans désinstallation dans Waydroid sur Ubuntu. Navigation tactile et aperçus Compact, CONNECT et CONNECT+ vérifiés à 320, 390 et 412 px, sans débordement horizontal. Six paquets contrôlés et SHA-256 publiés. macOS Intel/Apple Silicon : ZIP non signés, sans essai sur Mac réel. Téléphone physique, paiement réel et connexion Hotspot jusqu’à expiration restent à valider. Les anciennes versions Android portant un autre certificat nécessitent une migration sauvegardée. La version de base PC reste 3.12.62 : télécharger ce nouveau fichier pour installer les correctifs.",
-    "mg": "16 Novambra 2026 — Voahitsy ny portail: coordonnées Mobile Money an’ilay serveur ampiasaina, opérateurs, tarif STANDARD ary durée voasoratra feno. Azo ovaina ny réglages voalohany; nohatsaraina ny zoom PC. Voasedra mivantana tamin’ny Ubuntu sy Windows. Android .36 → .37 nohavaozina tao Waydroid amin’ny Ubuntu tsy nanala ny app; navigation tactile sy aperçu Compact, CONNECT ary CONNECT+ voamarina amin’ny 320, 390 ary 412 px. Voamarina ny fonosana enina sy SHA-256. Tsy voasonia ny ZIP macOS ary mbola tsy nosedraina tamin’ny Mac tena izy. Mbola mila fitsapana ny finday tena izy, paiement réel ary fahataperan’ny ticket Hotspot. Mila sauvegarde sy migration ireo Android taloha manana certificat hafa. Mbola 3.12.62 ny version fototra PC: alao ity rakitra vaovao ity.",
-    "en": "November 16, 2026 — Portal fixes reuse the active server’s Mobile Money accounts, regional providers, STANDARD prices and full duration labels. Editable initial settings and improved PC keyboard, wheel and Plus-menu zoom. Live Ubuntu and Windows checks; Android .36 → .37 update installed without uninstalling in Waydroid on Ubuntu. Touch navigation and Compact, CONNECT and CONNECT+ previews checked at 320, 390 and 412px without horizontal overflow. Six packages verified with SHA-256. macOS Intel/Apple Silicon ZIPs are unsigned and have not been tested on a real Mac. Physical phones, real payments and Hotspot authentication through expiry remain to be validated. Older Android releases with another certificate require a backed-up migration. Desktop base version remains 3.12.62; download this new installer to get these fixes."
+    "fr": "Android CLIENT .38 — débit WAN disponible lorsque le PC partagé est fermé ou indisponible : lecture directe des compteurs réels du routeur, source Android explicite, puis reprise automatique des mesures communes au retour du PC. Les totaux de consommation restent le dernier état connu du PC ou indisponibles ; les relevés mobiles ne sont pas ajoutés à cet historique. Essais à chaud dans Waydroid sur Ubuntu, mise à jour sans désinstallation et contrôle des données. Les correctifs précédents du portail, Mobile Money, des durées et du zoom sont conservés. Les téléchargements Windows, Linux et macOS restent ceux du 16 novembre. Téléphone physique et Mac réel non testés ; ZIP macOS non signés.",
+    "mg": "Android CLIENT .38 — mandeha ny débit WAN na dia tsy mandeha aza ny PC partagé: vakin’ny Android mivantana ny compteurs tena izy ao amin’ny routeur, ary miverina ho azy amin’ny mesure commune rehefa tafaverina ny PC. Mijanona ho état farany voaray avy amin’ny PC na indisponible ny historique; tsy ampidirina ao ny relevé mobile. Nosedraina tao Waydroid amin’ny Ubuntu, tsy nesorina ny app nandritra ny fanavaozana. Voatahiry ny fanitsiana portail, Mobile Money, durée ary zoom. Tsy niova ireo rakitra PC tamin’ny 16 Novambra. Mbola tsy nosedraina tamin’ny finday sy Mac tena izy; tsy voasonia ny ZIP macOS.",
+    "en": "Android CLIENT .38 — WAN traffic continues when the paired PC is closed or unreachable, using real read-only router counters with an explicit Android source. Shared samples resume automatically when the PC returns. Consumption history remains the last known PC state or unavailable; mobile samples are not added to that history. Live tests in Waydroid on Ubuntu, update without uninstalling and data checks. Previous portal, Mobile Money, duration and zoom fixes retained. Windows, Linux and macOS downloads remain the November 16 packages. No physical phone or real Mac test; macOS ZIPs unsigned."
   },
   "android_update_compatibility": {
-    "verified_from_version_code": 36,
+    "verified_from_version_code": 37,
     "uninstall_required": false,
     "older_certificate_note": "Certaines anciennes versions CLIENT utilisent un autre certificat : sauvegarde et migration à prévoir ; ne pas désinstaller automatiquement."
   },
-  "source_commit": "809cef1167cfd53208c1f31f76ef6bd0ccad3c5f"
+  "source_commit": "dc077bc46053d043537f8af90460e20b7b421524",
+  "desktop_release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-portail-zoom.20261116"
 }
