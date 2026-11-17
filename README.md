@@ -1,26 +1,26 @@
 # LIHETI MANAGER CLIENT
 
-Téléchargements corrigés du **16 novembre 2026 — connexions IP** : [page officielle](https://famillemile.github.io/liheti-updates/) · [release](https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-connexion-ip.20261116).
+Téléchargements du **17 novembre 2026 — connexions et portail** : [page officielle](https://famillemile.github.io/liheti-updates/) · [release](https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-connexions-vip.20261117).
 
 | Plateforme | Fichier |
 | --- | --- |
-| Android CLIENT 3.12.62.39 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexion-ip.20261116/LIHETI-GV1-CLIENT-3.12.62.39-CONNEXION-IP-20261116.apk) |
-| Windows CLIENT — connexion IP — 16/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexion-ip.20261116/LIHETI-GV1-CLIENT-Setup-3.12.62-CONNEXION-IP-20261116.exe) |
-| Linux CLIENT — connexion IP — 16/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexion-ip.20261116/LIHETI-GV1-CLIENT-3.12.62-CONNEXION-IP-20261116-x86_64.AppImage) |
-| Ubuntu / Debian CLIENT — connexion IP — 16/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexion-ip.20261116/LIHETI-GV1-CLIENT-3.12.62-CONNEXION-IP-20261116-amd64.deb) |
-| macOS Intel — connexion IP — 16/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexion-ip.20261116/LIHETI-GV1-CLIENT-3.12.62-CONNEXION-IP-20261116-x64.zip) |
-| macOS Apple Silicon — connexion IP — 16/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexion-ip.20261116/LIHETI-GV1-CLIENT-3.12.62-CONNEXION-IP-20261116-arm64.zip) |
+| Android CLIENT 3.12.62.40 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexions-vip.20261117/LIHETI-GV1-CLIENT-3.12.62.40-CONNEXIONS-VIP-20261117.apk) |
+| Windows CLIENT — connexions et portail — 17/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexions-vip.20261117/LIHETI-GV1-CLIENT-Setup-3.12.62-CONNEXIONS-VIP-20261117.exe) |
+| Linux CLIENT — connexions et portail — 17/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexions-vip.20261117/LIHETI-GV1-CLIENT-3.12.62-CONNEXIONS-VIP-20261117-x86_64.AppImage) |
+| Ubuntu / Debian CLIENT — connexions et portail — 17/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexions-vip.20261117/LIHETI-GV1-CLIENT-3.12.62-CONNEXIONS-VIP-20261117-amd64.deb) |
+| macOS Intel — connexions et portail — 17/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexions-vip.20261117/LIHETI-GV1-CLIENT-3.12.62-CONNEXIONS-VIP-20261117-x64.zip) |
+| macOS Apple Silicon — connexions et portail — 17/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexions-vip.20261117/LIHETI-GV1-CLIENT-3.12.62-CONNEXIONS-VIP-20261117-arm64.zip) |
 
-Une adresse IP modifiée reste enregistrée ; un test ancien ne peut plus la rétablir. « Utiliser » reste limité au serveur choisi. Le dernier serveur possède désormais un bouton **Supprimer** et sa suppression reste effective après redémarrage. La sauvegarde vérifie aussi sa copie locale et restaure l’état précédent en cas d’échec. Supprimer un serveur de la liste ne supprime pas les tickets, les ventes ni les comptes du routeur.
+Les adresses CLIENT sont libres : chaque utilisateur peut ajouter, modifier, choisir ou supprimer ses connexions. La synchronisation ne réapplique plus une ancienne copie des profils. Un échec de connexion garde le serveur choisi ; le dernier serveur supprimé ne revient pas au redémarrage.
 
-Tests : défauts reproduits avant correction, 13 scénarios de connexion, suite complète `npm run check`, preflight CLIENT et validation GitHub réussis. Essais dans le paquet Linux et dans Android Waydroid sur profils isolés : édition, relecture, redémarrage, suppression et redémarrage vide. Android **.39** installé sans désinstallation ; profils enregistrés, UID et données locales contrôlés. La connexion réelle à SMILE WIFI sur son PC Windows reste à vérifier ; ce poste n’était pas accessible pendant cette validation.
+Validation : dix nouvelles régressions de synchronisation, les scénarios du cycle de connexion, la suite complète `npm run check` et la CI GitHub réussis. Dans le paquet Linux, deux profils temporaires ont été ajoutés au CLIENT déjà configuré puis retirés après vérification de leur persistance ; les profils d’origine ont été conservés. Une lecture API native du RB5009 a réussi. Android Waydroid a passé les essais de trois profils et la mise à jour **.39 → .40** sans désinstallation, avec contrôle des profils, de l’UID et des données locales.
 
-Les correctifs du portail, de Mobile Money, des durées en entier, du zoom et du trafic WAN Android sont conservés. Android peut lire les compteurs réels quand le PC partagé est indisponible, puis reprend les mesures communes ; les relevés mobiles ne sont pas ajoutés à l’historique du PC.
+Le portail actualise le mot de passe caché lors de l’envoi du code, y compris après remplissage automatique ou nouvelle tentative, en PAP et CHAP. **Le refus VIP chez le client hAP ac² reste à valider par une connexion réelle à son Hotspot.** Création et vente ne suffisent pas à certifier cette étape.
 
-Android : **3.12.62.39**, certificat SHA-256 **000d5cadff59ad8f5228abcf663c1fc20533bb78fb645ac062394e9b30c1a2cc**. Certains APK plus anciens utilisent un autre certificat et demandent une migration avec sauvegarde ; ne pas les désinstaller automatiquement.
+Les corrections précédentes du trafic WAN Android, des tarifs, de Mobile Money, des durées et du zoom sont conservées. Les données commerciales et les connexions PERSO ne sont pas remplacées par cette correction.
 
-La version de base PC reste **3.12.62** : utilisez les fichiers **CONNEXION-IP-20261116** ci-dessus. Les anciennes releases restent disponibles dans l’historique.
+Android : **3.12.62.40**, certificat SHA-256 **000d5cadff59ad8f5228abcf663c1fc20533bb78fb645ac062394e9b30c1a2cc**. Les anciennes installations signées avec un autre certificat nécessitent une migration sauvegardée.
 
-macOS Intel et Apple Silicon : ZIP non signés et non notarisés, sans essai sur Mac réel. Windows sans Authenticode ; Linux sans signature GPG. Les tests réseau ne certifient pas tous les modèles des cinq constructeurs ; téléphone physique, paiements réels et parcours Hotspot jusqu’à expiration restent à valider. Les limites précédemment signalées pour WireGuard/BTH et le VPN Waydroid ne sont pas levées par cette mise à jour.
+La version de base PC reste **3.12.62** : utilisez les fichiers **CONNEXIONS-VIP-20261117**. Windows et macOS ont été compilés et contrôlés, sans nouvel essai sur appareil physique. macOS Intel et Apple Silicon : ZIP non signés et non notarisés Apple. Windows sans Authenticode ; Linux sans signature GPG.
 
-Vérification : [SHA256SUMS-CLIENT.txt](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexion-ip.20261116/SHA256SUMS-CLIENT.txt). Sauvegardez la base LIHETI avant mise à jour.
+Vérification : [SHA256SUMS-CLIENT.txt](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexions-vip.20261117/SHA256SUMS-CLIENT.txt). Les anciennes releases restent dans l’historique. Sauvegardez la base avant mise à jour.
