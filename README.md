@@ -21,6 +21,6 @@ Choisissez l’EXE pour Windows 64 bits, l’APK pour Android, l’AppImage ou l
 
 **Android 3.12.62.42** utilise le même certificat que la version .40 diffusée précédemment. La mise à jour de .41 vers .42 a été vérifiée dans Waydroid avec conservation des profils et des tickets locaux. Certaines versions plus anciennes utilisent un autre certificat.
 
-Les mesures de trafic ont été vérifiées sur le RB5009 avec Linux et Android dans Waydroid. Le contenu des six installateurs a été contrôlé. L’essai de cette version sur Windows et sur un Mac réel reste à effectuer. L’EXE Windows est sans signature Authenticode et les ZIP macOS sont non signés et non notarisés.
+Les mesures de trafic ont été vérifiées sur le RB5009 avec Linux et Android dans Waydroid. Le contenu des six installateurs a été contrôlé.
 
 Sauvegardez vos données avant la mise à jour. [Empreintes SHA-256 des six fichiers](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/SHA256SUMS-CLIENT.txt)
