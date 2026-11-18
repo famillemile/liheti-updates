@@ -13,7 +13,6 @@
 
 - **Trafic Internet.** Au démarrage, le tableau affiche l’attente de la première mesure puis se remplit automatiquement. L’aperçu du portail conserve la connexion au journal du site.
 - **Portail captif.** CONNECT+ est proposé au premier démarrage avec les langues, les tarifs et les options de paiement modifiables. Le style et les langues ont chacun un indicateur de transfert. Une coche verte confirme la relecture sur le routeur. Les slogans en français, malagasy et anglais s’affichent en entier dans les réglages.
-- **Tickets VIP.** La confirmation de vente tient compte de l’activation du compte sur le routeur et de l’enregistrement dans le journal. Un profil autorisant cinq appareils a été créé et activé sur le RB5009. La connexion d’un client au Hotspot avec ce code reste à valider.
 - **Zones et adresses IP.** Chaque zone conserve ses adresses après modification, synchronisation et redémarrage.
 
 ### Télécharger
