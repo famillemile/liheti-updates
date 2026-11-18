@@ -1,26 +1,27 @@
 # LIHETI MANAGER CLIENT
 
-Téléchargements du **17 novembre 2026 — connexions et portail** : [page officielle](https://famillemile.github.io/liheti-updates/) · [release](https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-connexions-vip.20261117).
+**V4 du 18 novembre 2026** · [Page officielle](https://famillemile.github.io/liheti-updates/) · [Notes de version](https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-portail-vip-trafic.20261118)
 
-| Plateforme | Fichier |
+| Système | Installateur |
 | --- | --- |
-| Android CLIENT 3.12.62.40 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexions-vip.20261117/LIHETI-GV1-CLIENT-3.12.62.40-CONNEXIONS-VIP-20261117.apk) |
-| Windows CLIENT — connexions et portail — 17/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexions-vip.20261117/LIHETI-GV1-CLIENT-Setup-3.12.62-CONNEXIONS-VIP-20261117.exe) |
-| Linux CLIENT — connexions et portail — 17/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexions-vip.20261117/LIHETI-GV1-CLIENT-3.12.62-CONNEXIONS-VIP-20261117-x86_64.AppImage) |
-| Ubuntu / Debian CLIENT — connexions et portail — 17/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexions-vip.20261117/LIHETI-GV1-CLIENT-3.12.62-CONNEXIONS-VIP-20261117-amd64.deb) |
-| macOS Intel — connexions et portail — 17/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexions-vip.20261117/LIHETI-GV1-CLIENT-3.12.62-CONNEXIONS-VIP-20261117-x64.zip) |
-| macOS Apple Silicon — connexions et portail — 17/11/2026 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexions-vip.20261117/LIHETI-GV1-CLIENT-3.12.62-CONNEXIONS-VIP-20261117-arm64.zip) |
+| Windows CLIENT — 18/11/2026 · V4 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-Setup-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4.exe) |
+| Android CLIENT 3.12.62.42 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62.42-PORTAIL-VIP-TRAFIC-20261118-V4.apk) |
+| Linux CLIENT — 18/11/2026 · V4 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4-x86_64.AppImage) |
+| Ubuntu / Debian CLIENT — 18/11/2026 · V4 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4-amd64.deb) |
+| macOS Intel — 18/11/2026 · V4 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4-x64.zip) |
+| macOS Apple Silicon — 18/11/2026 · V4 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4-arm64.zip) |
 
-Les adresses CLIENT sont libres : chaque utilisateur peut ajouter, modifier, choisir ou supprimer ses connexions. La synchronisation ne réapplique plus une ancienne copie des profils. Un échec de connexion garde le serveur choisi ; le dernier serveur supprimé ne revient pas au redémarrage.
+- **Trafic Internet.** Au démarrage, le tableau affiche l’attente de la première mesure puis se remplit automatiquement. L’aperçu du portail conserve la connexion au journal du site.
+- **Portail captif.** CONNECT+ est proposé au premier démarrage avec les langues, les tarifs et les options de paiement modifiables. Le style et les langues ont chacun un indicateur de transfert. Une coche verte confirme la relecture sur le routeur. Les slogans en français, malagasy et anglais s’affichent en entier dans les réglages.
+- **Tickets VIP.** La confirmation de vente tient compte de l’activation du compte sur le routeur et de l’enregistrement dans le journal. Un profil autorisant cinq appareils a été créé et activé sur le RB5009. La connexion d’un client au Hotspot avec ce code reste à valider.
+- **Zones et adresses IP.** Chaque zone conserve ses adresses après modification, synchronisation et redémarrage.
 
-Validation : dix nouvelles régressions de synchronisation, les scénarios du cycle de connexion, la suite complète `npm run check` et la CI GitHub réussis. Dans le paquet Linux, deux profils temporaires ont été ajoutés au CLIENT déjà configuré puis retirés après vérification de leur persistance ; les profils d’origine ont été conservés. Une lecture API native du RB5009 a réussi. Android Waydroid a passé les essais de trois profils et la mise à jour **.39 → .40** sans désinstallation, avec contrôle des profils, de l’UID et des données locales.
+### Télécharger
 
-Le portail actualise le mot de passe caché lors de l’envoi du code, y compris après remplissage automatique ou nouvelle tentative, en PAP et CHAP. **Le refus VIP chez le client hAP ac² reste à valider par une connexion réelle à son Hotspot.** Création et vente ne suffisent pas à certifier cette étape.
+Choisissez l’EXE pour Windows 64 bits, l’APK pour Android, l’AppImage ou le DEB pour Linux 64 bits, et le ZIP x64 ou arm64 selon la puce de votre Mac. Sur ordinateur, le numéro de version reste **3.12.62**. Le nom du fichier porte **20261118-V4**.
 
-Les corrections précédentes du trafic WAN Android, des tarifs, de Mobile Money, des durées et du zoom sont conservées. Les données commerciales et les connexions PERSO ne sont pas remplacées par cette correction.
+**Android 3.12.62.42** utilise le même certificat que la version .40 diffusée précédemment. La mise à jour de .41 vers .42 a été vérifiée dans Waydroid avec conservation des profils et des tickets locaux. Certaines versions plus anciennes utilisent un autre certificat.
 
-Android : **3.12.62.40**, certificat SHA-256 **000d5cadff59ad8f5228abcf663c1fc20533bb78fb645ac062394e9b30c1a2cc**. Les anciennes installations signées avec un autre certificat nécessitent une migration sauvegardée.
+Les mesures de trafic ont été vérifiées sur le RB5009 avec Linux et Android dans Waydroid. Le contenu des six installateurs a été contrôlé. L’essai de cette version sur Windows et sur un Mac réel reste à effectuer. L’EXE Windows est sans signature Authenticode et les ZIP macOS sont non signés et non notarisés.
 
-La version de base PC reste **3.12.62** : utilisez les fichiers **CONNEXIONS-VIP-20261117**. Windows et macOS ont été compilés et contrôlés, sans nouvel essai sur appareil physique. macOS Intel et Apple Silicon : ZIP non signés et non notarisés Apple. Windows sans Authenticode ; Linux sans signature GPG.
-
-Vérification : [SHA256SUMS-CLIENT.txt](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-connexions-vip.20261117/SHA256SUMS-CLIENT.txt). Les anciennes releases restent dans l’historique. Sauvegardez la base avant mise à jour.
+Sauvegardez vos données avant la mise à jour. [Empreintes SHA-256 des six fichiers](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/SHA256SUMS-CLIENT.txt)
