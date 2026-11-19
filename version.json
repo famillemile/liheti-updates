@@ -1,57 +1,57 @@
 {
   "version": "3.12.62",
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-portail-vip-trafic.20261118",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-ticket-usage.20261119",
   "page": "https://famillemile.github.io/liheti-updates/",
-  "android_version_code": 42,
-  "android_version_name": "3.12.62.42",
-  "desktop_release_date": "2026-11-18",
-  "android_release_date": "2026-11-18",
-  "build": "20261118-portail-vip-trafic-v4",
+  "android_version_code": 43,
+  "android_version_name": "3.12.62.43",
+  "desktop_release_date": "2026-11-19",
+  "android_release_date": "2026-11-19",
+  "build": "20261119-first-use-ticket-usage",
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62.42-PORTAIL-VIP-TRAFIC-20261118-V4.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-Setup-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4-x86_64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4-amd64.deb",
-    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4-x64.zip",
-    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4-arm64.zip"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-ticket-usage.20261119/LIHETI-GV1-CLIENT-3.12.62.43-FIRST-USE-20261119.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-ticket-usage.20261119/LIHETI-GV1-CLIENT-Setup-3.12.62-FIRST-USE-20261119.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-ticket-usage.20261119/LIHETI-GV1-CLIENT-3.12.62-FIRST-USE-20261119-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-ticket-usage.20261119/LIHETI-GV1-CLIENT-3.12.62-FIRST-USE-20261119-amd64.deb",
+    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-ticket-usage.20261119/LIHETI-GV1-CLIENT-3.12.62-FIRST-USE-20261119-x64.zip",
+    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-ticket-usage.20261119/LIHETI-GV1-CLIENT-3.12.62-FIRST-USE-20261119-arm64.zip"
   },
   "checksums": {
-    "android": "75085be0429df633216f108c4a2236ff82a8fbde6a9afe317a6d81bd132d72fd",
-    "windows": "1d3d2325e393bde072aca58dead2f89dd32864798c54d251d8ff8c0b0c3abb03",
-    "linux": "2187a107368c13bb78768b13988bb33394cc10e54cba192ca9b3bace220e1899",
-    "linux_deb": "d5336228a4d075278a1caf81f5f0f3def15332534aabb4366386cb778f1f957d",
-    "mac_intel": "4d0fa358b9e26807d161f6ed4b643a634a8ce0199f42fb9dfd9eb638290a0736",
-    "mac_apple": "892bf0625073982dfe6ed8c331c3c1ea86b01b780257ca9f82d6a5008dc13ab1"
+    "android": "669ce03f9b479a402d783e1dcfcc08bd664946956666fb43ea78b16fcb1810ce",
+    "windows": "092720bacce6e744395555a8ab53e6878e2d4352c477a49347d747f5e4eca03e",
+    "linux": "ba8517eb507894edb3cd8e13bdc1bfd542e2f0174c0d81eb1654d640ec4f7ab3",
+    "linux_deb": "21dbbae58e1f97584b581f91316b3d521e60e317f0ebbd4d5cd658e887b2610e",
+    "mac_intel": "d87e4fb6333091727c26cf4422afde15d8bab6f6261c78c65cba7afadf9accb2",
+    "mac_apple": "6d70b25d00319df599802b507318b0778629fd27f7e698b2171a0557e774fc02"
   },
   "labels": {
-    "android": "Android CLIENT 3.12.62.42",
-    "windows": "Windows CLIENT — 18/11/2026 · V4",
-    "linux": "Linux CLIENT — 18/11/2026 · V4",
-    "linux_deb": "Ubuntu / Debian CLIENT — 18/11/2026 · V4",
-    "mac_intel": "macOS Intel — 18/11/2026 · V4",
-    "mac_apple": "macOS Apple Silicon — 18/11/2026 · V4"
+    "android": "Android CLIENT 3.12.62.43 — 19/11/2026",
+    "windows": "Windows CLIENT — 19/11/2026 · Tickets",
+    "linux": "Linux CLIENT — 19/11/2026 · Tickets",
+    "linux_deb": "Ubuntu / Debian CLIENT — 19/11/2026 · Tickets",
+    "mac_intel": "macOS Intel — 19/11/2026 · Tickets",
+    "mac_apple": "macOS Apple Silicon — 19/11/2026 · Tickets"
   },
   "signatures": {
     "android_certificate_sha256": "000d5cadff59ad8f5228abcf663c1fc20533bb78fb645ac062394e9b30c1a2cc",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/SHA256SUMS-CLIENT.txt",
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-ticket-usage.20261119/SHA256SUMS-CLIENT-20261119.txt",
     "windows": "Sans Authenticode",
     "linux": "Sans signature GPG",
     "macos": "ZIP non signés / non notarisés Apple ; test sur Mac à effectuer"
   },
   "notes": {
-    "fr": "Le tableau du trafic se remplit après la première mesure. Essais sur RB5009 avec Linux et Android dans Waydroid. Les six installateurs ont été vérifiés. Le RB5009 a confirmé la création et l’activation d’un VIP autorisant cinq appareils. La connexion d’un client au portail avec ce code reste à valider.",
-    "mg": "Miseho ny tarehimarika rehefa tonga ny fandrefesana voalohany. Notsapaina tamin’ny RB5009 ny Linux sy Android tao amin’ny Waydroid. Voamarina ireo rakitra fametrahana enina. Voamarina tao amin’ny RB5009 ny famoronana sy fampandehanana tapakila VIP ho an’ny fitaovana dimy. Mbola mila andramana ny fidiran’ny mpanjifa amin’ilay kaody ao amin’ny portail.",
-    "en": "Traffic figures appear when the first measurement arrives. Tested on an RB5009 using Linux and Android in Waydroid. All six installer payloads were verified. An RB5009 confirmed creation and activation of a VIP allowing five devices. A client login to the Hotspot using this code still needs testing."
+    "fr": "Correctif du classement automatique des tickets Hotspot dès leur première utilisation prouvée par MikroTik. Synchronisation automatique et après reconnexion. Test à chaud sur Electron avec routeur simulé réussi ; vérification sur le MikroTik réel de Tanjona à réaliser. Six installateurs reconstruits, source canonique PERSO/CLIENT alignée.",
+    "mg": "Nohatsaraina ny fanasokajiana ho VENDU ny tapakila Hotspot rehefa tena nampiasaina voalohany. Miasa amin'ny fampifanarahana mandeha ho azy sy aorian'ny fifandraisana indray. Nahomby ny fitsapana Electron tamin'ny router notahafina; mbola mila hamarinina amin'ny MikroTik tena ampiasain'i Tanjona.",
+    "en": "Fixes automatic classification of Hotspot tickets as sold after verified first use, including automatic synchronization and reconnection. Electron runtime test with simulated MikroTik passed; a real-router test with Tanjona is still pending. All six CLIENT installers rebuilt."
   },
   "android_update_compatibility": {
     "uninstall_required": false,
     "older_certificate_note": "Certaines anciennes versions CLIENT utilisent un autre certificat : sauvegarde et migration à prévoir ; ne pas désinstaller automatiquement.",
-    "verified_version_code": 42,
+    "verified_version_code": 43,
     "certificate_compatible_from_version_code": 36
   },
-  "source_commit": "3cdf971a6437c507dc1344667eb315736e003dc7",
-  "desktop_release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-portail-vip-trafic.20261118"
+  "desktop_release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-ticket-usage.20261119",
+  "private_source_index_sha256": "69d871c67fe101b9602222bfa3abc1a6ac35f38e386cf6e9ee04d34adec935cb"
 }
