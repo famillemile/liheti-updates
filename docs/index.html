@@ -220,7 +220,8 @@
     function renderRelease(data){
       if(!data) return;
       var version=data.version ? 'v'+String(data.version).replace(/^v/i,'') : 'v3.12.62';
-      document.getElementById('current-version').textContent=version+' — PRÉVERSION CLIENT · 18/11/2026';
+      var releaseDate=data.date ? new Date(data.date+'T12:00:00').toLocaleDateString('fr-FR') : '18/11/2026';
+      document.getElementById('current-version').textContent=version+' — PRÉVERSION CLIENT · '+releaseDate;
       var ids={android:'dl-android',windows:'dl-windows',linux:'dl-linux',linux_deb:'dl-linux-deb',mac_intel:'dl-mac-intel',mac_apple:'dl-mac-apple'};
       Object.keys(ids).forEach(function(platform){
         var link=document.getElementById(ids[platform]);
