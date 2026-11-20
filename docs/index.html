@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Téléchargez LIHETI Manager CLIENT : gestion MikroTik, Cudy, TP-Link, Tenda et Ubiquiti ; tickets VIP, Hotspot et cybercafé.">
-  <title>LIHETI V100 CLIENT — Préversion à télécharger</title>
+  <title>LIHETI MANAGER CLIENT — Préversion à télécharger</title>
   <style>
     :root{--bg:#053d50;--card:rgba(4,27,45,.90);--card2:rgba(5,33,53,.92);--bd:rgba(107,225,224,.31);--tx:#f3fbff;--mu:#c3e5ee;--vert:#42f39a;--bleu:#75e8ff;--rouge:#ff6366;--jaune:#ffe373}
     *{box-sizing:border-box} body{margin:0;background-color:var(--bg);background-image:linear-gradient(180deg,rgba(0,25,53,.61) 0%,rgba(0,41,64,.68) 42%,rgba(0,39,60,.78) 100%),url("ocean-indien-liheti-fond.jpg");background-position:center top;background-repeat:no-repeat;background-size:cover;background-attachment:fixed;color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
@@ -30,39 +30,182 @@
     footer{background:rgba(3,27,44,.36);border-radius:16px;padding-bottom:15px}
     @media(max-width:700px){body{background-attachment:scroll;background-position:54% top}.wrap>header{border-radius:16px}.dl,.arg,.verify,.support,.note{backdrop-filter:none}}
     @media(max-width:480px){.wrap{padding-inline:12px}.lang button{padding-inline:14px}.checksum{grid-template-columns:1fr}.release-badge{border-radius:15px}}
+
+    /* MAQUETTE LOCALE CLIENT — 21/11/2026. Design only, no changes to download URLs. */
+    html{scroll-behavior:smooth;scroll-padding-top:100px}
+    body{background-color:#04233e;background-image:linear-gradient(180deg,rgba(1,13,31,.25) 0%,rgba(1,21,40,.70) 35%,rgba(1,20,39,.92) 100%),url("ocean-indien-liheti-fond.jpg");background-position:center top;background-size:cover;background-attachment:fixed;min-height:100vh}
+    .site-nav{position:sticky;z-index:20;top:0;background:rgba(2,18,36,.96);border-bottom:1px solid rgba(116,222,233,.2);box-shadow:0 10px 30px #0005;backdrop-filter:blur(18px)}
+    .site-nav-inner{max-width:1260px;margin:auto;display:flex;align-items:center;gap:20px;justify-content:space-between;padding:12px 24px}
+    .logo-link{display:flex;gap:11px;align-items:center;text-decoration:none;color:white;min-width:170px;line-height:1.05}
+    .logo-link img{height:43px;width:43px;object-fit:contain;border-radius:10px}
+    .logo-link strong{font-size:20px;letter-spacing:1px}.logo-link span{font-weight:850;font-size:12px;letter-spacing:2px;display:block}
+    .top-links{display:flex;flex-wrap:wrap;justify-content:center;gap:4px}
+    .top-links a{border-radius:10px;padding:10px 12px;color:#e2f2fb;text-decoration:none;font-size:13px;font-weight:750;transition:.15s}
+    .top-links a:hover,.top-links a:focus-visible,.top-links a.active{background:rgba(30,160,122,.22);color:#8dffd0;outline-offset:2px}
+    .site-nav .lang{margin:0;padding:0;flex-shrink:0}.site-nav .lang button{padding:8px 10px;font-size:12px}
+    .wrap{max-width:1260px;margin:auto;padding:28px 24px 60px}
+    .wrap>header.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);text-align:left;gap:32px;align-items:center;min-height:380px;background:linear-gradient(110deg,rgba(2,26,48,.85),rgba(1,32,52,.45));padding:32px;border-radius:24px;border:1px solid rgba(121,221,238,.25);box-shadow:0 16px 50px #001c33a0}
+    .hero h1{font-size:clamp(36px,4.6vw,62px);letter-spacing:-1.6px;font-weight:900;margin:12px 0 14px}
+    .hero h1 .r{color:#fff}.hero h1 .v{color:#3af59a}
+    .hero .eyebrow{font-size:13px;color:#82e9ff}
+    .hero .sub{margin:0;max-width:560px;font-size:17px;color:#f3fcff;line-height:1.5;font-weight:550}
+    .hero .slog{margin:11px 0;color:#c7eaf1;font-size:14px;max-width:560px}
+    .hero .release-badge{margin-top:18px;background:rgba(1,25,32,.75);border:1px solid #387e72}
+    .hero-actions{margin-top:22px;display:flex;flex-wrap:wrap;gap:12px}
+    .hero-actions a{padding:13px 19px;border-radius:13px;font-weight:850;text-decoration:none;display:inline-flex;align-items:center;gap:9px;min-height:48px}
+    .action-primary{color:#04311e;background:linear-gradient(#4cfa9f,#19cc75);box-shadow:0 8px 24px #06da7040}
+    .action-secondary{color:#f8ffff;border:1px solid rgba(165,229,255,.75);background:rgba(5,28,48,.75)}
+    .hero-display{position:relative;min-height:300px;display:flex;align-items:center;justify-content:center}
+    .demo-monitor{position:relative;width:100%;max-width:480px;min-height:282px;padding:20px;border:6px solid #071727;border-bottom:13px solid #071727;background:linear-gradient(145deg,#091a30,#062941);border-radius:18px;box-shadow:0 18px 48px #001428a9}
+    .demo-head{display:flex;align-items:center;justify-content:space-between;font-size:13px;color:#d9f6ff;font-weight:750;border-bottom:1px solid #3b6575;padding:0 0 12px}
+    .demo-head b{color:#50efa3}
+    .demo-mini{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:14px}
+    .demo-mini div{background:#103d50;border:1px solid #245e70;padding:12px 8px;border-radius:9px;color:#b8e5ee;font-size:11px;text-align:center}
+    .demo-mini strong{display:block;margin-top:4px;color:#faffff;font-size:13px}
+    .demo-graph{margin-top:12px;background:linear-gradient(180deg,#0c3448,#082339);border-radius:10px;padding:8px 10px 4px;border:1px solid #27596b}
+    .demo-graph span{font-size:11px;color:#e0faff}.demo-graph svg{width:100%;height:95px;display:block}
+    .illustration-note{position:absolute;bottom:-4px;right:10px;font-size:10px;color:#c4e4ea;background:#06243b;padding:3px 8px;border-radius:8px}
+    .section-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px;align-items:end;margin:38px 0 15px}
+    .section-head h2{font-size:clamp(20px,2.2vw,29px);letter-spacing:-.5px;margin:0;color:#f6ffff;text-transform:none}
+    .section-head p{font-size:13px;color:#b4e1eb;margin:0}
+    .feature-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
+    .feature-card{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:139px;gap:5px;padding:17px 12px;text-align:center;text-decoration:none;color:#f6fdff;background:linear-gradient(150deg,rgba(3,58,85,.94),rgba(1,29,51,.95));border:1px solid #248ba5;border-radius:17px;box-shadow:0 12px 28px rgba(0,13,29,.33)}
+    .feature-card:hover,.feature-card:focus-visible{border-color:#5ff0b5;transform:translateY(-2px)}
+    .feature-card .glyph{font-size:32px;line-height:1.15}.feature-card b{font-size:15px}.feature-card small{font-size:11px;color:#c7e3ea;line-height:1.35}
+    .feature-card.agent{border-color:#25c788;background:linear-gradient(140deg,#0b4e4c,#072c35)}
+    .feature-card.remote{border-color:#72a5fa;background:linear-gradient(140deg,#0c3b5b,#0c2949)}
+    .downloads-panel{margin-top:28px;border:1px solid rgba(87,205,233,.8);background:linear-gradient(145deg,rgba(3,34,57,.94),rgba(2,22,40,.95));border-radius:24px;padding:22px;box-shadow:0 14px 35px #001c3675}
+    .downloads-panel .section-head{margin:0 0 16px}
+    .platform-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+    .platform{display:flex;flex-direction:column;gap:12px;min-width:0;border:1px solid #236e99;border-radius:17px;padding:18px;background:linear-gradient(155deg,#0a3556,#061c32)}
+    .platform.android{border-color:#1aaa74;background:linear-gradient(145deg,#084d3c,#062c31)}
+    .platform.macos{border-color:#8a71c1;background:linear-gradient(145deg,#2c345b,#151d3b)}
+    .platform-head{display:flex;gap:9px;align-items:center;font-size:22px;font-weight:850}
+    .platform-head span{font-size:33px}.platform-desc{color:#cbe6ed;font-size:12px;min-height:32px}
+    .platform .download-links{display:grid;gap:9px;margin-top:auto}
+    .platform .dl{min-height:unset;padding:10px 12px;box-shadow:none;border-radius:10px;background:linear-gradient(145deg,#0b669b,#0e4369);border-color:#2c8fc3;display:flex;gap:9px}
+    .platform.android .dl{background:linear-gradient(145deg,#14bb70,#087f55);border-color:#2be79a}
+    .platform.macos .dl{background:linear-gradient(145deg,#70509f,#423366);border-color:#9b76c9}
+    .platform .dl:hover{background:#147d9b}.platform .dl .ic{font-size:19px}.platform .dl b{font-size:12px;color:#fff}.platform .dl span{font-size:10px;color:#ecffff}
+    .download-caption{font-size:11px;text-align:center;color:#accfd8;margin-top:14px}
+    .downloads-panel .note{margin:15px 0 0}
+    .help-heading{margin:38px 0 16px;font-size:26px}
+    .info-stack{display:grid;gap:11px}
+    .info-stack>details{border:1px solid #3a7b90;border-radius:13px;overflow:hidden;background:rgba(3,29,49,.94);box-shadow:0 8px 20px #00182c4a}
+    .info-stack>details summary{cursor:pointer;padding:17px 20px;font-size:16px;font-weight:800;list-style:none;display:flex;align-items:center;gap:12px}
+    .info-stack>details summary::-webkit-details-marker{display:none}
+    .info-stack>details summary::after{content:"⌄";margin-left:auto;color:#8eeacc;font-size:22px;line-height:1}
+    .info-stack>details[open] summary::after{content:"⌃"}
+    .info-stack>details[open]{border-color:#56bead}
+    .info-stack .inside{padding:0 18px 20px}
+    .info-stack .inside section h2{margin:20px 0 9px;font-size:13px}
+    .info-stack .inside .grid{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+    .agent-details{border-left:3px solid #24d58d;padding:5px 17px;color:#d6f5ed}
+    .agent-details p{margin:8px 0 12px}
+    .agent-tags{display:flex;flex-wrap:wrap;gap:8px}
+    .agent-tags span{background:#0d4c47;border:1px solid #287b66;border-radius:18px;padding:5px 10px;font-size:12px}
+    .install-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+    .install-steps div{background:#0c3a4b;border:1px solid #2f6e7b;border-radius:12px;padding:14px;font-size:13px}
+    .install-steps b{color:#5ff1ad}
+    .info-stack .note,.info-stack .support{margin-top:12px}
+    footer{margin-top:35px;border-radius:19px;background:rgba(2,20,37,.94);border:1px solid rgba(91,180,205,.35);padding:25px}
+    footer a:focus-visible, .platform a:focus-visible, .info-stack summary:focus-visible{outline:3px solid #97ffca;outline-offset:3px}
+    @media (max-width:990px){.site-nav-inner{flex-wrap:wrap;justify-content:center}.top-links{order:3;width:100%}.wrap>header.hero{grid-template-columns:1fr}.hero-display{min-height:270px}.feature-grid{grid-template-columns:repeat(4,1fr)}.platform-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media (max-width:640px){body{background-attachment:scroll}.site-nav-inner{padding:10px 12px;gap:10px}.top-links{gap:0}.top-links a{padding:8px;font-size:11px}.logo-link{min-width:unset}.logo-link strong{font-size:17px}.wrap{padding:16px 12px 38px}.wrap>header.hero{padding:23px 17px;gap:10px}.hero h1{font-size:36px}.hero .sub{font-size:15px}.hero-display{display:none}.feature-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.feature-card{min-height:128px;padding:12px 6px}.feature-card b{font-size:13px}.platform-grid{grid-template-columns:1fr}.downloads-panel{padding:15px}.install-steps{grid-template-columns:1fr}.info-stack>details summary{font-size:14px;padding:14px 12px}}
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.feature-card,.dl{transition:none}}
   </style>
 </head>
 <body>
-  <main class="wrap" data-build="20261118-portail-vip-trafic-v4">
-    <div class="lang" aria-label="Langue">
+  <div class="site-nav">
+    <div class="site-nav-inner">
+      <a class="logo-link" href="#accueil" aria-label="LIHETI MANAGER"><img src="logo.png.png" alt=""><div><strong>LIHETI</strong><span>MANAGER</span></div></a>
+      <nav class="top-links" aria-label="Navigation principale" data-i18n-aria="aria_nav">
+        <a href="#accueil" class="active" data-t="nav_home">Accueil</a>
+        <a href="#fonctionnalites" data-t="nav_features">Fonctionnalités</a>
+        <a href="#telechargements" data-t="nav_downloads">Téléchargements</a>
+        <a href="#guide" data-t="nav_guide">Guide</a>
+        <a href="#assistance" data-t="nav_support">Assistance</a>
+      </nav>
+      <div class="lang" aria-label="Langue" data-i18n-aria="aria_language">
       <button data-l="fr" class="on" onclick="setLang('fr')">FR</button>
       <button data-l="mg" onclick="setLang('mg')">MG</button>
       <button data-l="en" onclick="setLang('en')">EN</button>
     </div>
+    </div>
+  </div>
 
-    <header>
-      <img src="logo.png.png" alt="LIHETI Manager">
+  <main class="wrap" data-build="20261121-maquette-client-agent-locale">
+  <header class="hero" id="accueil">
+    <div class="hero-copy">
       <p class="eyebrow" data-t="edition"></p>
       <h1><span class="r">LIHETI</span> <span class="v">MANAGER</span></h1>
       <p class="sub" data-t="sub"></p>
       <p class="slog" data-t="slog"></p>
       <div class="release-badge"><span class="dot"></span><span data-t="release_ready"></span><strong id="current-version">v3.12.62 — PRÉVERSION CLIENT</strong></div>
-    </header>
-
-    <section aria-labelledby="downloads-title">
-      <h2 id="downloads-title" data-t="h_dl"></h2>
-      <div class="grid">
-        <a class="dl" id="dl-android" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62.52-VIP-JOURNAL-SAFE-20261120.apk"><span class="ic">📱</span><span><b>Android CLIENT 3.12.62.42</b><span data-t="f_apk"></span></span></a>
-        <a class="dl" id="dl-windows" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-Setup-3.12.62-CORRIGE-WAN-20261120.exe"><span class="ic">💻</span><span><b>Windows CLIENT — 20/11/2026</b><span data-t="f_exe"></span></span></a>
-        <a class="dl" id="dl-linux-deb" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-amd64.deb"><span class="ic">🐧</span><span><b>Ubuntu / Debian CLIENT — 18/11/2026</b><span data-t="f_deb"></span></span></a>
-        <a class="dl" id="dl-linux" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-x86_64.AppImage"><span class="ic">🐧</span><span><b>Linux CLIENT — 18/11/2026</b><span data-t="f_lin"></span></span></a>
-        <a class="dl" id="dl-mac-intel" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-x64.zip"><span class="ic">🍎</span><span><b>macOS Intel — 18/11/2026</b><span>ZIP non signé — préversion</span></span></a>
-        <a class="dl" id="dl-mac-apple" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-arm64.zip"><span class="ic">🍎</span><span><b>macOS Apple Silicon — 18/11/2026</b><span>ZIP non signé — préversion</span></span></a>
+      <div class="hero-actions">
+        <a class="action-primary" href="#telechargements">⬇ <span data-t="cta_download">Télécharger LIHETI CLIENT</span></a>
+        <a class="action-secondary" href="#guide">📖 <span data-t="cta_guide">Guide d'utilisation</span></a>
       </div>
-    </section>
-
-    <div class="note" style="margin-top:14px"><b data-t="qa_title"></b> <span data-t="qa_notice"></span> <a class="release-link" href="https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-portail-vip-trafic.20261118" target="_blank" rel="noopener noreferrer" data-t="qa_link"></a></div>
-    <section aria-labelledby="brands-title">
+    </div>
+    <div class="hero-display" aria-label="Illustration schématique de l'application" data-i18n-aria="aria_illustration">
+      <div class="demo-monitor">
+        <div class="demo-head"><b>◉ LIHETI MANAGER</b><span data-t="demo_title">Vue d'ensemble · illustration</span></div>
+        <div class="demo-mini">
+          <div>🎫<strong data-t="demo_tickets">Tickets & VIP</strong></div>
+          <div>🌐<strong data-t="demo_network">Réseau</strong></div>
+          <div>🛡<strong data-t="demo_agent">Agent LIHETI</strong></div>
+        </div>
+        <div class="demo-graph">
+          <span data-t="demo_graph">Suivi du trafic · exemple visuel</span>
+          <svg viewBox="0 0 380 100" role="img" aria-label="Courbe illustrative de trafic réseau" data-i18n-aria="aria_graph">
+            <defs><linearGradient id="demograd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#35e89a" stop-opacity=".34"/><stop offset="1" stop-color="#35e89a" stop-opacity="0"/></linearGradient></defs>
+            <path d="M0 83 L25 75 L53 81 L82 53 L110 60 L138 41 L166 49 L194 25 L220 41 L252 26 L284 37 L313 17 L342 25 L380 11 L380 100 L0 100 Z" fill="url(#demograd)"/>
+            <path d="M0 83 L25 75 L53 81 L82 53 L110 60 L138 41 L166 49 L194 25 L220 41 L252 26 L284 37 L313 17 L342 25 L380 11" fill="none" stroke="#41efaa" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+      <span class="illustration-note" data-t="demo_note">Illustration, pas une mesure réelle</span>
+    </div>
+  </header>
+<section id="fonctionnalites" aria-labelledby="features-head"><div class="section-head"><h2 id="features-head" data-t="features_head">Fonctionnalités essentielles</h2><p data-t="features_sub">Une application, tous vos outils de gestion</p></div><div class="feature-grid">
+<a class="feature-card " href="#benefices"><span class="glyph" aria-hidden="true">🎫</span><b data-t="feature_tickets"></b><small data-t="feature_tickets_d"></small></a>
+<a class="feature-card " href="#benefices"><span class="glyph" aria-hidden="true">🖥️</span><b data-t="feature_cyber"></b><small data-t="feature_cyber_d"></small></a>
+<a class="feature-card " href="#compatibilite"><span class="glyph" aria-hidden="true">📈</span><b data-t="feature_traffic"></b><small data-t="feature_traffic_d"></small></a>
+<a class="feature-card " href="#benefices"><span class="glyph" aria-hidden="true">🗄️</span><b data-t="feature_quota"></b><small data-t="feature_quota_d"></small></a>
+<a class="feature-card " href="#benefices"><span class="glyph" aria-hidden="true">💳</span><b data-t="feature_cash"></b><small data-t="feature_cash_d"></small></a>
+<a class="feature-card " href="#applications-distantes"><span class="glyph" aria-hidden="true">🌐</span><b data-t="feature_bth"></b><small data-t="feature_bth_d"></small></a>
+<a class="feature-card remote" href="#applications-distantes"><span class="glyph" aria-hidden="true">🖧</span><b data-t="feature_remote"></b><small data-t="feature_remote_d"></small></a>
+<a class="feature-card agent" href="#agent-liheti"><span class="glyph" aria-hidden="true">🛡️</span><b data-t="feature_agent"></b><small data-t="feature_agent_d"></small></a>
+</div></section>
+<section id="telechargements" class="downloads-panel" aria-labelledby="downloads-title"><div class="section-head"><h2 id="downloads-title" data-t="h_dl"></h2><p data-t="downloads_sub">Choisissez votre système d’exploitation</p></div><div class="platform-grid">
+<div class="platform android"><div class="platform-head"><span aria-hidden="true">📱</span><b>Android</b></div><div class="platform-desc" data-t="plat_android">Android CLIENT mobile</div><div class="download-links">
+<a class="dl" id="dl-android" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62.52-VIP-JOURNAL-SAFE-20261120.apk"><span class="ic">📱</span><span><b>Android CLIENT</b><span data-t="f_apk"></span></span></a>
+</div></div>
+<div class="platform windows"><div class="platform-head"><span aria-hidden="true">🪟</span><b>Windows</b></div><div class="platform-desc" data-t="plat_windows">Application de bureau</div><div class="download-links">
+<a class="dl" id="dl-windows" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-Setup-3.12.62-CORRIGE-WAN-20261120.exe"><span class="ic">💻</span><span><b>Windows CLIENT</b><span data-t="f_exe"></span></span></a>
+</div></div>
+<div class="platform linux"><div class="platform-head"><span aria-hidden="true">🐧</span><b>Linux</b></div><div class="platform-desc" data-t="plat_linux">Ubuntu/Debian et AppImage</div><div class="download-links">
+<a class="dl" id="dl-linux-deb" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-amd64.deb"><span class="ic">🐧</span><span><b>Ubuntu / Debian</b><span data-t="f_deb"></span></span></a>
+<a class="dl" id="dl-linux" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-x86_64.AppImage"><span class="ic">🐧</span><span><b>Linux AppImage</b><span data-t="f_lin"></span></span></a>
+</div></div>
+<div class="platform macos"><div class="platform-head"><span aria-hidden="true">🍎</span><b>macOS</b></div><div class="platform-desc" data-t="plat_macos">Intel et Apple Silicon — non signé</div><div class="download-links">
+<a class="dl" id="dl-mac-intel" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-x64.zip"><span class="ic">🍎</span><span><b>macOS Intel</b><span data-t="zip_unsigned">ZIP non signé — préversion</span></span></a>
+<a class="dl" id="dl-mac-apple" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-arm64.zip"><span class="ic">🍎</span><span><b>macOS Apple Silicon</b><span data-t="zip_unsigned">ZIP non signé — préversion</span></span></a>
+</div></div>
+</div><p class="download-caption" data-t="downloads_note">Téléchargements CLIENT existants conservés · vérifiez les versions et signatures avant installation.</p><div class="note" style="margin-top:14px"><b data-t="qa_title"></b> <span data-t="qa_notice"></span> <a class="release-link" href="https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-portail-vip-trafic.20261118" target="_blank" rel="noopener noreferrer" data-t="qa_link"></a></div></section>
+<section id="informations" aria-labelledby="informations-head"><h2 id="informations-head" class="help-heading" data-t="info_head">Guides, outils et vérifications</h2><div class="info-stack">
+<details id="nouveautes"><summary>📝 <span data-t="info_updates">Nouveautés, tickets et fonctionnalités</span></summary><div class="inside"><section aria-labelledby="vip-news"><h2 id="vip-news" data-t="vip_news"></h2><div class="note green"><p data-t="vip_detail"></p></div></section><section aria-labelledby="value-title">
+      <h2 id="value-title" data-t="h_value"></h2>
+      <div class="arg"><b data-t="a1t"></b> <span data-t="a1d"></span></div>
+      <div class="arg"><b data-t="a2t"></b> <span data-t="a2d"></span></div>
+      <div class="arg"><b data-t="a3t"></b> <span data-t="a3d"></span></div>
+      <div class="arg"><b data-t="a4t"></b> <span data-t="a4d"></span></div>
+      <div class="arg"><b data-t="a5t"></b> <span data-t="a5d"></span></div>
+      <div class="arg"><b data-t="a6t"></b> <span data-t="a6d"></span></div>
+      <div class="arg"><b data-t="a7t"></b> <span data-t="a7d"></span></div>
+      <div class="arg"><b data-t="a8t"></b> <span data-t="a8d"></span></div>
+    </section></div></details>
+<details id="compatibilite"><summary>📡 <span data-t="info_compat">Compatibilité et validation</span></summary><div class="inside"><section aria-labelledby="brands-title">
       <h2 id="brands-title" data-t="h_brands"></h2>
       <div class="support" data-t="brands_intro"></div>
       <div class="grid">
@@ -73,40 +216,27 @@
         <div class="arg"><b>Tenda</b><div data-t="brand_tenda"></div></div>
       </div>
       <div class="note" style="margin-top:10px" data-t="brands_limit"></div>
-    </section>
-    <section aria-labelledby="vip-news"><h2 id="vip-news" data-t="vip_news"></h2><div class="note green"><p data-t="vip_detail"></p></div></section>
-    <section aria-labelledby="value-title">
-      <h2 id="value-title" data-t="h_value"></h2>
-      <div class="arg"><b data-t="a1t"></b> <span data-t="a1d"></span></div>
-      <div class="arg"><b data-t="a2t"></b> <span data-t="a2d"></span></div>
-      <div class="arg"><b data-t="a3t"></b> <span data-t="a3d"></span></div>
-      <div class="arg"><b data-t="a4t"></b> <span data-t="a4d"></span></div>
-      <div class="arg"><b data-t="a5t"></b> <span data-t="a5d"></span></div>
-      <div class="arg"><b data-t="a6t"></b> <span data-t="a6d"></span></div>
-      <div class="arg"><b data-t="a7t"></b> <span data-t="a7d"></span></div>
-      <div class="arg"><b data-t="a8t"></b> <span data-t="a8d"></span></div>
-    </section>
-
-    <section aria-labelledby="verify-title">
+    </section><section aria-labelledby="android-title">
+      <h2 id="android-title" data-t="h_and"></h2>
+      <div class="note" data-t="n_and"></div>
+    </section><section aria-labelledby="mac-title">
+      <h2 id="mac-title" data-t="h_mac"></h2>
+      <div class="note" data-t="n_mac"></div>
+    </section></div></details>
+<details id="signatures"><summary>🔐 <span data-t="info_verify">Empreintes et signatures de téléchargement</span></summary><div class="inside"><section aria-labelledby="verify-title">
       <h2 id="verify-title" data-t="h_verify"></h2>
       <details class="verify">
         <summary data-t="verify_summary"></summary>
         <div class="verify-inner"><p data-t="verify_intro"></p><div id="checksums" class="checksums"></div><a id="release-page" class="release-link" href="https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client.20261120" target="_blank" rel="noopener" data-t="release_link"></a></div>
       </details>
-      <div class="note green" style="margin-top:12px"><b>Vérification des téléchargements</b><p>APK Android signé avec le certificat CLIENT historique. Comparez les empreintes SHA-256 avant installation. <a class="release-link" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/SHA256SUMS-CLIENT-WANFIX-20261120.txt">Manifeste SHA-256 de cette version</a>.</p></div>
-    </section>
-
-    <section aria-labelledby="android-title">
-      <h2 id="android-title" data-t="h_and"></h2>
-      <div class="note" data-t="n_and"></div>
-    </section>
-
-    <section aria-labelledby="mac-title">
-      <h2 id="mac-title" data-t="h_mac"></h2>
-      <div class="note" data-t="n_mac"></div>
-    </section>
-
-    <section aria-labelledby="remote-title">
+      <div class="note green" style="margin-top:12px"><b data-t="download_verify_heading">Vérification des téléchargements</b><p><span data-t="download_verify_detail">APK Android signé avec le certificat CLIENT historique. Comparez les empreintes SHA-256 avant installation.</span> <a class="release-link" href="https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/SHA256SUMS-CLIENT-WANFIX-20261120.txt" data-t="download_verify_manifest">Manifeste SHA-256 de cette version</a>.</p></div>
+    </section></div></details>
+<details id="guide"><summary>⚙️ <span data-t="info_install">Installation et configuration</span></summary><div class="inside install-steps">
+<div><b data-t="step1_title">1. Télécharger</b><p data-t="step1_desc">Choisissez le paquet CLIENT adapté à votre système.</p></div>
+<div><b data-t="step2_title">2. Vérifier</b><p data-t="step2_desc">Comparez la signature ou l’empreinte SHA-256 avec la version téléchargée.</p></div>
+<div><b data-t="step3_title">3. Connecter</b><p data-t="step3_desc">Connectez LIHETI à votre serveur avec les identifiants autorisés.</p></div>
+</div></details>
+<details id="applications-distantes"><summary>🖧 <span data-t="info_remote">Applications à distance : WireGuard, ZeroTier, Console Pro</span></summary><div class="inside"><div class="support" data-t="remote_console_info">Console Pro est intégré à LIHETI MANAGER. WireGuard, ZeroTier et Back To Home permettent les accès distants selon la configuration et les autorisations.</div><section aria-labelledby="remote-title">
       <h2 id="remote-title" data-t="h_remote"></h2>
       <div class="support"><span data-t="remote_text"></span></div>
       <div class="grid">
@@ -119,9 +249,14 @@
         <a class="dl" href="https://www.stardesk.net/download/" target="_blank" rel="noopener noreferrer"><span class="ic">🖥️</span><span><b>StarDesk Remote</b><span data-t="z_rd"></span></span></a>
         <a class="dl" href="https://www.hoptodesk.com/download"><span class="ic">🖥️</span><span><b>HopToDesk</b><span data-t="z_hd"></span></span></a>
       </div>
-    </section>
-
-    <footer>
+    </section></div></details>
+<details id="agent-liheti"><summary>🛡️ <span data-t="info_agent">Agent LIHETI : surveillance, alertes et archivage</span></summary><div class="inside"><div class="agent-details">
+  <p data-t="agent_intro">L'Agent LIHETI accompagne la surveillance des abonnements et sessions, les alertes et l'archivage intelligent, avec contrôle des actions sensibles.</p>
+  <div class="agent-tags"><span data-t="agent_mode_1">Surveillance</span><span data-t="agent_mode_2">Assistée</span><span data-t="agent_mode_3">Auto</span><span data-t="agent_archive">Archivage intelligent</span><span data-t="agent_alert">Alertes</span></div>
+  <p data-t="agent_limits">Les fonctions disponibles dépendent de la version, du routeur et des autorisations. Aucune suppression distante sans vérification ni confirmation.</p>
+</div></div></details>
+</div></section>
+<footer id="assistance">
       <div style="font-weight:850;font-size:17px;margin-bottom:8px">LIHETI ZONE WIFI</div>
       <a class="tel" href="tel:+261345931199">+261 34 59 311 99</a>
       <a class="tel" href="tel:+261330315554">+261 33 03 155 54</a><br>
@@ -154,6 +289,13 @@
         button.classList.toggle('on',button.getAttribute('data-l')===lang);
       });
       renderRelease(releaseData);
+      document.title=T[lang].page_title;
+      var meta=document.querySelector('meta[name="description"]');
+      if(meta) meta.setAttribute('content',T[lang].page_description);
+      document.querySelectorAll('[data-i18n-aria]').forEach(function(el){
+        var key=el.getAttribute('data-i18n-aria');
+        if(T[lang][key]) el.setAttribute('aria-label',T[lang][key]);
+      });
     }
 
     function releaseNote(data){
@@ -164,15 +306,20 @@
     function renderRelease(data){
       if(!data) return;
       var version=data.version ? 'v'+String(data.version).replace(/^v/i,'') : 'v3.12.62';
-      var releaseDate=data.date ? new Date(data.date+'T12:00:00').toLocaleDateString('fr-FR') : '18/11/2026';
-      document.getElementById('current-version').textContent=version+' — PRÉVERSION CLIENT · '+releaseDate;
+      var releaseDate=data.date ? new Date(data.date+'T12:00:00').toLocaleDateString(activeLang==='en'?'en-GB':'fr-FR') : '18/11/2026';
+      document.getElementById('current-version').textContent=version+' — '+T[activeLang].release_badge+' · '+releaseDate;
       var ids={android:'dl-android',windows:'dl-windows',linux:'dl-linux',linux_deb:'dl-linux-deb',mac_intel:'dl-mac-intel',mac_apple:'dl-mac-apple'};
       Object.keys(ids).forEach(function(platform){
         var link=document.getElementById(ids[platform]);
         if(link && data.downloads && data.downloads[platform]) link.href=data.downloads[platform];
-        if(link && data.labels && data.labels[platform]) link.querySelector('b').textContent=data.labels[platform];
+        // Release metadata can contain French-only labels. Keep version and URL, translate the UI label.
+        if(link && link.querySelector('b')){
+          var versionText=(platform==='android' && data.android_version_name) ? data.android_version_name : (data.version||'3.12.62');
+          var prefix=T[activeLang].download_platform_names[platform]||platform;
+          link.querySelector('b').textContent=prefix+' · v'+String(versionText).replace(/^v/i,'')+' · '+releaseDate;
+        }
       });
-      var names={android:'Android APK release signé',windows:'Windows .exe',linux:'Linux .AppImage',linux_deb:'Ubuntu / Debian .deb',mac_intel:'macOS Intel non signé .zip',mac_apple:'macOS Apple Silicon non signé .zip'};
+      var names=T[activeLang].checksum_names;
       var list=document.getElementById('checksums');
       list.textContent='';
       Object.keys(names).forEach(function(platform){
@@ -199,24 +346,45 @@
     Object.assign(T.fr,{"f_apk":"APK Android signé (release)","verify_summary":"Empreintes SHA-256 et signatures","sig_title":"Signatures des téléchargements","sig_key":"Empreinte de la clé publique GPG Linux :","sig_public":"Clé publique GPG","sig_manifest":"Manifeste SHA-256","sig_detached":"Signature du manifeste","sig_report":"Rapport et checklist"});
     Object.assign(T.mg,{"f_apk":"APK Android release voasonia","verify_summary":"SHA-256 sy sonia","sig_title":"Sonia amin’ny rakitra","sig_key":"Empreinte clé publique GPG Linux :","sig_public":"Clé publique GPG","sig_manifest":"Manifeste SHA-256","sig_detached":"Sonia manifeste","sig_report":"Rapport sy checklist"});
     Object.assign(T.en,{"f_apk":"Signed Android release APK","verify_summary":"SHA-256 checksums and signatures","sig_title":"Download signatures","sig_key":"Linux GPG public key fingerprint:","sig_public":"GPG public key","sig_manifest":"SHA-256 manifest","sig_detached":"Manifest signature","sig_report":"Report and checklist"});
-    
-    
-    
+
+
+
     Object.assign(T.fr,{"vip_news":"OFFRES HOTSPOT ET TICKETS VIP"});
     Object.assign(T.mg,{"vip_news":"OFFRES HOTSPOT SY TICKET VIP"});
     Object.assign(T.en,{"vip_news":"HOTSPOT OFFERS AND VIP TICKETS"});
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
       Object.assign(T.fr,{"qa_title":"Portail CONNECT+, ventes VIP et trafic Internet","qa_notice":"Le tableau du trafic se remplit après la première mesure. Essais sur RB5009 avec Linux et Android dans Waydroid. Les six installateurs ont été vérifiés.","n_and":"Android CLIENT 3.12.62.42. La mise à jour de .41 vers .42 a conservé les profils et les tickets locaux. Si votre ancienne version utilise un autre certificat, sauvegardez vos données avant la migration.","vip_detail":"Le RB5009 a confirmé la création et l’activation d’un VIP autorisant cinq appareils. La connexion d’un client au portail avec ce code reste à valider.","n_mac":"Archives Intel et Apple Silicon contrôlées. Les ZIP sont non signés et non notarisés. L’essai sur un Mac réel reste à effectuer.","release_ready":"Préversion CLIENT"});
     Object.assign(T.mg,{"qa_title":"Portail CONNECT+, varotra tapakila VIP ary fifamoivoizana Internet","qa_notice":"Miseho ny tarehimarika rehefa tonga ny fandrefesana voalohany. Notsapaina tamin’ny RB5009 ny Linux sy Android tao amin’ny Waydroid. Voamarina ireo rakitra fametrahana enina.","n_and":"Android CLIENT 3.12.62.42. Voatahiry ny profil sy ny tapakila tao amin’ny fitaovana rehefa nohavaozina avy amin’ny .41 ho .42. Manaova tahiry aloha raha hafa ny certificat amin’ny kinova taloha.","vip_detail":"Voamarina tao amin’ny RB5009 ny famoronana sy fampandehanana tapakila VIP ho an’ny fitaovana dimy. Mbola mila andramana ny fidiran’ny mpanjifa amin’ilay kaody ao amin’ny portail.","n_mac":"Voamarina ny ZIP ho an’ny Mac Intel sy Apple Silicon. Tsy misy sonia na fanamarinana notarisation Apple ireo ZIP ireo. Mbola mila andramana amin’ny Mac tena izy.","release_ready":"Kinova andrana CLIENT"});
     Object.assign(T.en,{"qa_title":"CONNECT+ portal, VIP sales and Internet traffic","qa_notice":"Traffic figures appear when the first measurement arrives. Tested on an RB5009 using Linux and Android in Waydroid. All six installer payloads were verified.","n_and":"Android CLIENT 3.12.62.42. Updating from .41 to .42 preserved saved profiles and local tickets. Back up your data before migrating an older version that uses a different certificate.","vip_detail":"An RB5009 confirmed creation and activation of a VIP allowing five devices. A client login to the Hotspot using this code still needs testing.","n_mac":"Intel and Apple Silicon ZIP contents were verified. These archives are unsigned and unnotarized. Testing on a physical Mac is pending.","release_ready":"CLIENT preview"});
+
+    /* Additional strings for the approved local mockup; original language keys stay intact. */
+    Object.assign(T.fr,{"nav_home":"Accueil","nav_features":"Fonctionnalités","nav_downloads":"Téléchargements","nav_guide":"Guide","nav_support":"Assistance","cta_download":"Télécharger LIHETI CLIENT","cta_guide":"Guide d’utilisation","demo_title":"Vue d’ensemble · illustration","demo_tickets":"Tickets & VIP","demo_network":"Réseau","demo_agent":"Agent LIHETI","demo_graph":"Trafic Internet · exemple visuel","demo_note":"Illustration, pas une mesure réelle","features_head":"Fonctionnalités essentielles","features_sub":"Une application pour votre activité Internet","downloads_sub":"Choisissez votre système d’exploitation","downloads_note":"Liens de téléchargement CLIENT existants conservés. Vérifiez la version et la signature avant installation.","feature_tickets":"Tickets & VIP","feature_tickets_d":"Durée, volume, offres","feature_cyber":"Cybercafé","feature_cyber_d":"Postes, caisse, impression","feature_traffic":"Réseau & débit","feature_traffic_d":"Trafic, qualité, stabilité","feature_quota":"Gestion de quota","feature_quota_d":"Cycle 28/29/30/31 jours","feature_cash":"Caisse & ventes","feature_cash_d":"Encaissement, rendu","feature_bth":"Accès distant","feature_bth_d":"Back To Home, routeurs","feature_remote":"Apps à distance","feature_remote_d":"WireGuard, ZeroTier, Console Pro","feature_agent":"Agent LIHETI","feature_agent_d":"Surveillance, alertes, archivage","plat_android":"Application mobile APK","plat_windows":"Application de bureau EXE","plat_linux":"Ubuntu/Debian DEB et AppImage","plat_macos":"Intel x64 et Apple Silicon — ZIP non signé","info_head":"Guides, outils et vérifications","info_updates":"Nouveautés, tickets et fonctionnalités","info_compat":"Compatibilité et validation","info_verify":"Empreintes et signatures","info_install":"Installation et configuration","info_remote":"Applications à distance : WireGuard, ZeroTier, Console Pro","info_agent":"Agent LIHETI : surveillance, alertes et archivage","step1_title":"1. Télécharger","step1_desc":"Choisissez le paquet CLIENT adapté à votre système.","step2_title":"2. Vérifier","step2_desc":"Comparez la signature ou l’empreinte SHA-256.","step3_title":"3. Connecter","step3_desc":"Connectez-vous au serveur avec les identifiants autorisés.","agent_intro":"L’Agent LIHETI accompagne la surveillance des sessions et abonnements, les alertes et l’archivage intelligent.","agent_mode_1":"Surveillance","agent_mode_2":"Assistée","agent_mode_3":"Auto","agent_archive":"Archivage intelligent","agent_alert":"Alertes","agent_limits":"Les fonctions disponibles dépendent de la version et du routeur. Les opérations sensibles restent soumises à des contrôles et confirmations.","release_ready":"Préversion CLIENT :"});
+    Object.assign(T.mg,{"nav_home":"Fandraisana","nav_features":"Fiasa","nav_downloads":"Fisintomana","nav_guide":"Torolalana","nav_support":"Fanampiana","cta_download":"Hisintona LIHETI CLIENT","cta_guide":"Torolalana","demo_title":"Topimaso · sary fanazavana","demo_tickets":"Tapakila & VIP","demo_network":"Tambajotra","demo_agent":"Agent LIHETI","demo_graph":"Fifamoivoizana Internet · ohatra","demo_note":"Sary ohatra, tsy fandrefesana tena izy","features_head":"Fiasa lehibe","features_sub":"Fampiharana iray ho an’ny fitantanana Internet","downloads_sub":"Fidio ny rafitra ampiasainao","downloads_note":"Voatahiry ny rohy fisintomana CLIENT. Hamarino ny version sy ny sonia alohan’ny fametrahana.","feature_tickets":"Tapakila & VIP","feature_tickets_d":"Fotoana, volume, tolotra","feature_cyber":"Cybercafé","feature_cyber_d":"Solosaina, vola, printy","feature_traffic":"Tambajotra & débit","feature_traffic_d":"Trafic, kalitao, fahamarinan-toerana","feature_quota":"Fitantanana quota","feature_quota_d":"Tsingerina 28/29/30/31 andro","feature_cash":"Vola & varotra","feature_cash_d":"Fandraisana vola sy famerim-bola","feature_bth":"Fidirana lavitra","feature_bth_d":"Back To Home, routeur","feature_remote":"Apps lavitra","feature_remote_d":"WireGuard, ZeroTier, Console Pro","feature_agent":"Agent LIHETI","feature_agent_d":"Fanaraha-maso, fampitandremana","plat_android":"APK ho an’ny finday","plat_windows":"Rindranasa EXE ho an’ny PC","plat_linux":"DEB Ubuntu/Debian sy AppImage","plat_macos":"Intel x64 sy Apple Silicon — ZIP tsy voasonia","info_head":"Torolalana sy fanamarinana","info_updates":"Vaovao, tapakila ary fiasa","info_compat":"Fifanarahana sy fitsapana","info_verify":"SHA-256 sy sonia","info_install":"Fametrahana sy fikirakirana","info_remote":"Fampiharana lavitra : WireGuard, ZeroTier, Console Pro","info_agent":"Agent LIHETI : fanaraha-maso sy fitahirizana","step1_title":"1. Misintona","step1_desc":"Fidio ny version CLIENT mifanaraka amin’ny rafitrao.","step2_title":"2. Manamarina","step2_desc":"Ampitahao ny sonia na ny SHA-256.","step3_title":"3. Mampifandray","step3_desc":"Ampifandraiso amin’ny serveur amin’ny alalan’ny kaonty nahazo alalana.","agent_intro":"Manampy amin’ny fanaraha-maso ny connexion sy abonnement, fanairana ary fitahirizana marani-tsaina ny Agent LIHETI.","agent_mode_1":"Fanaraha-maso","agent_mode_2":"Ampiana","agent_mode_3":"Auto","agent_archive":"Fitahirizana marani-tsaina","agent_alert":"Fampitandremana","agent_limits":"Miankina amin’ny version sy ny routeur ny fiasa. Mila fanamarinana ny asa saro-pady.","release_ready":"CLIENT andrana :"});
+    Object.assign(T.en,{"nav_home":"Home","nav_features":"Features","nav_downloads":"Downloads","nav_guide":"Guide","nav_support":"Support","cta_download":"Download LIHETI CLIENT","cta_guide":"User guide","demo_title":"Dashboard · illustration","demo_tickets":"Tickets & VIP","demo_network":"Network","demo_agent":"LIHETI Agent","demo_graph":"Internet traffic · visual example","demo_note":"Illustration, not live measurements","features_head":"Core features","features_sub":"One application for your Internet business","downloads_sub":"Choose your operating system","downloads_note":"Existing CLIENT download links are retained. Verify the version and signature before installing.","feature_tickets":"Tickets & VIP","feature_tickets_d":"Time, data, offers","feature_cyber":"Cybercafé","feature_cyber_d":"Workstations, cash desk, printing","feature_traffic":"Network & speed","feature_traffic_d":"Traffic, quality, stability","feature_quota":"Quota control","feature_quota_d":"28/29/30/31-day cycles","feature_cash":"Sales & cash desk","feature_cash_d":"Payments and change","feature_bth":"Remote access","feature_bth_d":"Back To Home, routers","feature_remote":"Remote apps","feature_remote_d":"WireGuard, ZeroTier, Console Pro","feature_agent":"LIHETI Agent","feature_agent_d":"Monitoring, alerts, archiving","plat_android":"Mobile APK","plat_windows":"Desktop EXE","plat_linux":"Ubuntu/Debian DEB and AppImage","plat_macos":"Intel x64 and Apple Silicon — unsigned ZIP","info_head":"Guides, tools and checks","info_updates":"What’s new, tickets and features","info_compat":"Compatibility and validation","info_verify":"Checksums and signatures","info_install":"Installation and setup","info_remote":"Remote apps: WireGuard, ZeroTier, Console Pro","info_agent":"LIHETI Agent: monitoring, alerts and archiving","step1_title":"1. Download","step1_desc":"Choose the CLIENT package for your system.","step2_title":"2. Verify","step2_desc":"Compare the signature or SHA-256 checksum.","step3_title":"3. Connect","step3_desc":"Connect to the server using authorized credentials.","agent_intro":"LIHETI Agent supports monitoring of sessions and subscriptions, alerts, and intelligent archiving.","agent_mode_1":"Monitoring","agent_mode_2":"Assisted","agent_mode_3":"Auto","agent_archive":"Intelligent archiving","agent_alert":"Alerts","agent_limits":"Availability depends on the version and router. Sensitive operations require checks and confirmations.","release_ready":"CLIENT preview:"});
+    /* Navigation des sections repliables : ouverture à l’arrivée. */
+    document.querySelectorAll('a[href^="#"]').forEach(function(link){
+      link.addEventListener('click',function(){
+        var id=(link.getAttribute('href')||'').slice(1);
+        if(!id)return;
+        var target=document.getElementById(id);
+        if(target && target.tagName==='DETAILS') target.open=true;
+      });
+    });
+    T.fr.remote_console_info='Console Pro est intégré à LIHETI MANAGER. WireGuard, ZeroTier et Back To Home facilitent la connexion distante selon votre configuration et vos autorisations.';
+    T.mg.remote_console_info='Ao anatin’ny LIHETI MANAGER ny Console Pro. WireGuard, ZeroTier ary Back To Home no manampy amin’ny fifandraisana lavitra araka ny fikirakirana sy ny fahazoan-dalana.';
+    T.en.remote_console_info='Console Pro is integrated into LIHETI MANAGER. WireGuard, ZeroTier and Back To Home support remote connections according to your configuration and access rights.';
+    /* RELECTURE DES LANGUES (locale FR/MG/EN) — toutes les données sensibles restent intactes. */
+    Object.assign(T.fr,{"page_title":"LIHETI MANAGER CLIENT — Préversion à télécharger","page_description":"Téléchargez LIHETI MANAGER CLIENT pour gérer le Wi-Fi, les tickets Internet, le Hotspot, les quotas et le cybercafé.","aria_nav":"Navigation principale","aria_language":"Choisir la langue","aria_illustration":"Illustration du tableau de bord LIHETI","aria_graph":"Courbe illustrative du trafic Internet","release_badge":"PRÉVERSION CLIENT","download_platform_names":{"android":"Android CLIENT","windows":"Windows CLIENT","linux":"Linux CLIENT · AppImage","linux_deb":"Ubuntu / Debian CLIENT · DEB","mac_intel":"macOS Intel CLIENT","mac_apple":"macOS Apple Silicon CLIENT"},"checksum_names":{"android":"APK Android signé","windows":"Windows .exe","linux":"Linux .AppImage","linux_deb":"Ubuntu / Debian .deb","mac_intel":"macOS Intel : ZIP non signé","mac_apple":"macOS Apple Silicon : ZIP non signé"},"download_verify_heading":"Vérification des téléchargements","download_verify_detail":"L’APK Android utilise le certificat CLIENT historique. Comparez les empreintes SHA-256 avant toute installation.","download_verify_manifest":"Manifeste SHA-256 de cette version","zip_unsigned":"Archive ZIP non signée — préversion","feature_remote":"Applications à distance","feature_cyber_d":"Postes, caisse et impression","feature_traffic":"Réseau et débit","feature_quota":"Gestion des quotas","feature_cash":"Caisse et ventes","qa_link":"Version et vérification SHA-256","a1d":"— créez des codes d’accès Internet, vendez-les au comptoir et retrouvez immédiatement chaque vente dans la liste des tickets vendus.","a4d":"— MikroTik, Cudy, TP-Link, Tenda et Ubiquiti : fonctions adaptées au modèle, au micrologiciel et au contrôleur.","agent_mode_3":"Automatique","release_link":"Voir la version et les fichiers sur GitHub"});
+    Object.assign(T.mg,{"page_title":"LIHETI MANAGER CLIENT — Kinova andrana azo sintonina","page_description":"Sintomy ny LIHETI MANAGER CLIENT hitantanana Wi-Fi, tapakila Internet, Hotspot, quota ary cybercafé.","aria_nav":"Fizahana ny pejy","aria_language":"Safidio ny fiteny","aria_illustration":"Sary fanazavana ny tabilao LIHETI","aria_graph":"Sary maneho ny fifamoivoizana Internet","release_badge":"KINOVA ANDRANA CLIENT","download_platform_names":{"android":"Android CLIENT","windows":"Windows CLIENT","linux":"Linux CLIENT · AppImage","linux_deb":"Ubuntu / Debian CLIENT · DEB","mac_intel":"macOS Intel CLIENT","mac_apple":"macOS Apple Silicon CLIENT"},"checksum_names":{"android":"APK Android misy sonia","windows":"Windows .exe","linux":"Linux .AppImage","linux_deb":"Ubuntu / Debian .deb","mac_intel":"macOS Intel: ZIP tsy misy sonia","mac_apple":"macOS Apple Silicon: ZIP tsy misy sonia"},"download_verify_heading":"Fanamarinana ireo rakitra alaina","download_verify_detail":"Ny APK Android dia mampiasa ny taratasy fanamarinana fanaovan-tsonia CLIENT efa nampiasaina hatrizay. Ampitahao ny kaody SHA-256 alohan’ny hametrahana azy.","download_verify_manifest":"Lisitra SHA-256 ho an’ity kinova ity","zip_unsigned":"ZIP tsy misy sonia — kinova andrana","edition":"KINOVA CLIENT • MARIKA DIMY • HOTSPOT SY CYBERCAFÉ","sub":"Fitaovana hitantanana ny asa Internet-nao: tapakila, pejy fidirana, fandraisam-bola, mpanjifa ary solosaina.","slog":"Tantano mora ny varotrao sy ny tambajotrao, na eo an-toerana na avy lavitra.","feature_tickets_d":"Fotoana, habetsahan’ny angona, tolotra","feature_cyber":"Cybercafé","feature_cyber_d":"Solosaina, fandraisam-bola, fanontana","feature_traffic":"Tambajotra sy hafainganam-pandeha","feature_traffic_d":"Fifamoivoizana, kalitao, fahamarinan-toerana","feature_quota":"Fitantanana ny quota","feature_cash":"Vola sy varotra","feature_cash_d":"Fandraisam-bola sy famerim-bola","feature_bth_d":"Back To Home sy fitaovana mampifandray","feature_remote":"Fampiharana fifandraisana lavitra","feature_remote_d":"WireGuard, ZeroTier, Console Pro","feature_agent_d":"Fanaraha-maso, fampitandremana, fitahirizana","h_dl":"SINTOMY NY LIHETI MANAGER CLIENT","downloads_note":"Tsy novaina ireo rohy fisintonana CLIENT. Hamarino ny kinova sy ny sonia alohan’ny fametrahana.","f_apk":"APK Android misy sonia","f_exe":"Rakitry ny fametrahana Windows (.exe)","f_deb":"Fonosana Ubuntu / Debian (.deb)","f_lin":"AppImage ho an’ny Linux","qa_title":"Pejy fidirana CONNECT+, varotra VIP ary fifamoivoizana Internet","qa_link":"Kinova sy fanamarinana SHA-256","vip_news":"TOLOTRA HOTSPOT SY TAPAKILA VIP","vip_detail":"Voamarina tamin’ny RB5009 ny famoronana sy fampandehanana tapakila VIP ho an’ny fitaovana dimy. Mbola mila tsapaina ny fidiran’ny mpanjifa amin’ny pejy fidirana amin’io kaody io.","h_value":"NY TOMBONTSOA AZO AMIN’NY LIHETI","a1t":"Tapakila Internet sy pejy fidirana","a1d":"— mamorona kaody fidirana Internet, mivarotra azy eo amin’ny fandraisam-bola ary mahita avy hatrany ny varotra rehetra ao amin’ny lisitry ny tapakila efa lafo.","a2t":"Cybercafé — fanaraha-maso ny solosaina","a2d":"— ny tomponandraikitra, ny fotoana ifandraisana sy ialana, ny faharetan’ny fampiasana ary ny fidirana Hotspot dia tantanina isaky ny solosaina.","a3t":"Fandraisam-bola azo arahana","a3d":"— kaody PIN an’ny mpivarotra, firaketana ny vola ary tantaran’ny varotra, mba hampihenana ny fatiantoka sy hamaliana ny fitarainan’ny mpanjifa.","a4t":"Marika dimy, fomba fitantanana iray","a4d":"— MikroTik, Cudy, TP-Link, Tenda ary Ubiquiti: miankina amin’ny modely, ny rindrankajy ary ny fitaovana mpitantana ny fiasa azo ampiasaina.","a5t":"Mobile Money amin’ny Android rehefa voarindra","a5d":"— mamaky sy mandamina ny hafatra SMS momba ny fandoavam-bola rehefa nomena alalana; tsy misintona vola ho azy amin’ny kaonty.","a6t":"Miasa eo an-toerana ho laharam-pahamehana","a6d":"— eo ambany fifehezanao ny fikirakirana sy ny asanao; rehefa safidinao ihany no ampiasaina ny fidirana lavitra.","a7t":"Fanadihadiana sy fanitsiana tarihin’ny faharanitan-tsaina artifisialy, na misy Internet na tsia","a7d":"— mandinika ny fikirakirana ny fampiharana, manolotra fanitsiana, mampiseho izay hatao alohan’ny hanekena azy, manamarina ny vokatra ary afaka mamerina ny toe-javatra teo aloha raha tohanana izany.","a8t":"Torolalana am-peo amin’ny fiteny telo, na misy Internet na tsia","a8d":"— torolalana am-peo amin’ny teny malagasy, frantsay ary anglisy, na misy fifandraisana Internet na tsia.","brands_intro":"LIHETI GV1 dia mikendry ny MikroTik, Cudy, Ubiquiti, TP-Link ary Tenda: rafitra iray iraisana hitantanana tapakila, Hotspot, VIP, PPPoE, quota, vola sy fanaraha-maso, ary fomba fifandraisana mifanaraka amin’ny fahafahan’ny fitaovana tsirairay. Samy manana ny tabilao fitantanana azy ny marika.","brand_mt":"Mifanaraka amin’ny RouterOS 7 sy ny API REST alefa ny RB5009 sy hAP ac² amin’ny fitantanana tapakila Hotspot sy VIP ho an’ny fitaovana maro. Miankina amin’ny fikirakirana ny fitaovana ny fiasa misy.","brand_cudy":"Modely OpenWrt/openNDS mifanaraka, na fitaovana fizarana Wi-Fi mampiasa ny rindrankajy tany am-boalohany, ao ambadiky ny vavahady LIHETI.","brand_ubnt":"UniFi Network miaraka amin’ny API ofisialy sy kaody API, na fitaovana fizarana Wi-Fi airOS/UniFi ao ambadiky ny vavahady LIHETI.","brand_tplink":"Omada 5.9+ Open API, modely OpenWrt mifanaraka, na fitaovana fizarana Wi-Fi Archer/Deco ao ambadiky ny vavahady LIHETI.","brand_tenda":"Modely OpenWrt/openNDS mifanaraka, na fitaovana fizarana Wi-Fi mampiasa ny rindrankajy tany am-boalohany ao ambadiky ny vavahady LIHETI.","n_and":"Android CLIENT 3.12.62.42. Voatahiry ny fikirakirana sy ny tapakila teo an-toerana rehefa nohavaozina avy amin’ny .41 ho .42. Manaova kopia fiarovana aloha raha mampiasa taratasy fanamarinana hafa ny kinova taloha.","n_mac":"Voamarina ny ao anatin’ireo rakitra ZIP ho an’ny Mac Intel sy Apple Silicon. Tsy misy sonia na fanamarinana avy amin’i Apple ireo rakitra ireo. Mbola mila tsapaina amin’ny solosaina Mac tena izy.","h_verify":"HAMARINO NY RAKITRA NALAINA","verify_intro":"Rehefa avy misintona rakitra ianao, ampitahao amin’ny kaody SHA-256 aseho eto ny kaodiny mba hahazoana antoka fa tsy niova ny rakitra.","release_link":"Jereo ao amin’ny GitHub ny kinova sy ny rakitra azo alaina","step1_desc":"Fidio ny fonosana CLIENT mifanaraka amin’ny rafitra ampiasainao.","step2_desc":"Ampitahao ny sonia na ny kaody SHA-256.","step3_desc":"Mampifandraisa amin’ny mpizara amin’ny alalan’ny kaonty nahazo alalana.","remote_text":"Raha hitantana ny fitaovana mampifandray lavitra ianao, ampiasao ny fomba mifanaraka amin’ny fametrahanao: WireGuard / Back To Home amin’ny RouterOS 7, na ZeroTier raha tohanan’ny fitaovana MikroTik. Ao amin’ny fanampian’ny fampiharana no ahitana ny torolalana.","w_and":"Play Store — atolotra","w_win":"Rakitry ny fametrahana ofisialy","w_mac":"App Store ofisialy","w_lin":"Torolalana ofisialy araka ny rafitra","z_zt":"ARM / ARM64 / x86 arakaraka ny RouterOS","z_mt":"Safidio ny rafitra RouterOS mifanaraka","z_rd":"Fanampiana amin’ny solosaina Windows sy macOS","z_hd":"Fitaovana fanampiana hafa","info_agent":"Agent LIHETI: fanaraha-maso, fanairana ary fitahirizana","agent_intro":"Manampy amin’ny fanaraha-maso ny fifandraisana sy ny famandrihana, ny fanairana ary ny fitahirizana marani-tsaina ny Agent LIHETI.","agent_mode_2":"Misy fanampiana","agent_mode_3":"Mandeha ho azy","agent_archive":"Fitahirizana marani-tsaina","agent_limits":"Miankina amin’ny kinova sy ny fitaovana mampifandray ny fiasa misy. Tsy atao raha tsy efa voamarina sy nekena ny asa saro-pady.","remote_console_info":"Tafiditra ao amin’ny LIHETI MANAGER ny Console Pro. WireGuard, ZeroTier ary Back To Home dia manampy amin’ny fifandraisana lavitra, arakaraka ny fikirakirana sy ny fahazoan-dalana.","download_platform_help":"Fidio ny rafitra ampiasainao."});
+    Object.assign(T.en,{"page_title":"LIHETI MANAGER CLIENT — Preview download","page_description":"Download LIHETI MANAGER CLIENT for Wi-Fi, Internet tickets, Hotspot, quotas and cybercafé management.","aria_nav":"Main navigation","aria_language":"Choose language","aria_illustration":"LIHETI dashboard illustration","aria_graph":"Illustrative Internet traffic chart","release_badge":"CLIENT PREVIEW","download_platform_names":{"android":"Android CLIENT","windows":"Windows CLIENT","linux":"Linux CLIENT · AppImage","linux_deb":"Ubuntu / Debian CLIENT · DEB","mac_intel":"macOS Intel CLIENT","mac_apple":"macOS Apple Silicon CLIENT"},"checksum_names":{"android":"Signed Android APK","windows":"Windows .exe","linux":"Linux .AppImage","linux_deb":"Ubuntu / Debian .deb","mac_intel":"macOS Intel: unsigned ZIP","mac_apple":"macOS Apple Silicon: unsigned ZIP"},"download_verify_heading":"Verify your downloads","download_verify_detail":"The Android APK uses the historical CLIENT signing certificate. Compare the SHA-256 checksums before installing.","download_verify_manifest":"SHA-256 manifest for this release","zip_unsigned":"Unsigned ZIP — preview","feature_cash":"Sales and cash desk","agent_mode_3":"Automatic","release_link":"View this release and its files on GitHub"});
     setLang('fr');
     loadCurrentDownloads();
 </script>
