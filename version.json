@@ -5,13 +5,13 @@
   "channel": "prerelease",
   "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client.20261120",
   "page": "https://famillemile.github.io/liheti-updates/",
-  "android_version_code": 49,
-  "android_version_name": "3.12.62.49",
+  "android_version_code": 52,
+  "android_version_name": "3.12.62.52",
   "desktop_release_date": "2026-11-20",
   "android_release_date": "2026-11-20",
-  "build": "20261120-vip-wan-consommation-49",
+  "build": "20261120-vip-journal-safe-52",
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62.49-VIP-WAN-CONSOMMATION-20261120.apk",
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62.52-VIP-JOURNAL-SAFE-20261120.apk",
     "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-Setup-3.12.62-CORRIGE-WAN-20261120.exe",
     "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-x86_64.AppImage",
     "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-amd64.deb",
@@ -19,7 +19,7 @@
     "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-arm64.zip"
   },
   "checksums": {
-    "android": "c4b3d8bdfc7fae683f8b1acdb9fdc4d3dddd807432177dc6c065570700d21aab",
+    "android": "c49d55a7144180ffccda7b2536837b08d9505cdb106a0f8ed80f271494da6de1",
     "windows": "f452162a8f82ef557dee36ffd48cb5c84a13a3a2251186a26350102ba3b18c47",
     "linux": "914ec688b3ead4dea5142fbb99e28eb7c307bf21ec2722db5d545bf3ac24cf26",
     "linux_deb": "f31ed4dbb24ffe2a3e4245fc6caf50ca0cbfb7d7fb24d9c37e2a38bfe095078f",
@@ -27,7 +27,7 @@
     "mac_apple": "3132ea2c704c68524f4b8fa33861b61d25bd2922fbf62a3ba79d0aa1671d46c5"
   },
   "labels": {
-    "android": "Android CLIENT 3.12.62.49 — 20/11/2026",
+    "android": "Android CLIENT 3.12.62.52 — 20/11/2026",
     "windows": "Windows CLIENT — 20/11/2026 · WAN + VIP",
     "linux": "Linux CLIENT — 20/11/2026 · WAN + VIP",
     "linux_deb": "Ubuntu / Debian CLIENT — 20/11/2026 · WAN + VIP",
@@ -36,7 +36,7 @@
   },
   "signatures": {
     "android_certificate_sha256": "000d5cadff59ad8f5228abcf663c1fc20533bb78fb645ac062394e9b30c1a2cc",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/SHA256SUMS-CLIENT-VIP-WAN-CONSOMMATION-20261120.txt",
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/SHA256SUMS-CLIENT-VIP-JOURNAL-SAFE-20261120.txt",
     "windows": "Sans Authenticode",
     "linux": "Sans signature GPG",
     "macos": "ZIP non signés / non notarisés Apple ; test sur Mac à effectuer"
@@ -49,7 +49,7 @@
   "android_update_compatibility": {
     "uninstall_required": false,
     "older_certificate_note": "Certaines anciennes versions CLIENT utilisent un autre certificat : sauvegarde et migration à prévoir ; ne pas désinstaller automatiquement.",
-    "verified_version_code": 49,
+    "verified_version_code": 52,
     "certificate_compatible_from_version_code": 36
   },
   "desktop_release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client.20261120",
