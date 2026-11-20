@@ -3,7 +3,7 @@
   "date": "2026-11-19",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-ticket-usage.20261119",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client.20261120",
   "page": "https://famillemile.github.io/liheti-updates/",
   "android_version_code": 43,
   "android_version_name": "3.12.62.43",
@@ -12,7 +12,7 @@
   "build": "20261119-first-use-ticket-usage",
   "downloads": {
     "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-ticket-usage.20261119/LIHETI-GV1-CLIENT-3.12.62.43-FIRST-USE-20261119.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-ticket-usage.20261119/LIHETI-GV1-CLIENT-Setup-3.12.62-FIRST-USE-20261119.exe",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-Setup-3.12.62-CORRIGE-20261120.exe",
     "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-ticket-usage.20261119/LIHETI-GV1-CLIENT-3.12.62-FIRST-USE-20261119-x86_64.AppImage",
     "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-ticket-usage.20261119/LIHETI-GV1-CLIENT-3.12.62-FIRST-USE-20261119-amd64.deb",
     "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-ticket-usage.20261119/LIHETI-GV1-CLIENT-3.12.62-FIRST-USE-20261119-x64.zip",
@@ -20,7 +20,7 @@
   },
   "checksums": {
     "android": "669ce03f9b479a402d783e1dcfcc08bd664946956666fb43ea78b16fcb1810ce",
-    "windows": "092720bacce6e744395555a8ab53e6878e2d4352c477a49347d747f5e4eca03e",
+    "windows": "26fec3adeea045943ce34f9a361e0714876faf7663bbe61d9cc74c3edf770798",
     "linux": "ba8517eb507894edb3cd8e13bdc1bfd542e2f0174c0d81eb1654d640ec4f7ab3",
     "linux_deb": "21dbbae58e1f97584b581f91316b3d521e60e317f0ebbd4d5cd658e887b2610e",
     "mac_intel": "d87e4fb6333091727c26cf4422afde15d8bab6f6261c78c65cba7afadf9accb2",
@@ -28,7 +28,7 @@
   },
   "labels": {
     "android": "Android CLIENT 3.12.62.43 — 19/11/2026",
-    "windows": "Windows CLIENT — 19/11/2026 · Tickets",
+    "windows": "Windows CLIENT — 20/11/2026 · corrigé",
     "linux": "Linux CLIENT — 19/11/2026 · Tickets",
     "linux_deb": "Ubuntu / Debian CLIENT — 19/11/2026 · Tickets",
     "mac_intel": "macOS Intel — 19/11/2026 · Tickets",
@@ -36,7 +36,7 @@
   },
   "signatures": {
     "android_certificate_sha256": "000d5cadff59ad8f5228abcf663c1fc20533bb78fb645ac062394e9b30c1a2cc",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-ticket-usage.20261119/SHA256SUMS-CLIENT-20261119.txt",
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/SHA256SUMS-CLIENT-CORRIGE-20261120.txt",
     "windows": "Sans Authenticode",
     "linux": "Sans signature GPG",
     "macos": "ZIP non signés / non notarisés Apple ; test sur Mac à effectuer"
