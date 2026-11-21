@@ -1,57 +1,56 @@
 {
-  "version": "3.12.62",
-  "date": "2026-11-20",
+  "version": "3.12.63",
+  "date": "2026-11-21",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client.20261120",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.63",
   "page": "https://famillemile.github.io/liheti-updates/",
-  "android_version_code": 52,
-  "android_version_name": "3.12.62.52",
-  "desktop_release_date": "2026-11-20",
-  "android_release_date": "2026-11-20",
-  "build": "20261120-vip-journal-safe-52",
+  "android_version_code": 63,
+  "android_version_name": "3.12.63",
+  "desktop_release_date": "2026-11-21",
+  "android_release_date": "2026-11-21",
+  "build": "20261121-v3.12.63",
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62.52-VIP-JOURNAL-SAFE-20261120.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-Setup-3.12.62-CORRIGE-WAN-20261120.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-x86_64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-amd64.deb",
-    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-x64.zip",
-    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/LIHETI-GV1-CLIENT-3.12.62-VIP-KBDU3-WANFIX-20261120-arm64.zip"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.deb",
+    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.zip",
+    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.zip"
   },
   "checksums": {
-    "android": "c49d55a7144180ffccda7b2536837b08d9505cdb106a0f8ed80f271494da6de1",
-    "windows": "f452162a8f82ef557dee36ffd48cb5c84a13a3a2251186a26350102ba3b18c47",
-    "linux": "914ec688b3ead4dea5142fbb99e28eb7c307bf21ec2722db5d545bf3ac24cf26",
-    "linux_deb": "f31ed4dbb24ffe2a3e4245fc6caf50ca0cbfb7d7fb24d9c37e2a38bfe095078f",
-    "mac_intel": "2b7e5b39f2afdb644e40c6db0b7ccc9a0bc4cbea209a15f16f3a3ca1ef58bf25",
-    "mac_apple": "3132ea2c704c68524f4b8fa33861b61d25bd2922fbf62a3ba79d0aa1671d46c5"
+    "android": "282c843aaa2f4f2e3b6120d8f1e5cb8c25f90627387bbe55c24ee94cb37c842b",
+    "windows": "744a2299793f45b429e834dc7520f9f032fb1c8117bccbb0b3cf16d7838945ad",
+    "linux": "bfe6dc8bd35ef6830c7b8306c449a005919f95a70895e8bab60b7c1f8c0cd481",
+    "linux_deb": "2cae6f96e5d3962694fd13cf4087aa9537df4eb5b8e0a3d9fdba310be0dace1d",
+    "mac_intel": "10c1c2e96cf11c607bc108d11604207dff0fd4a5d4bff6ead8ca2dbfa132efec",
+    "mac_apple": "10c1c2e96cf11c607bc108d11604207dff0fd4a5d4bff6ead8ca2dbfa132efec"
   },
   "labels": {
-    "android": "Android CLIENT 3.12.62.52 — 20/11/2026",
-    "windows": "Windows CLIENT — 20/11/2026 · WAN + VIP",
-    "linux": "Linux CLIENT — 20/11/2026 · WAN + VIP",
-    "linux_deb": "Ubuntu / Debian CLIENT — 20/11/2026 · WAN + VIP",
-    "mac_intel": "macOS Intel — 20/11/2026 · Test",
-    "mac_apple": "macOS Apple Silicon — 20/11/2026 · Test"
+    "android": "Android — 3.12.63",
+    "windows": "Windows — 3.12.63",
+    "linux": "Linux AppImage — 3.12.63",
+    "linux_deb": "Ubuntu / Debian — 3.12.63",
+    "mac_intel": "macOS Intel — 3.12.63 (ZIP multi-architectures)",
+    "mac_apple": "macOS Apple Silicon — 3.12.63 (ZIP multi-architectures)"
   },
   "signatures": {
     "android_certificate_sha256": "000d5cadff59ad8f5228abcf663c1fc20533bb78fb645ac062394e9b30c1a2cc",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client.20261120/SHA256SUMS-CLIENT-VIP-JOURNAL-SAFE-20261120.txt",
-    "windows": "Sans Authenticode",
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/SHA256SUMS.txt",
+    "windows": "Installateur sans signature Authenticode : version de prévalidation",
     "linux": "Sans signature GPG",
-    "macos": "ZIP non signés / non notarisés Apple ; test sur Mac à effectuer"
+    "macos": "ZIP non signés / non notarisés Apple ; test sur Mac requis"
   },
   "notes": {
-    "fr": "Correctif du classement automatique des tickets Hotspot dès leur première utilisation prouvée par MikroTik. Synchronisation automatique et après reconnexion. Test à chaud sur Electron avec routeur simulé réussi ; vérification sur le MikroTik réel de Tanjona à réaliser. Six installateurs reconstruits, source canonique PERSO/CLIENT alignée.",
-    "mg": "Nohatsaraina ny fanasokajiana ho VENDU ny tapakila Hotspot rehefa tena nampiasaina voalohany. Miasa amin'ny fampifanarahana mandeha ho azy sy aorian'ny fifandraisana indray. Nahomby ny fitsapana Electron tamin'ny router notahafina; mbola mila hamarinina amin'ny MikroTik tena ampiasain'i Tanjona.",
-    "en": "Fixes automatic classification of Hotspot tickets as sold after verified first use, including automatic synchronization and reconnection. Electron runtime test with simulated MikroTik passed; a real-router test with Tanjona is still pending. All six CLIENT installers rebuilt."
+    "fr": "Préversion 3.12.63 disponible sur Android, Windows, Linux et macOS. APK Android signé avec le certificat historique ; faites une sauvegarde avant toute mise à jour. Les tests métier sur installations réelles restent incomplets. Windows sans Authenticode ; macOS sans signature ni notarisation Apple.",
+    "mg": "Azo alaina ho andrana ny 3.12.63 ho an’ny Android, Windows, Linux ary macOS. APK Android voasonia tamin’ny certificat efa nampiasaina. Manaova tahiry alohan’ny fanavaozana. Mbola tsy vita ny fitsapana rehetra amin’ny fitaovana tena izy. Tsy mbola voasonia ny Windows sy macOS.",
+    "en": "Version 3.12.63 preview downloads for Android, Windows, Linux and macOS. The Android APK uses the existing signing certificate. Back up your data before updating. Full real-device business testing remains incomplete. Windows is unsigned; macOS is unsigned and not notarized."
   },
   "android_update_compatibility": {
     "uninstall_required": false,
-    "older_certificate_note": "Certaines anciennes versions CLIENT utilisent un autre certificat : sauvegarde et migration à prévoir ; ne pas désinstaller automatiquement.",
-    "verified_version_code": 52,
+    "older_certificate_note": "Certaines anciennes versions peuvent utiliser un autre certificat : sauvegardez les données et vérifiez la compatibilité avant une mise à jour.",
+    "verified_version_code": 63,
     "certificate_compatible_from_version_code": 36
   },
-  "desktop_release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client.20261120",
-  "private_source_index_sha256": "69d871c67fe101b9602222bfa3abc1a6ac35f38e386cf6e9ee04d34adec935cb"
+  "desktop_release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.63"
 }
