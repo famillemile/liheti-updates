@@ -1,13 +1,13 @@
-# LIHETI MANAGER CLIENT
+# LIHETI MANAGER
 
 **V4 du 18 novembre 2026** · [Page officielle](https://famillemile.github.io/liheti-updates/) · [Notes de version](https://github.com/famillemile/liheti-updates/releases/tag/v3.12.62-client-portail-vip-trafic.20261118)
 
 | Système | Installateur |
 | --- | --- |
-| Windows CLIENT — 18/11/2026 · V4 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-Setup-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4.exe) |
-| Android CLIENT 3.12.62.42 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62.42-PORTAIL-VIP-TRAFIC-20261118-V4.apk) |
-| Linux CLIENT — 18/11/2026 · V4 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4-x86_64.AppImage) |
-| Ubuntu / Debian CLIENT — 18/11/2026 · V4 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4-amd64.deb) |
+| Windows — 18/11/2026 · V4 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-Setup-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4.exe) |
+| Android 3.12.62.42 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62.42-PORTAIL-VIP-TRAFIC-20261118-V4.apk) |
+| Linux — 18/11/2026 · V4 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4-x86_64.AppImage) |
+| Ubuntu / Debian — 18/11/2026 · V4 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4-amd64.deb) |
 | macOS Intel — 18/11/2026 · V4 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4-x64.zip) |
 | macOS Apple Silicon — 18/11/2026 · V4 | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.62-client-portail-vip-trafic.20261118/LIHETI-GV1-CLIENT-3.12.62-PORTAIL-VIP-TRAFIC-20261118-V4-arm64.zip) |
 
