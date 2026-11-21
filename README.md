@@ -1,31 +1,34 @@
 # LIHETI MANAGER
 
-**Version 3.12.63 — préversion du 21 novembre 2026**
+**Version 3.12.64 — préversion, correctif tickets / portail captif**
 
 Site officiel : https://famillemile.github.io/liheti-updates/
 
-## Téléchargements
+## Télécharger
 
 | Système | Fichier |
 | --- | --- |
-| Android | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.apk) |
-| Windows | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.exe) |
-| Linux Debian / Ubuntu | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.deb) |
-| Linux AppImage | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.AppImage) |
-| macOS Intel et Apple Silicon | [Télécharger](https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.zip) |
+| Android | [LIHET-MANAGER-3.12.64](https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.apk) |
+| Windows | [LIHET-MANAGER-3.12.64](https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.exe) |
+| Ubuntu / Debian | [LIHET-MANAGER-3.12.64](https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.deb) |
+| Linux AppImage | [LIHET-MANAGER-3.12.64](https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.AppImage) |
+| macOS Intel et Apple Silicon | [LIHET-MANAGER-3.12.64](https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.zip) |
 
-Le ZIP macOS contient deux archives internes : Intel et Apple Silicon. Choisissez celle adaptée à votre Mac.
+Le fichier macOS contient deux ZIP : Intel et Apple Silicon. Choisissez celui adapté à votre Mac.
 
-## Précautions
+## Correction
 
-- Il s’agit d’une **préversion publique**. Sauvegardez les données avant toute installation.
-- Android : APK signé avec le certificat historique ; certaines éditions anciennes peuvent utiliser une autre signature.
-- Windows : installateur non signé Authenticode ; des avertissements de sécurité peuvent apparaître.
-- macOS : archives non signées et non notarizées ; validation sur Mac réel encore nécessaire.
-- Les tests complets de tickets VIP, portail captif, synchronisation, quotas et conservation des données sur tous les systèmes ne sont pas terminés.
+Cette version vérifie les identifiants des tickets sur MikroTik et relit le compte après toute correction de profil ou durée.
+Les tests logiciels du portail PAP/CHAP et des tickets passent ; les essais réels sur CYBER FY restent à effectuer.
 
-[Page de la version 3.12.63](https://github.com/famillemile/liheti-updates/releases/tag/v3.12.63)
+## Sécurité
 
-[Empreintes SHA-256](https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/SHA256SUMS.txt)
+- **Préversion : sauvegardez vos données avant installation.**
+- Android : même certificat de signature et versionCode 64, mise à jour par-dessus la version 63.
+- Windows : installateur sans signature Authenticode.
+- macOS : archives non signées et non notarizées Apple.
+- Les anciens installateurs restent accessibles pour les retours arrière.
 
-Les versions précédentes restent accessibles dans [l’historique GitHub](https://github.com/famillemile/liheti-updates/releases).
+[Historique des versions](https://github.com/famillemile/liheti-updates/releases)
+
+[Empreintes SHA-256](https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/SHA256SUMS.txt)

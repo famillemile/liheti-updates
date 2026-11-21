@@ -1,56 +1,56 @@
 {
-  "version": "3.12.63",
+  "version": "3.12.64",
   "date": "2026-11-21",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.63",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.64",
   "page": "https://famillemile.github.io/liheti-updates/",
-  "android_version_code": 63,
-  "android_version_name": "3.12.63",
+  "android_version_code": 64,
+  "android_version_name": "3.12.64",
   "desktop_release_date": "2026-11-21",
   "android_release_date": "2026-11-21",
-  "build": "20261121-v3.12.63",
+  "build": "20261121-v3.12.64-cyberfy-hotspot-auth",
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.deb",
-    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.zip",
-    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/LIHET-MANAGER-3.12.63.zip"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.deb",
+    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.zip",
+    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.zip"
   },
   "checksums": {
-    "android": "282c843aaa2f4f2e3b6120d8f1e5cb8c25f90627387bbe55c24ee94cb37c842b",
-    "windows": "744a2299793f45b429e834dc7520f9f032fb1c8117bccbb0b3cf16d7838945ad",
-    "linux": "bfe6dc8bd35ef6830c7b8306c449a005919f95a70895e8bab60b7c1f8c0cd481",
-    "linux_deb": "2cae6f96e5d3962694fd13cf4087aa9537df4eb5b8e0a3d9fdba310be0dace1d",
-    "mac_intel": "10c1c2e96cf11c607bc108d11604207dff0fd4a5d4bff6ead8ca2dbfa132efec",
-    "mac_apple": "10c1c2e96cf11c607bc108d11604207dff0fd4a5d4bff6ead8ca2dbfa132efec"
+    "android": "5f6b120a44ee82ab1bbda01fdbca4b682628aadf0ff0af19a8dcd309b04c2a28",
+    "windows": "73e4e180968ea83eefa57814d7d1bf0e4923aeb273dc8c44ce872b8f0a3b33a4",
+    "linux": "dbfb5e056ae0fae31cc81d3ac6d0f7477be63072fe564673cec2e9b3dcb7e366",
+    "linux_deb": "7079c7b38d6f9c10735409dcd1a582f2dac35e293999fe12b9b1eb329820a570",
+    "mac_intel": "bdda8d516484c01a9aea5784a9e11f3c773e6cb348fee099325f1c3473762d81",
+    "mac_apple": "bdda8d516484c01a9aea5784a9e11f3c773e6cb348fee099325f1c3473762d81"
   },
   "labels": {
-    "android": "Android — 3.12.63",
-    "windows": "Windows — 3.12.63",
-    "linux": "Linux AppImage — 3.12.63",
-    "linux_deb": "Ubuntu / Debian — 3.12.63",
-    "mac_intel": "macOS Intel — 3.12.63 (ZIP multi-architectures)",
-    "mac_apple": "macOS Apple Silicon — 3.12.63 (ZIP multi-architectures)"
+    "android": "Android — 3.12.64",
+    "windows": "Windows — 3.12.64",
+    "linux": "Linux AppImage — 3.12.64",
+    "linux_deb": "Ubuntu / Debian — 3.12.64",
+    "mac_intel": "macOS Intel — 3.12.64 (ZIP multi-architectures)",
+    "mac_apple": "macOS Apple Silicon — 3.12.64 (ZIP multi-architectures)"
   },
   "signatures": {
     "android_certificate_sha256": "000d5cadff59ad8f5228abcf663c1fc20533bb78fb645ac062394e9b30c1a2cc",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.63/SHA256SUMS.txt",
-    "windows": "Installateur sans signature Authenticode : version de prévalidation",
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/SHA256SUMS.txt",
+    "windows": "Installateur non signé Authenticode : préversion",
     "linux": "Sans signature GPG",
-    "macos": "ZIP non signés / non notarisés Apple ; test sur Mac requis"
+    "macos": "ZIP non signés, non notarizés Apple : préversion"
   },
   "notes": {
-    "fr": "Préversion 3.12.63 disponible sur Android, Windows, Linux et macOS. APK Android signé avec le certificat historique ; faites une sauvegarde avant toute mise à jour. Les tests métier sur installations réelles restent incomplets. Windows sans Authenticode ; macOS sans signature ni notarisation Apple.",
-    "mg": "Azo alaina ho andrana ny 3.12.63 ho an’ny Android, Windows, Linux ary macOS. APK Android voasonia tamin’ny certificat efa nampiasaina. Manaova tahiry alohan’ny fanavaozana. Mbola tsy vita ny fitsapana rehetra amin’ny fitaovana tena izy. Tsy mbola voasonia ny Windows sy macOS.",
-    "en": "Version 3.12.63 preview downloads for Android, Windows, Linux and macOS. The Android APK uses the existing signing certificate. Back up your data before updating. Full real-device business testing remains incomplete. Windows is unsigned; macOS is unsigned and not notarized."
+    "fr": "Correctif 3.12.64 : vérification stricte du code/mot de passe du ticket sur MikroTik et relecture du compte après correction de durée/profil. Portail PAP/CHAP validé par simulations, essais réels CYBER FY encore nécessaires. Faites une sauvegarde avant mise à jour. Windows et macOS non signés par leur éditeur.",
+    "mg": "Fanitsiana 3.12.64 : fanamarinana ny kaody sy tenimiafina ao amin’ny MikroTik, ary famakiana indray ny kaonty rehefa ahitsy ny fotoana na ny profil. Vita ny fitsapana PAP/CHAP amin’ny simulation, mbola ilaina ny andrana mivantana any CYBER FY. Manaova sauvegarde aloha. Tsy mbola misy sonian’ny mpamoaka ny Windows sy macOS.",
+    "en": "3.12.64 fix: strictly verify ticket username/password on MikroTik and read back the account after duration/profile corrections. PAP/CHAP portal simulations passed; real CYBER FY validation is still required. Back up before updating. Windows and macOS lack publisher signing."
   },
   "android_update_compatibility": {
     "uninstall_required": false,
     "older_certificate_note": "Certaines anciennes versions peuvent utiliser un autre certificat : sauvegardez les données et vérifiez la compatibilité avant une mise à jour.",
-    "verified_version_code": 63,
+    "verified_version_code": 64,
     "certificate_compatible_from_version_code": 36
   },
-  "desktop_release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.63"
+  "desktop_release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.64"
 }
