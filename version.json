@@ -3,28 +3,28 @@
   "date": "2026-11-22",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.65",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.65-client.modules",
   "page": "https://famillemile.github.io/liheti-updates/",
   "android_version_code": 65,
   "android_version_name": "3.12.65",
   "desktop_release_date": "2026-11-22",
   "android_release_date": "2026-11-22",
-  "build": "20261122-v3.12.65-client",
+  "build": "20261122-v3.12.65-client.modules",
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65/LIHETI-GV1-CLIENT-3.12.65.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65/LIHETI-GV1-CLIENT-Setup-3.12.65.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65/LIHETI-GV1-CLIENT-3.12.65-x86_64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65/LIHETI-GV1-CLIENT-3.12.65-amd64.deb",
-    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65/LIHETI-GV1-CLIENT-3.12.65-x64.zip",
-    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65/LIHETI-GV1-CLIENT-3.12.65-arm64.zip"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/LIHETI-GV1-CLIENT-3.12.65.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/LIHETI-GV1-CLIENT-Setup-3.12.65.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/LIHETI-GV1-CLIENT-3.12.65-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/LIHETI-GV1-CLIENT-3.12.65-amd64.deb",
+    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/LIHETI-GV1-CLIENT-3.12.65-x64.zip",
+    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/LIHETI-GV1-CLIENT-3.12.65-arm64.zip"
   },
   "checksums": {
-    "android": "1f28eaa0fd980e7d97fe8a222dd1c83c7b9e368adc7350fca994326ff1818726",
-    "windows": "3bf3d91c04f254445b0e8cf8824d32a08a9c5f9e7576383fb390061363181265",
-    "linux": "8c8011669bbc17c8aecbb202098c856553bd3a74e4c77d123a2a0fe3e1d8bc29",
-    "linux_deb": "8a9f42730cbf49b1b6a5dd9fab7c0cd796c5acec002ebb8b3e8419bf2b83aea8",
-    "mac_intel": "c2b4128873b5888ebf74f7d577f71a4d8b3ec00f4f422d91ad092241f0e361a5",
-    "mac_apple": "8c90cc1674c4cad136716f2b229599758d4feebc97dd4277ac220ca6b1315788"
+    "android": "6052335cb47482bc2ccddba75b912712beb91bc88bff9ac8b4f80415101cc77c",
+    "windows": "111c0de640c4cbe7534afc247a84cf56349d84cab77ad4e6b96d1582274241cb",
+    "linux": "bfa26f13c78e68e62fb123ce3e0679d5fa46827b5eec89f0b758746fb6e26843",
+    "linux_deb": "fb4ef8a761f26885a9e56e1ad813a09cdeb045dd74ef74ec3d8f2edc97b0bc43",
+    "mac_intel": "bb8d48f51d7c5fabbf4b94a92d23755f898676fb697101148852b130fc9802e8",
+    "mac_apple": "61f7622e859a90d7ca0d9dcecf8ca8858534f8c068c3a553519a7c80779bd7d9"
   },
   "labels": {
     "android": "Android — 3.12.65",
@@ -36,15 +36,15 @@
   },
   "signatures": {
     "android_certificate_sha256": "000d5cadff59ad8f5228abcf663c1fc20533bb78fb645ac062394e9b30c1a2cc",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65/SHA256SUMS.txt",
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/SHA256SUMS.txt",
     "windows": "Installateur non signé Authenticode : préversion",
     "linux": "Sans signature GPG",
     "macos": "ZIP non signés, non notarizés Apple : préversion"
   },
   "notes": {
-    "fr": "Archivage local avec vérification des délais et des sessions actives. Archives locales vérifiées consultables depuis le tableau de bord.",
-    "mg": "Fitahirizana eo an-toerana miaraka amin’ny fanamarinana ny fe-potoana sy ny fidirana mbola mandeha. Azo jerena ao amin’ny tabilao ny tahiry voamarina.",
-    "en": "Local archiving checks expiry windows and active sessions. Verified local archives can be viewed in the dashboard."
+    "fr": "Cinq onglets sur ordinateur et cinq modules repliables sur Android. Archivage local avec vérification des délais et des sessions actives. Archives locales vérifiées consultables depuis le tableau de bord.",
+    "mg": "Fizarana dimy amin’ny solosaina sy fizarana dimy azo sokafana sy akatona amin’ny Android. Fitahirizana eo an-toerana miaraka amin’ny fanamarinana ny fe-potoana sy ny fidirana mbola mandeha. Azo jerena ao amin’ny tabilao ny tahiry voamarina.",
+    "en": "Five desktop tabs and five collapsible modules on Android. Local archiving checks expiry windows and active sessions. Verified local archives can be viewed in the dashboard."
   },
   "android_update_compatibility": {
     "uninstall_required": false,
@@ -52,5 +52,10 @@
     "verified_version_code": 65,
     "certificate_compatible_from_version_code": 36
   },
-  "desktop_release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.65"
+  "desktop_release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.65-client.modules",
+  "revision_label": {
+    "fr": "Interface à cinq modules",
+    "mg": "Fizarana dimy",
+    "en": "Five-module interface"
+  }
 }
