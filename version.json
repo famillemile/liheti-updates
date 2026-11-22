@@ -1,56 +1,56 @@
 {
-  "version": "3.12.64",
-  "date": "2026-11-21",
+  "version": "3.12.65",
+  "date": "2026-11-22",
   "edition": "CLIENT",
   "channel": "prerelease",
-  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.64",
+  "release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.65",
   "page": "https://famillemile.github.io/liheti-updates/",
-  "android_version_code": 64,
-  "android_version_name": "3.12.64",
-  "desktop_release_date": "2026-11-21",
-  "android_release_date": "2026-11-21",
-  "build": "20261121-v3.12.64-cyberfy-hotspot-auth",
+  "android_version_code": 65,
+  "android_version_name": "3.12.65",
+  "desktop_release_date": "2026-11-22",
+  "android_release_date": "2026-11-22",
+  "build": "20261122-v3.12.65-client",
   "downloads": {
-    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.apk",
-    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.AppImage",
-    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.deb",
-    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.zip",
-    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/LIHET-MANAGER-3.12.64.zip"
+    "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65/LIHETI-GV1-CLIENT-3.12.65.apk",
+    "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65/LIHETI-GV1-CLIENT-Setup-3.12.65.exe",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65/LIHETI-GV1-CLIENT-3.12.65-x86_64.AppImage",
+    "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65/LIHETI-GV1-CLIENT-3.12.65-amd64.deb",
+    "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65/LIHETI-GV1-CLIENT-3.12.65-x64.zip",
+    "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65/LIHETI-GV1-CLIENT-3.12.65-arm64.zip"
   },
   "checksums": {
-    "android": "5f6b120a44ee82ab1bbda01fdbca4b682628aadf0ff0af19a8dcd309b04c2a28",
-    "windows": "73e4e180968ea83eefa57814d7d1bf0e4923aeb273dc8c44ce872b8f0a3b33a4",
-    "linux": "dbfb5e056ae0fae31cc81d3ac6d0f7477be63072fe564673cec2e9b3dcb7e366",
-    "linux_deb": "7079c7b38d6f9c10735409dcd1a582f2dac35e293999fe12b9b1eb329820a570",
-    "mac_intel": "bdda8d516484c01a9aea5784a9e11f3c773e6cb348fee099325f1c3473762d81",
-    "mac_apple": "bdda8d516484c01a9aea5784a9e11f3c773e6cb348fee099325f1c3473762d81"
+    "android": "1f28eaa0fd980e7d97fe8a222dd1c83c7b9e368adc7350fca994326ff1818726",
+    "windows": "3bf3d91c04f254445b0e8cf8824d32a08a9c5f9e7576383fb390061363181265",
+    "linux": "8c8011669bbc17c8aecbb202098c856553bd3a74e4c77d123a2a0fe3e1d8bc29",
+    "linux_deb": "8a9f42730cbf49b1b6a5dd9fab7c0cd796c5acec002ebb8b3e8419bf2b83aea8",
+    "mac_intel": "c2b4128873b5888ebf74f7d577f71a4d8b3ec00f4f422d91ad092241f0e361a5",
+    "mac_apple": "8c90cc1674c4cad136716f2b229599758d4feebc97dd4277ac220ca6b1315788"
   },
   "labels": {
-    "android": "Android — 3.12.64",
-    "windows": "Windows — 3.12.64",
-    "linux": "Linux AppImage — 3.12.64",
-    "linux_deb": "Ubuntu / Debian — 3.12.64",
-    "mac_intel": "macOS Intel — 3.12.64 (ZIP multi-architectures)",
-    "mac_apple": "macOS Apple Silicon — 3.12.64 (ZIP multi-architectures)"
+    "android": "Android — 3.12.65",
+    "windows": "Windows — 3.12.65",
+    "linux": "Linux AppImage — 3.12.65",
+    "linux_deb": "Ubuntu / Debian — 3.12.65",
+    "mac_intel": "macOS Intel — 3.12.65 (ZIP)",
+    "mac_apple": "macOS Apple Silicon — 3.12.65 (ZIP)"
   },
   "signatures": {
     "android_certificate_sha256": "000d5cadff59ad8f5228abcf663c1fc20533bb78fb645ac062394e9b30c1a2cc",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.64/SHA256SUMS.txt",
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65/SHA256SUMS.txt",
     "windows": "Installateur non signé Authenticode : préversion",
     "linux": "Sans signature GPG",
     "macos": "ZIP non signés, non notarizés Apple : préversion"
   },
   "notes": {
-    "fr": "Correctif 3.12.64 : vérification stricte du code/mot de passe du ticket sur MikroTik et relecture du compte après correction de durée/profil. Portail PAP/CHAP validé par simulations, essais réels CYBER FY encore nécessaires. Faites une sauvegarde avant mise à jour. Windows et macOS non signés par leur éditeur.",
-    "mg": "Fanitsiana 3.12.64 : fanamarinana ny kaody sy tenimiafina ao amin’ny MikroTik, ary famakiana indray ny kaonty rehefa ahitsy ny fotoana na ny profil. Vita ny fitsapana PAP/CHAP amin’ny simulation, mbola ilaina ny andrana mivantana any CYBER FY. Manaova sauvegarde aloha. Tsy mbola misy sonian’ny mpamoaka ny Windows sy macOS.",
-    "en": "3.12.64 fix: strictly verify ticket username/password on MikroTik and read back the account after duration/profile corrections. PAP/CHAP portal simulations passed; real CYBER FY validation is still required. Back up before updating. Windows and macOS lack publisher signing."
+    "fr": "Archivage local avec vérification des délais et des sessions actives. Archives locales vérifiées consultables depuis le tableau de bord.",
+    "mg": "Fitahirizana eo an-toerana miaraka amin’ny fanamarinana ny fe-potoana sy ny fidirana mbola mandeha. Azo jerena ao amin’ny tabilao ny tahiry voamarina.",
+    "en": "Local archiving checks expiry windows and active sessions. Verified local archives can be viewed in the dashboard."
   },
   "android_update_compatibility": {
     "uninstall_required": false,
     "older_certificate_note": "Certaines anciennes versions peuvent utiliser un autre certificat : sauvegardez les données et vérifiez la compatibilité avant une mise à jour.",
-    "verified_version_code": 64,
+    "verified_version_code": 65,
     "certificate_compatible_from_version_code": 36
   },
-  "desktop_release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.64"
+  "desktop_release": "https://github.com/famillemile/liheti-updates/releases/tag/v3.12.65"
 }
