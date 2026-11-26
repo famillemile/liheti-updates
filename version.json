@@ -13,7 +13,7 @@
   "downloads": {
     "android": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/LIHETI-GV1-CLIENT-3.12.65.apk",
     "windows": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/LIHETI-GV1-CLIENT-Setup-3.12.65.exe",
-    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/LIHETI-GV1-CLIENT-3.12.65-x86_64.AppImage",
+    "linux": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/LIHETI-GV1-CLIENT-3.12.65-DESTINATIONS-TICKETS-Linux-x86_64.AppImage",
     "linux_deb": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/LIHETI-GV1-CLIENT-3.12.65-amd64.deb",
     "mac_intel": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/LIHETI-GV1-CLIENT-3.12.65-x64.zip",
     "mac_apple": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/LIHETI-GV1-CLIENT-3.12.65-arm64.zip"
@@ -21,7 +21,7 @@
   "checksums": {
     "android": "6052335cb47482bc2ccddba75b912712beb91bc88bff9ac8b4f80415101cc77c",
     "windows": "111c0de640c4cbe7534afc247a84cf56349d84cab77ad4e6b96d1582274241cb",
-    "linux": "bfa26f13c78e68e62fb123ce3e0679d5fa46827b5eec89f0b758746fb6e26843",
+    "linux": "11acc798ac9ddfa5a2bd7d8e88508cfa6cba10d2992a0972e2eac6b6230aca08",
     "linux_deb": "fb4ef8a761f26885a9e56e1ad813a09cdeb045dd74ef74ec3d8f2edc97b0bc43",
     "mac_intel": "bb8d48f51d7c5fabbf4b94a92d23755f898676fb697101148852b130fc9802e8",
     "mac_apple": "61f7622e859a90d7ca0d9dcecf8ca8858534f8c068c3a553519a7c80779bd7d9"
@@ -36,7 +36,7 @@
   },
   "signatures": {
     "android_certificate_sha256": "000d5cadff59ad8f5228abcf663c1fc20533bb78fb645ac062394e9b30c1a2cc",
-    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/SHA256SUMS.txt",
+    "manifest": "https://github.com/famillemile/liheti-updates/releases/download/v3.12.65-client.modules/SHA256SUMS-DESTINATIONS-TICKETS.txt",
     "windows": "Installateur non signé Authenticode : préversion",
     "linux": "Sans signature GPG",
     "macos": "ZIP non signés, non notarizés Apple : préversion"
